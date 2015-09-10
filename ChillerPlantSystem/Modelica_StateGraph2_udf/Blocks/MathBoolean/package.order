@@ -1,0 +1,11 @@
+ShowValue
+And
+Or
+Xor
+Nand
+Nor
+RisingEdge
+FallingEdge
+ChangingEdge
+MultiSwitch
+OnDelay

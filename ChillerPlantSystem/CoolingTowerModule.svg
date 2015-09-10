@@ -1,0 +1,188 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="2234.000000" height="1335.000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,128,255)" stroke="rgb(0,128,255)" stroke-opacity="1" points="1270.800000,895.550000 1301.400000,907.025000 1270.800000,918.500000 1270.800000,895.550000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-opacity="1" points="1270.800000,899.375000 1293.750000,907.025000 1270.800000,914.675000 1270.800000,899.375000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,128,255)" stroke-opacity="1" points="1297.575000,907.025000 1209.600000,907.025000"/>
+	<text style="shape-rendering:crispEdges" x="1256.265000" y="944.510000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">yorkCalc</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(95,95,95)" stroke="none" stroke-opacity="1" x="1201.950000" y="796.100000" width="107.100000" height="91.800000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,0,255)" stroke="none" stroke-opacity="1" x="1178.235000" y="837.410000" width="153.765000" height="7.650000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,0,0)" stroke="none" stroke-opacity="1" x="1255.500000" y="837.410000" width="76.500000" height="7.650000"/>
+	<text style="shape-rendering:crispEdges" x="1257.795000" y="753.260000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="19" font-family="Arial" text-anchor="middle">yorkCalc</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(95,95,95)" stroke="none" stroke-opacity="1" x="1201.950000" y="776.210000" width="107.100000" height="126.990000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="none" stroke-opacity="1" x="1179.000000" y="810.635000" width="22.950000" height="2.295000"/>
+	<text style="shape-rendering:crispEdges" x="1188.945000" y="802.985000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="13" font-family="Arial" text-anchor="middle">TAir</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,0,0)" stroke="none" stroke-opacity="1" x="1177.470000" y="838.175000" width="153.765000" height="7.650000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" x="1179.000000" y="779.270000" width="15.300000" height="3.060000"/>
+	<text style="shape-rendering:crispEdges" x="1190.475000" y="772.385000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="13" font-family="Arial" text-anchor="middle">yFan</text>
+	<text style="shape-rendering:crispEdges" x="1188.945000" y="802.985000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="17" font-family="Arial" text-anchor="middle">TWB</text>
+	<text style="shape-rendering:crispEdges" x="1264.680000" y="883.310000" fill="rgb(255,255,255)" dominant-baseline="central" font-size="43" font-family="Arial" text-anchor="middle">York</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,128,255)" stroke="rgb(0,128,255)" stroke-opacity="1" points="811.800000,895.550000 842.400000,907.025000 811.800000,918.500000 811.800000,895.550000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-opacity="1" points="811.800000,899.375000 834.750000,907.025000 811.800000,914.675000 811.800000,899.375000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,128,255)" stroke-opacity="1" points="838.575000,907.025000 750.600000,907.025000"/>
+	<text style="shape-rendering:crispEdges" x="797.265000" y="944.510000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">val</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,0,0)" stroke="none" stroke-opacity="1.00" x="720.000000" y="811.400000" width="153.000000" height="62.730000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(13,13,13)" stroke="none" stroke-opacity="1.00" x="720.000000" y="811.476404" width="153.000000" height="62.577193"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(27,27,27)" stroke="none" stroke-opacity="1.00" x="720.000000" y="811.705242" width="153.000000" height="62.119516"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(40,40,40)" stroke="none" stroke-opacity="1.00" x="720.000000" y="812.085401" width="153.000000" height="61.359199"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(54,54,54)" stroke="none" stroke-opacity="1.00" x="720.000000" y="812.615027" width="153.000000" height="60.299946"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(67,67,67)" stroke="none" stroke-opacity="1.00" x="720.000000" y="813.291541" width="153.000000" height="58.946918"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(79,79,79)" stroke="none" stroke-opacity="1.00" x="720.000000" y="814.111647" width="153.000000" height="57.306707"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(92,92,92)" stroke="none" stroke-opacity="1.00" x="720.000000" y="815.071349" width="153.000000" height="55.387303"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(103,103,103)" stroke="none" stroke-opacity="1.00" x="720.000000" y="816.165971" width="153.000000" height="53.198057"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(115,115,115)" stroke="none" stroke-opacity="1.00" x="720.000000" y="817.390182" width="153.000000" height="50.749636"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(125,125,125)" stroke="none" stroke-opacity="1.00" x="720.000000" y="818.738016" width="153.000000" height="48.053968"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(135,135,135)" stroke="none" stroke-opacity="1.00" x="720.000000" y="820.202907" width="153.000000" height="45.124186"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(145,145,145)" stroke="none" stroke-opacity="1.00" x="720.000000" y="821.777719" width="153.000000" height="41.974563"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(153,153,153)" stroke="none" stroke-opacity="1.00" x="720.000000" y="823.454778" width="153.000000" height="38.620444"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(161,161,161)" stroke="none" stroke-opacity="1.00" x="720.000000" y="825.225915" width="153.000000" height="35.078171"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(168,168,168)" stroke="none" stroke-opacity="1.00" x="720.000000" y="827.082500" width="153.000000" height="31.365000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(174,174,174)" stroke="none" stroke-opacity="1.00" x="720.000000" y="829.015489" width="153.000000" height="27.499022"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(179,179,179)" stroke="none" stroke-opacity="1.00" x="720.000000" y="831.015464" width="153.000000" height="23.499072"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(184,184,184)" stroke="none" stroke-opacity="1.00" x="720.000000" y="833.072682" width="153.000000" height="19.384636"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(187,187,187)" stroke="none" stroke-opacity="1.00" x="720.000000" y="835.177120" width="153.000000" height="15.175761"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(190,190,190)" stroke="none" stroke-opacity="1.00" x="720.000000" y="837.318525" width="153.000000" height="10.892950"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(191,191,191)" stroke="none" stroke-opacity="1.00" x="720.000000" y="839.486465" width="153.000000" height="6.557071"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(192,192,192)" stroke="none" stroke-opacity="1.00" x="720.000000" y="841.670377" width="153.000000" height="2.189245"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,0,0)" stroke="none" stroke-opacity="1.00" x="720.000000" y="825.170000" width="153.000000" height="35.190000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,10,21)" stroke="none" stroke-opacity="1.00" x="720.000000" y="825.227055" width="153.000000" height="35.075890"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,20,41)" stroke="none" stroke-opacity="1.00" x="720.000000" y="825.397851" width="153.000000" height="34.734299"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,31,62)" stroke="none" stroke-opacity="1.00" x="720.000000" y="825.681279" width="153.000000" height="34.167443"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,41,82)" stroke="none" stroke-opacity="1.00" x="720.000000" y="826.075501" width="153.000000" height="33.378997"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,51,102)" stroke="none" stroke-opacity="1.00" x="720.000000" y="826.577962" width="153.000000" height="32.374077"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,60,121)" stroke="none" stroke-opacity="1.00" x="720.000000" y="827.185401" width="153.000000" height="31.159198"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,69,139)" stroke="none" stroke-opacity="1.00" x="720.000000" y="827.893880" width="153.000000" height="29.742239"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,78,156)" stroke="none" stroke-opacity="1.00" x="720.000000" y="828.698805" width="153.000000" height="28.132391"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,86,172)" stroke="none" stroke-opacity="1.00" x="720.000000" y="829.594953" width="153.000000" height="26.340093"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,93,187)" stroke="none" stroke-opacity="1.00" x="720.000000" y="830.576515" width="153.000000" height="24.376970"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,100,201)" stroke="none" stroke-opacity="1.00" x="720.000000" y="831.637124" width="153.000000" height="22.255753"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,106,213)" stroke="none" stroke-opacity="1.00" x="720.000000" y="832.769901" width="153.000000" height="19.990198"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,111,224)" stroke="none" stroke-opacity="1.00" x="720.000000" y="833.967500" width="153.000000" height="17.595000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,116,233)" stroke="none" stroke-opacity="1.00" x="720.000000" y="835.222154" width="153.000000" height="15.085691"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,120,241)" stroke="none" stroke-opacity="1.00" x="720.000000" y="836.525727" width="153.000000" height="12.478546"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,123,247)" stroke="none" stroke-opacity="1.00" x="720.000000" y="837.869764" width="153.000000" height="9.790473"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,125,251)" stroke="none" stroke-opacity="1.00" x="720.000000" y="839.245548" width="153.000000" height="7.038904"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,126,254)" stroke="none" stroke-opacity="1.00" x="720.000000" y="840.644157" width="153.000000" height="4.241686"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="none" stroke-opacity="1.00" x="720.000000" y="842.056521" width="153.000000" height="1.416958"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="796.500000,811.400000 796.500000,765.500000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="796.500000,788.450000 827.100000,788.450000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1.00" x="772.020000" y="765.500000" width="48.960000" height="45.900000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(135,135,135)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="796.500000" cy="788.450000" rx="24.480000" ry="22.950000"/>
+	<text style="shape-rendering:crispEdges" x="796.500000" y="788.450000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="34" font-family="Arial" font-weight="bold" text-anchor="middle">M</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,0)" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="798.030000,843.530000 738.360000,796.100000 738.360000,887.900000 798.030000,843.530000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="none" stroke-opacity="1.00" points="758.250000,811.400000 796.500000,843.530000 837.810000,811.400000 837.810000,811.400000 758.250000,811.400000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="none" stroke-opacity="1.00" points="756.720000,874.130000 796.500000,845.060000 842.400000,811.400000 842.400000,874.130000 756.720000,874.130000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="796.500000,843.530000 859.230000,796.100000 859.230000,887.900000 796.500000,843.530000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="796.500000,811.400000 796.500000,845.060000"/>
+	<text style="shape-rendering:crispEdges" x="754.425000" y="843.530000" fill="rgb(255,255,255)" dominant-baseline="central" font-size="34" font-family="Arial" text-anchor="middle"></text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" x="567.000000" y="153.500000" width="153.000000" height="153.000000"/>
+	<text style="shape-rendering:crispEdges" x="643.500000" y="130.550000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">conPI</text>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(192,192,192)" stroke-opacity="1.00" points="582.300000,170.330000 582.300000,298.850000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1.00" points="582.300000,161.150000 576.180000,177.980000 588.420000,177.980000 582.300000,161.150000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(192,192,192)" stroke-opacity="1.00" points="574.650000,291.200000 706.230000,291.200000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(192,192,192)" stroke="rgb(192,192,192)" stroke-opacity="1.00" points="712.350000,291.200000 695.520000,285.080000 695.520000,297.320000 712.350000,291.200000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="582.300000,291.200000 582.300000,245.300000 666.450000,184.100000 704.700000,184.100000"/>
+	<text style="shape-rendering:crispEdges" x="666.450000" y="260.600000" fill="rgb(192,192,192)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">PI</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-opacity="1.00" x="638.910000" y="245.300000" width="55.080000" height="35.190000"/>
+	<text style="shape-rendering:crispEdges" x="660.330000" y="262.130000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">PI</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" x="949.500000" y="413.600000" width="153.000000" height="153.000000"/>
+	<text style="shape-rendering:crispEdges" x="1026.000000" y="390.650000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">product</text>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="949.500000,444.200000 995.400000,444.200000 1003.050000,459.500000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="949.500000,536.000000 995.400000,536.000000 1003.050000,520.700000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1064.250000,490.100000 1102.500000,490.100000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="1003.050000,490.100000 1048.950000,490.100000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="1014.525000,470.217650 1037.475000,509.982350"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,0)" stroke-opacity="1.00" points="1014.525000,509.982350 1037.475000,470.217650"/>
+	<ellipse style="shape-rendering:crispEdges" fill="transparent" stroke="rgb(0,0,127)" stroke-opacity="1.00" cx="1026.000000" cy="490.100000" rx="38.250000" ry="38.250000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(235,235,235)" stroke="rgb(0,0,0)" stroke-opacity="1.00" x="1179.000000" y="1117.400000" width="153.000000" height="61.200000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1176.920000" y="1115.320000" width="2.080000" height="63.280000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1176.920000" y="1178.600000" width="155.080000" height="2.080000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1332.000000" y="1117.400000" width="2.080000" height="63.280000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1179.000000" y="1115.320000" width="155.080000" height="2.080000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="none" x="1179.000000" y="1117.400000" width="3.120000" height="61.200000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="none" x="1179.000000" y="1117.400000" width="153.000000" height="3.120000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(113,111,100)" stroke="none" x="1329.920000" y="1117.400000" width="2.080000" height="61.200000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(113,111,100)" stroke="none" x="1179.000000" y="1176.520000" width="153.000000" height="2.080000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1327.840000" y="1119.480000" width="2.080000" height="57.040000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1181.080000" y="1174.440000" width="148.840000" height="2.080000"/>
+	<text style="shape-rendering:crispEdges" x="1255.500000" y="1148.000000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="23" font-family="Arial" text-anchor="middle">yorkCalc.PFan</text>
+	<text style="shape-rendering:crispEdges" x="1251.675000" y="1094.450000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="31" font-family="Arial" text-anchor="middle">realExpression</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(235,235,235)" stroke="rgb(0,0,0)" stroke-opacity="1.00" x="1270.800000" y="581.900000" width="153.000000" height="61.200000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1268.720000" y="579.820000" width="2.080000" height="63.280000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1268.720000" y="643.100000" width="155.080000" height="2.080000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1423.800000" y="581.900000" width="2.080000" height="63.280000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1270.800000" y="579.820000" width="155.080000" height="2.080000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="none" x="1270.800000" y="581.900000" width="3.120000" height="61.200000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="none" x="1270.800000" y="581.900000" width="153.000000" height="3.120000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(113,111,100)" stroke="none" x="1421.720000" y="581.900000" width="2.080000" height="61.200000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(113,111,100)" stroke="none" x="1270.800000" y="641.020000" width="153.000000" height="2.080000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1419.640000" y="583.980000" width="2.080000" height="57.040000"/>
+	<rect style="shape-rendering:crispEdges" fill="rgb(172,168,153)" stroke="none" x="1272.880000" y="638.940000" width="148.840000" height="2.080000"/>
+	<text style="shape-rendering:crispEdges" x="1347.300000" y="612.500000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="10" font-family="Arial" text-anchor="middle">if On > 0.1 then yorkCalc.TLvg else TSet</text>
+	<text style="shape-rendering:crispEdges" x="1343.475000" y="558.950000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="30" font-family="Arial" text-anchor="middle">realExpression1</text>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="261.000000,230.000000 551.700000,230.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="261.000000,230.000000 551.700000,230.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="727.650000,230.000000 903.600000,230.000000 903.600000,444.200000 934.200000,444.200000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="727.650000,230.000000 903.600000,230.000000 903.600000,444.200000 934.200000,444.200000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="261.000000,536.000000 934.200000,536.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="261.000000,536.000000 934.200000,536.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1.00" points="1179.000000,842.000000 873.000000,842.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1.00" points="1179.000000,842.000000 873.000000,842.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1.00" points="720.000000,842.000000 414.000000,842.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1.00" points="720.000000,842.000000 414.000000,842.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1.00" points="1332.000000,842.000000 1944.000000,842.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1.00" points="1332.000000,842.000000 1944.000000,842.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="796.500000,750.200000 796.500000,536.000000 934.200000,536.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="796.500000,750.200000 796.500000,536.000000 934.200000,536.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="1110.150000,490.100000 1133.100000,490.100000 1133.100000,780.800000 1163.700000,780.800000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="1110.150000,490.100000 1133.100000,490.100000 1133.100000,780.800000 1163.700000,780.800000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="1163.700000,811.400000 1026.000000,811.400000 1026.000000,1148.000000 261.000000,1148.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="1163.700000,811.400000 1026.000000,811.400000 1026.000000,1148.000000 261.000000,1148.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="1339.650000,1148.000000 2020.500000,1148.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1.00" points="1339.650000,1148.000000 2020.500000,1148.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="551.700000,168.800000 475.200000,168.800000 475.200000,536.000000 934.200000,536.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="551.700000,168.800000 475.200000,168.800000 475.200000,536.000000 934.200000,536.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1.00" points="643.500000,321.800000 643.500000,383.000000 1485.000000,383.000000 1485.000000,612.500000 1431.450000,612.500000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="643.500000,321.800000 643.500000,383.000000 1485.000000,383.000000 1485.000000,612.500000 1431.450000,612.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="796.500000" cy="536.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="475.200000" cy="536.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="796.500000" cy="536.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="1179.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="1179.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="1332.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="1332.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="1332.000000" cy="842.000000" rx="6.120000" ry="6.120000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1332.000000,880.250000 1347.300000,887.900000 1332.000000,895.550000 1332.000000,880.250000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1148.400000,796.100000 1179.000000,811.400000 1148.400000,826.700000 1148.400000,796.100000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1148.400000,765.500000 1179.000000,780.800000 1148.400000,796.100000 1148.400000,765.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="1944.000000" cy="842.000000" rx="30.600000" ry="30.600000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="1944.000000" cy="842.000000" rx="22.950000" ry="22.950000"/>
+	<text style="shape-rendering:crispEdges" x="1944.000000" y="780.800000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="46" font-family="Arial" text-anchor="middle">port_b_CW</text>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="414.000000" cy="842.000000" rx="30.600000" ry="30.600000"/>
+	<text style="shape-rendering:crispEdges" x="414.000000" y="780.800000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="46" font-family="Arial" text-anchor="middle">port_a_CW</text>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="720.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="720.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="873.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1.00" cx="873.000000" cy="842.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1.00" cx="873.000000" cy="842.000000" rx="6.120000" ry="6.120000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="811.800000,734.900000 796.500000,765.500000 781.200000,734.900000 811.800000,734.900000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="827.100000,780.800000 842.400000,788.450000 827.100000,796.100000 827.100000,780.800000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="536.400000,214.700000 567.000000,230.000000 536.400000,245.300000 536.400000,214.700000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="658.800000,337.100000 643.500000,306.500000 628.200000,337.100000 658.800000,337.100000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="720.000000,222.350000 735.300000,230.000000 720.000000,237.650000 720.000000,222.350000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="536.400000,153.500000 567.000000,168.800000 536.400000,184.100000 536.400000,153.500000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="918.900000,428.900000 949.500000,444.200000 918.900000,459.500000 918.900000,428.900000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="918.900000,520.700000 949.500000,536.000000 918.900000,551.300000 918.900000,520.700000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1102.500000,482.450000 1117.800000,490.100000 1102.500000,497.750000 1102.500000,482.450000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="261.000000,459.500000 414.000000,536.000000 261.000000,612.500000 261.000000,459.500000"/>
+	<text style="shape-rendering:crispEdges" x="245.700000" y="425.075000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">On</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="261.000000,153.500000 414.000000,230.000000 261.000000,306.500000 261.000000,153.500000"/>
+	<text style="shape-rendering:crispEdges" x="245.700000" y="119.075000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">TSet</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="261.000000,1071.500000 414.000000,1148.000000 261.000000,1224.500000 261.000000,1071.500000"/>
+	<text style="shape-rendering:crispEdges" x="245.700000" y="1037.075000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">TWetBul</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1332.000000,1140.350000 1347.300000,1148.000000 1332.000000,1155.650000 1332.000000,1140.350000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1944.000000,1109.750000 2020.500000,1148.000000 1944.000000,1186.250000 1944.000000,1109.750000"/>
+	<text style="shape-rendering:crispEdges" x="2043.450000" y="1082.975000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">P</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1.00" points="1423.800000,604.850000 1439.100000,612.500000 1423.800000,620.150000 1423.800000,604.850000"/>
+	<text style="shape-rendering:crispEdges" x="1179.000000" y="1626.000000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">Dymola demo version, see www.Dymola.com</text>
+</svg>

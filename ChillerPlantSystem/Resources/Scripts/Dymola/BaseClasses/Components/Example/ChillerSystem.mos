@@ -1,0 +1,7 @@
+simulateModel("ChillerPlantSystem.BaseClasses.Components.Example.ChillerSystem", stopTime=86400, method="Radau", resultFile="ChillerSystem");
+createPlot(id=1, position={0, -3, 800, 583}, y={"On.y"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="ChillerSystem.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+createPlot(id=1, position={0, -3, 800, 112}, y={"chiSys.TSet", "senTCHWLeaChi.T"}, range={0.0, 90000.0, 260.0, 300.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}, {255,0,0}});
+createPlot(id=1, position={0, -3, 800, 113}, y={"chiSys.locCon.comSta.y"}, range={0.0, 90000.0, -2.0, 4.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=3, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+createPlot(id=1, position={0, -3, 800, 112}, y={"chiSys.locCon.y[1]"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=4, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+createPlot(id=1, position={0, -3, 800, 113}, y={"chiSys.locCon.y[2]"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=5, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+

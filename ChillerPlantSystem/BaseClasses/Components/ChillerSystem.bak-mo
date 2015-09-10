@@ -1,0 +1,248 @@
+within ChillerPlantSystem.BaseClasses.Components;
+model ChillerSystem
+  "The chiller system with one chiller and an associated local controller "
+  parameter Real tWai "Waiting time";
+  parameter Modelica.SIunits.TemperatureDifference dT
+    "Temperature difference for stage control";
+  replaceable package MediumCHW =
+      Buildings.Media.Interfaces.PartialSimpleMedium
+    "Medium in the chilled water side";
+  replaceable package MediumCW =
+      Buildings.Media.Interfaces.PartialSimpleMedium
+    "Medium in the condenser water side";
+  parameter Modelica.SIunits.Power P_nominal "Nominal chiller power (at y=1)";
+  parameter Modelica.SIunits.TemperatureDifference dTCHW_nominal
+    "Temperature difference at the chilled water side";
+  parameter Modelica.SIunits.TemperatureDifference dTCW_nominal
+    "Temperature difference at the condenser water wide";
+  parameter Modelica.SIunits.Pressure dPCHW_nominal
+    "Pressure difference at the chilled water side";
+  parameter Modelica.SIunits.Pressure dPCW_nominal
+    "Pressure difference at the condenser water wide";
+  parameter Modelica.SIunits.Temperature TCHW_nominal
+    "Temperature at the chilled water side";
+  parameter Modelica.SIunits.Temperature TCW_nominal
+    "Temperature at the condenser water wide";
+  parameter Real COP_nominal "Chiller COP";
+  parameter Modelica.SIunits.MassFlowRate mCHW_flow_nominal
+    "Nominal mass flow rate at the chilled water side";
+  parameter Modelica.SIunits.MassFlowRate mCW_flow_nominal
+    "Nominal mass flow rate at the condenser water wide";
+  parameter Real ChillerCurve[:] = {1}
+    "Chiller operation Curve(need p(a=ChillerCurve, y=1)=1)";
+  parameter Real GaiPi "Gain of the PID controller";
+  parameter Real tIntPi "Integration time of the PID controller";
+  Control.CompressorControl               locCon(tWai=tWai, dT=dT)
+    "Local Controller"
+    annotation (Placement(transformation(extent={{-60,20},{-40,40}})));
+  Modelica.Blocks.Interfaces.RealInput TCHWSet
+    "Temperature setpoint of the chilled water"
+    annotation (Placement(transformation(extent={{-118,9},{-100,-9}})));
+  BaseClasses.Components.Chiller
+          chi(
+    redeclare package MediumCHW = MediumCHW,
+    redeclare package MediumCW = MediumCW,
+    P_nominal=P_nominal,
+    dTCHW_nominal=dTCHW_nominal,
+    dTCW_nominal=dTCW_nominal,
+    dPCHW_nominal=dPCHW_nominal,
+    dPCW_nominal=dPCW_nominal,
+    TCHW_nominal=TCHW_nominal,
+    TCW_nominal=TCW_nominal,
+    COP_nominal=COP_nominal,
+    mCHW_flow_nominal=mCHW_flow_nominal,
+    mCW_flow_nominal=mCW_flow_nominal,
+    GaiPi=GaiPi,
+    tIntPi=tIntPi) "Singe chiller "
+    annotation (Placement(transformation(extent={{-20,-20},{0,0}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_CW(redeclare package Medium =
+        MediumCW)
+    "Fluid connector a1 (positive design flow direction is from port_a1 to port_b1)"
+    annotation (Placement(transformation(extent={{-110,-90},{-90,-70}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_CW(redeclare package Medium =
+        MediumCW)
+    "Fluid connector b1 (positive design flow direction is from port_a1 to port_b1)"
+    annotation (Placement(transformation(extent={{-110,-50},{-90,-30}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_CHW(redeclare package Medium =
+        MediumCHW)
+    "Fluid connector b2 (positive design flow direction is from port_a2 to port_b2)"
+    annotation (Placement(transformation(extent={{90,-90},{110,-70}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_CHW(redeclare package Medium =
+        MediumCHW)
+    "Fluid connector a2 (positive design flow direction is from port_a2 to port_b2)"
+    annotation (Placement(transformation(extent={{90,-50},{110,-30}})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senTCHWLeaChi(
+      redeclare package Medium = MediumCHW, m_flow_nominal=mCW_flow_nominal)
+    annotation (Placement(transformation(extent={{40,-90},{60,-70}})));
+  Modelica.Blocks.Interfaces.RealInput On(min=0,max=1) "On signal"
+    annotation (Placement(transformation(extent={{-118,69},{-100,51}})));
+  Modelica.Blocks.Interfaces.RealOutput P[2]
+    "Electric power consumed by compressor"
+    annotation (Placement(transformation(extent={{100,30},{120,50}})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senTCWLeaChi(
+    allowFlowReversal=true,
+    redeclare package Medium = MediumCW,
+    m_flow_nominal=mCW_flow_nominal)   annotation (Placement(transformation(
+        extent={{10,-10},{-10,10}},
+        rotation=0,
+        origin={-70,-40})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senTCWEntChi(
+    allowFlowReversal=true,
+    redeclare package Medium = MediumCW,
+    m_flow_nominal=mCW_flow_nominal)   annotation (Placement(transformation(
+        extent={{-10,-10},{10,10}},
+        rotation=0,
+        origin={-70,-80})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senTCHWEntChi(
+    redeclare package Medium = MediumCHW,
+    allowFlowReversal=true,
+    m_flow_nominal=mCHW_flow_nominal)   annotation (Placement(transformation(
+        extent={{10,-10},{-10,10}},
+        rotation=0,
+        origin={50,-40})));
+equation
+  connect(locCon.y, chi.On) annotation (Line(
+      points={{-39,30},{-34,30},{-34,-18},{-20.9,-18}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(chi.TCHWSet, TCHWSet) annotation (Line(
+      points={{-20.9,-2},{-30,-2},{-30,0},{-109,0}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(port_b_CW, port_b_CW) annotation (Line(
+      points={{-100,-40},{-100,-40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(chi.port_b_CHW,senTCHWLeaChi. port_a) annotation (Line(
+      points={{0,-16},{20,-16},{20,-80},{40,-80}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senTCHWLeaChi.port_b, port_b_CHW) annotation (Line(
+      points={{60,-80},{100,-80}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senTCHWLeaChi.T, locCon.T) annotation (Line(
+      points={{50,-69},{50,-60},{-88,-60},{-88,24},{-62,24}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(locCon.TSet, TCHWSet) annotation (Line(
+      points={{-62,30},{-72,30},{-72,0},{-109,0}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(locCon.On, On) annotation (Line(
+      points={{-62,36},{-88,36},{-88,60},{-109,60}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(chi.P, P) annotation (Line(
+      points={{1,-18},{20,-18},{20,40},{110,40}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(port_b_CW, senTCWLeaChi.port_b) annotation (Line(
+      points={{-100,-40},{-80,-40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senTCWLeaChi.port_a, chi.port_b_CW) annotation (Line(
+      points={{-60,-40},{-60,-4},{-20,-4}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(port_a_CW, senTCWEntChi.port_a) annotation (Line(
+      points={{-100,-80},{-80,-80}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senTCWEntChi.port_b, chi.port_a_CW) annotation (Line(
+      points={{-60,-80},{-40,-80},{-40,-16},{-20,-16}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(port_a_CHW, senTCHWEntChi.port_a) annotation (Line(
+      points={{100,-40},{60,-40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senTCHWEntChi.port_b, chi.port_a_CHW) annotation (Line(
+      points={{40,-40},{40,-4},{0,-4}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  annotation (Documentation(info="<html>
+<p>This model is to simulate the chiller system with an associated local controller.</p>
+</html>", revisions="<html>
+<ul>
+<li>
+March 19, 2014 by Sen Huang:<br/>
+First implementation.
+</li>
+</ul>
+</html>"), Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},
+            {100,100}}), graphics),
+    Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{100,
+            100}}),                                                                   graphics={
+        Text(
+          extent={{-44,-144},{50,-112}},
+          lineColor={0,0,255},
+          textString="%name"),
+        Rectangle(
+          extent={{-40,40},{40,-40}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid),
+        Line(
+          points={{-100,-80},{-60,-80},{-60,-20},{-40,-20}},
+          color={0,0,255},
+          smooth=Smooth.None),
+        Line(
+          points={{100,-80},{60,-80},{60,-20},{40,-20}},
+          color={0,0,255},
+          smooth=Smooth.None),
+        Line(
+          points={{-98,-40},{-80,-40},{-80,20},{-40,20}},
+          color={0,0,255},
+          smooth=Smooth.None),
+        Line(
+          points={{100,-40},{80,-40},{80,20},{40,20}},
+          color={0,0,255},
+          smooth=Smooth.None),
+        Ellipse(
+          extent={{-44,-14},{-34,-26}},
+          lineColor={0,0,255},
+          fillColor={0,128,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{36,26},{46,14}},
+          lineColor={0,0,255},
+          fillColor={0,128,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{-44,26},{-34,14}},
+          lineColor={0,0,255},
+          fillColor={0,128,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{36,-14},{46,-26}},
+          lineColor={0,0,255},
+          fillColor={0,128,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{-42,24},{-36,16}},
+          lineColor={0,0,255},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{38,-16},{44,-24}},
+          lineColor={0,0,255},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid)}));
+end ChillerSystem;

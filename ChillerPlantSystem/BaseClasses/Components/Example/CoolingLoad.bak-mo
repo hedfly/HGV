@@ -1,0 +1,43 @@
+within ChillerPlantSystem.BaseClasses.Components.Example;
+model CoolingLoad
+  import ChillerPlantSystem;
+  extends Modelica.Icons.Example;
+  ChillerPlantSystem.BaseClasses.Components.CoolingLoad
+                                            cooLoa(DesginLoad=2500*3*3517)
+    annotation (Placement(transformation(extent={{-10,-10},{10,10}})));
+  Buildings.BoundaryConditions.WeatherData.ReaderTMY3 weaData(filNam=
+        "Resources/WeatherData/USA_MD_Baltimore-Washington.Intl.AP.724060_TMY3.mos")
+    annotation (Placement(transformation(extent={{-80,-10},{-60,10}})));
+  Buildings.BoundaryConditions.WeatherData.Bus weaBus
+    annotation (Placement(transformation(extent={{-48,-10},{-28,10}})));
+equation
+
+  connect(weaData.weaBus, weaBus) annotation (Line(
+      points={{-60,0},{-38,0}},
+      color={255,204,51},
+      thickness=0.5,
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash), Text(
+      string="%second",
+      index=1,
+      extent={{6,3},{6,3}}));
+  connect(weaBus.TDryBul, cooLoa.TDryBul) annotation (Line(
+      points={{-38,0},{-10.9,0}},
+      color={255,204,51},
+      thickness=0.5,
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash), Text(
+      string="%first",
+      index=-1,
+      extent={{-6,3},{-6,3}}));
+  annotation (__Dymola_Commands(file=
+          "Resources\Scripts\Dymola\BaseClasses\Components\Example\CoolingLoad.mos"
+        "Simulate and plot"),
+    Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{
+            100,100}}),
+                    graphics),
+    experiment(StopTime=3.1536e+007),
+    __Dymola_experimentSetupOutput,
+    Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{100,
+            100}}), graphics));
+end CoolingLoad;

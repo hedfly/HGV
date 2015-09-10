@@ -1,0 +1,4 @@
+simulateModel("ChillerPlantSystem.BaseClasses.Components.Example.CoolingLoad", stopTime=3.1536e+007, method="dassl", resultFile="CoolingLoad");
+createPlot(id=1, position={2, 41, 1024, 433}, y={"cooLoa.TDryBul"}, range={0.0, 32000000.0, -20.0, 40.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="CoolingLoad.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+createPlot(id=1, position={2, 41, 1024, 214}, y={"cooLoa.CooLoa"}, range={0.0, 32000000.0, -20000000.0, 30000000.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+

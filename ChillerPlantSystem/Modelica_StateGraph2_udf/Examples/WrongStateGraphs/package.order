@@ -1,0 +1,15 @@
+SimpleInfiniteLoop
+SeveralInfiniteLoops
+InfiniteLoop
+ParallelWithInfiniteLoop
+NoInitialStep
+AutonomousWithSuspendAndNoInitialStep
+TwoInitialSteps
+ParallelWithTwoInitialSteps
+UnsafeParallel1
+UnsafeParallel2
+UnsafeParallel3
+UnsafeParallel4
+UnsafeParallel5
+NoUnaryConnection1
+NoUnaryConnection2

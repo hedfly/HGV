@@ -1,0 +1,7 @@
+startTime= 0;
+stopTime= 24*3600;
+simulateModel("ChillerPlantSystem.BaseClasses.Components.Example.Compressor",startTime=startTime, stopTime=stopTime, method="Radau", tolerance=1e-6, resultFile="Compressor");
+createPlot(id=1, position={0, 0, 585, 498}, y={"com.conPI.u_s", "com.conPI.u_m"}, range={0.0, 90000.0, 275.0, 295.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="Compressor.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}, {255,0,0}});
+createPlot(id=1, position={0, 0, 585, 162}, y={"com.conPI.y"}, range={0.0, 90000.0, -0.5, 1.5}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+createPlot(id=1, position={0, 0, 585, 163}, y={"TCHWEntcom.y"}, range={0.0, 90000.0, 278.0, 286.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=3, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
+

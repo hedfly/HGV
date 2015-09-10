@@ -1,0 +1,287 @@
+within ChillerPlantSystem.BaseClasses.Components;
+model Chiller "Single chiller"
+ replaceable package MediumCHW =
+      Buildings.Media.Interfaces.PartialSimpleMedium
+    "Medium in the chilled water side";
+ replaceable package MediumCW =
+      Buildings.Media.Interfaces.PartialSimpleMedium
+    "Medium in the condenser water side";
+  parameter Modelica.SIunits.Power P_nominal "Nominal chiller power (at y=1)";
+  parameter Modelica.SIunits.TemperatureDifference dTCHW_nominal
+    "Temperature difference at the chilled water side";
+  parameter Modelica.SIunits.TemperatureDifference dTCW_nominal
+    "Temperature difference at the condenser water wide";
+  parameter Modelica.SIunits.Pressure dPCHW_nominal
+    "Pressure difference at the chilled water side";
+  parameter Modelica.SIunits.Pressure dPCW_nominal
+    "Pressure difference at the condenser water wide";
+  parameter Modelica.SIunits.Temperature TCHW_nominal
+    "Temperature at the chilled water side";
+  parameter Modelica.SIunits.Temperature TCW_nominal
+    "Temperature at the condenser water wide";
+  parameter Real COP_nominal "Chiller COP";
+  parameter Modelica.SIunits.MassFlowRate mCHW_flow_nominal
+    "Nominal mass flow rate at the chilled water side";
+  parameter Modelica.SIunits.MassFlowRate mCW_flow_nominal
+    "Nominal mass flow rate at the condenser water wide";
+  parameter Real ChillerCurve[:] = {1}
+    "Chiller operation Curve(need p(a=ChillerCurve, y=1)=1)";
+  parameter Real GaiPi "Gain of the PID controller";
+  parameter Real tIntPi "Integration time of the PID controller";
+  BaseClasses.Components.Compressor comB(
+    redeclare package MediumCHW = MediumCHW,
+    redeclare package MediumCW = MediumCW,
+    dTCHW_nominal=dTCHW_nominal,
+    dTCW_nominal=dTCW_nominal,
+    dPCHW_nominal=dPCHW_nominal,
+    dPCW_nominal=dPCW_nominal,
+    TCHW_nominal=TCHW_nominal,
+    TCW_nominal=TCW_nominal,
+    COP_nominal=COP_nominal,
+    GaiPi=GaiPi,
+    tIntPi=tIntPi,
+    P_nominal=P_nominal/2,
+    mCHW_flow_nominal=mCHW_flow_nominal/2,
+    mCW_flow_nominal=mCW_flow_nominal/2) "Compressor B"
+    annotation (Placement(transformation(extent={{-10,-10},{10,10}})));
+  BaseClasses.Components.Compressor comA(
+    redeclare package MediumCHW = MediumCHW,
+    redeclare package MediumCW = MediumCW,
+    dTCHW_nominal=dTCHW_nominal,
+    dTCW_nominal=dTCW_nominal,
+    dPCHW_nominal=dPCHW_nominal,
+    dPCW_nominal=dPCW_nominal,
+    TCHW_nominal=TCHW_nominal,
+    TCW_nominal=TCW_nominal,
+    COP_nominal=COP_nominal,
+    GaiPi=GaiPi,
+    tIntPi=tIntPi,
+    P_nominal=P_nominal/2,
+    mCHW_flow_nominal=mCHW_flow_nominal/2,
+    mCW_flow_nominal=mCW_flow_nominal/2) "Compressor A"
+    annotation (Placement(transformation(extent={{-10,-62},{10,-42}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_CW(redeclare package Medium = MediumCW)
+    "Fluid connector a1 (positive design flow direction is from port_a1 to port_b1)"
+    annotation (Placement(transformation(extent={{-110,-70},{-90,-50}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_CW(redeclare package Medium = MediumCW)
+    "Fluid connector b1 (positive design flow direction is from port_a1 to port_b1)"
+    annotation (Placement(transformation(extent={{-110,50},{-90,70}}),
+        iconTransformation(extent={{-110,50},{-90,70}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_CHW(redeclare package Medium = MediumCHW)
+    "Fluid connector a2 (positive design flow direction is from port_a2 to port_b2)"
+    annotation (Placement(transformation(extent={{90,50},{110,70}}),
+        iconTransformation(extent={{90,50},{110,70}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_CHW(redeclare package Medium = MediumCHW)
+    "Fluid connector b2 (positive design flow direction is from port_a2 to port_b2)"
+    annotation (Placement(transformation(extent={{90,-70},{110,-50}})));
+  Modelica.Blocks.Interfaces.RealInput TCHWSet
+    "Temperature setpoint of the chilled water"
+    annotation (Placement(transformation(extent={{-118,89},{-100,71}})));
+  Modelica.Blocks.Interfaces.RealInput On[2](min=0,max=1)
+    "True to able compressor, or false to disable compressor"
+    annotation (Placement(transformation(extent={{-118,-70},{-100,-90}}),
+        iconTransformation(extent={{-118,-70},{-100,-90}})));
+  Modelica.Blocks.Interfaces.RealOutput P[2]
+    "Electric power consumed by compressor"
+    annotation (Placement(transformation(extent={{100,-90},{120,-70}})));
+equation
+  connect(comB.port_a_CW, port_a_CW) annotation (Line(
+      points={{-10,-8},{-60,-8},{-60,-60},{-100,-60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comA.port_a_CW, port_a_CW) annotation (Line(
+      points={{-10,-60},{-100,-60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comB.port_b_CW, port_b_CW) annotation (Line(
+      points={{-10,8},{-52,8},{-52,60},{-100,60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comA.port_b_CW, port_b_CW) annotation (Line(
+      points={{-10,-44},{-52,-44},{-52,60},{-100,60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comB.port_a_CHW, port_a_CHW) annotation (Line(
+      points={{10,8},{50,8},{50,60},{100,60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comA.port_a_CHW, port_a_CHW) annotation (Line(
+      points={{10,-44},{50,-44},{50,60},{100,60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comA.port_b_CHW, port_b_CHW) annotation (Line(
+      points={{10,-60},{100,-60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comB.port_b_CHW, port_b_CHW) annotation (Line(
+      points={{10,-8},{60,-8},{60,-60},{100,-60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(port_a_CW, port_a_CW) annotation (Line(
+      points={{-100,-60},{-100,-60}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(comB.TCHWSet, TCHWSet) annotation (Line(
+      points={{-12,3},{-20,3},{-20,80},{-109,80}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(comA.TCHWSet, TCHWSet) annotation (Line(
+      points={{-12,-49},{-30,-49},{-30,80},{-109,80}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(comA.On, On[2]) annotation (Line(
+      points={{-12,-57},{-30,-57},{-30,-85},{-109,-85}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(comB.On, On[1]) annotation (Line(
+      points={{-12,-5},{-40,-5},{-40,-75},{-109,-75}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(comB.P, P[2]) annotation (Line(
+      points={{11,0},{40,0},{40,-75},{110,-75}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(comA.P, P[1]) annotation (Line(
+      points={{11,-52},{30,-52},{30,-85},{110,-85}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  annotation (Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
+            -100},{100,100}}),      graphics), Icon(coordinateSystem(
+          preserveAspectRatio=false, extent={{-100,-100},{100,100}}),
+        graphics={
+        Text(
+          extent={{-44,-142},{50,-110}},
+          lineColor={0,0,255},
+          textString="%name"),
+        Rectangle(
+          extent={{-80,82},{80,-78}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-93,66},{108,56}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={0,0,0},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-95,-54},{106,-64}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={0,0,0},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-56,58},{58,40}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-56,-42},{58,-60}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-105,66},{96,56}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{6,56},{106,66}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={255,0,0},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-95,-54},{106,-64}},
+          lineColor={0,0,255},
+          pattern=LinePattern.None,
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-96,-64},{4,-54}},
+          lineColor={0,0,127},
+          pattern=LinePattern.None,
+          fillColor={0,0,127},
+          fillPattern=FillPattern.Solid),
+        Polygon(
+          points={{-32,-2},{-42,-14},{-22,-14},{-32,-2}},
+          lineColor={0,0,0},
+          smooth=Smooth.None,
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Polygon(
+          points={{-32,-2},{-42,8},{-22,8},{-32,-2}},
+          lineColor={0,0,0},
+          smooth=Smooth.None,
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-34,40},{-30,8}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-34,-14},{-30,-42}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{48,40},{52,-42}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{28,16},{72,-26}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Polygon(
+          points={{50,16},{32,-16},{68,-16},{50,16}},
+          lineColor={0,0,0},
+          smooth=Smooth.None,
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{2,40},{6,-42}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{-18,16},{26,-26}},
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Polygon(
+          points={{4,16},{-14,-16},{22,-16},{4,16}},
+          lineColor={0,0,0},
+          smooth=Smooth.None,
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid)}),
+    Documentation(info="<html>
+<p>This model is designed to simulate the chiller plant with two seperated compressor modules.When there is only one compressoer operating, the valve in the chilled and condenser water pipe of the non-working chiller will be closed.</p>
+</html>", revisions="<html>
+<ul>
+<li>
+March 19, 2014 by Sen Huang:<br/>
+First implementation.
+</li>
+</ul>
+</html>"));
+end Chiller;

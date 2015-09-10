@@ -1,0 +1,190 @@
+within ChillerPlantSystem.BaseClasses.Components;
+model CoolingTower "This model is designed to simulate the cooling tower with two seperated modules"
+  replaceable package MediumCW =
+      Buildings.Media.Interfaces.PartialSimpleMedium "Medium in the condenser water side";
+  parameter Modelica.SIunits.Power P_nominal "Nominal cooling tower power (at y=1)";
+  parameter Modelica.SIunits.TemperatureDifference dTCW_nominal "Temperature difference between the outlet and inlet of the tower";
+  parameter Modelica.SIunits.TemperatureDifference dTApp_nominal "Nominal approach temperature";
+  parameter Modelica.SIunits.Temperature TWetBul_nominal "Nominal wet bulb temperature";
+  parameter Modelica.SIunits.Pressure dP_nominal "Pressure difference between the outlet and inlet of the tower ";
+  parameter Modelica.SIunits.MassFlowRate mCW_flow_nominal "Nominal mass flow rate at condenser water wide";
+  parameter Real GaiPi "Gain of the module PI controller";
+  parameter Real tIntPi "Integration time of the module PI controller";
+  parameter Real v_flow_ratio[:] "Air volume flow rate ratio";
+  parameter Real eta[:] "Fan efficiency";
+  BaseClasses.Components.CoolingTowerModule coolTowModB(
+    redeclare package MediumCW = MediumCW,
+    P_nominal=P_nominal/2,
+    dTCW_nominal=dTCW_nominal,
+    dTApp_nominal=dTApp_nominal,
+    TWetBul_nominal=TWetBul_nominal,
+    dP_nominal=dP_nominal,
+    mCW_flow_nominal=mCW_flow_nominal/2,
+    GaiPi=GaiPi,
+    tIntPi=tIntPi,
+    v_flow_ratio=v_flow_ratio,
+    eta=eta,
+    yorkCalc(fanRelPow(r_V=v_flow_ratio)))
+    annotation (Placement(transformation(extent={{-10,20},{10,40}})));
+  BaseClasses.Components.CoolingTowerModule coolTowModA(
+    redeclare package MediumCW = MediumCW,
+    P_nominal=P_nominal/2,
+    dTCW_nominal=dTCW_nominal,
+    dTApp_nominal=dTApp_nominal,
+    TWetBul_nominal=TWetBul_nominal,
+    dP_nominal=dP_nominal,
+    mCW_flow_nominal=mCW_flow_nominal/2,
+    GaiPi=GaiPi,
+    tIntPi=tIntPi,
+    v_flow_ratio=v_flow_ratio,
+    eta=eta)
+    annotation (Placement(transformation(extent={{-10,-40},{10,-20}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_CW(redeclare package Medium =
+        MediumCW) "Fluid connector a (positive design flow direction is from port_a to port_b)"
+    annotation (Placement(transformation(extent={{-110,30},{-90,50}}),
+        iconTransformation(extent={{-110,30},{-90,50}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_CW(redeclare package Medium =
+        MediumCW) "Fluid connector b (positive design flow direction is from port_a to port_b)"
+    annotation (Placement(transformation(extent={{90,-90},{110,-70}}),
+        iconTransformation(extent={{90,-90},{110,-70}})));
+  Modelica.Blocks.Interfaces.RealInput On "On signal"
+    annotation (Placement(transformation(extent={{-118,-9},{-100,9}})));
+  Modelica.Blocks.Interfaces.RealInput TCWSet "Temperature set point of the condenser water"
+    annotation (Placement(transformation(extent={{-118,71},{-100,89}})));
+  Modelica.Blocks.Interfaces.RealInput TWetBul "Entering air wet bulb temperature"
+    annotation (Placement(transformation(extent={{-118,-69},{-100,-51}})));
+  Modelica.Blocks.Interfaces.RealOutput P[2] "Power of the cooling tower"
+    annotation (Placement(transformation(extent={{100,30},{120,50}})));
+equation
+  connect(coolTowModA.port_a_CW, port_a_CW) annotation (Line(
+      points={{-10,-30},{-60,-30},{-60,40},{-100,40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(coolTowModB.port_a_CW, port_a_CW) annotation (Line(
+      points={{-10,30},{-60,30},{-60,40},{-100,40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(coolTowModB.port_b_CW, port_b_CW) annotation (Line(
+      points={{10,30},{40,30},{40,-80},{100,-80}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(coolTowModA.port_b_CW, port_b_CW) annotation (Line(
+      points={{10,-30},{40,-30},{40,-80},{100,-80}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(coolTowModB.On, On) annotation (Line(
+      points={{-12,34},{-80,34},{-80,0},{-109,0}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(coolTowModA.On, On) annotation (Line(
+      points={{-12,-26},{-80,-26},{-80,0},{-109,0}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(TCWSet, coolTowModB.TSet) annotation (Line(
+      points={{-109,80},{-40,80},{-40,38},{-12,38}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(coolTowModA.TSet, coolTowModB.TSet) annotation (Line(
+      points={{-12,-22},{-50,-22},{-50,80},{-40,80},{-40,38},{-12,38}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(coolTowModB.TWetBul, TWetBul) annotation (Line(
+      points={{-12,26},{-20,26},{-20,-60},{-109,-60}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(coolTowModA.TWetBul, TWetBul) annotation (Line(
+      points={{-12,-34},{-20,-34},{-20,-60},{-109,-60}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(coolTowModB.P, P[2]) annotation (Line(
+      points={{11,26},{80,26},{80,45},{110,45}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(coolTowModA.P, P[1]) annotation (Line(
+      points={{11,-34},{88,-34},{88,35},{110,35}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  annotation (Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
+            -100},{100,100}}), graphics), Icon(coordinateSystem(
+          preserveAspectRatio=false, extent={{-100,-100},{100,100}}), graphics={
+        Text(
+          extent={{-44,-142},{50,-110}},
+          lineColor={0,0,255},
+          textString="%name"),
+        Rectangle(
+          extent={{-40,80},{40,-80}},
+          lineColor={95,95,95},
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid),
+        Line(
+          points={{-88,0}},
+          color={95,95,95},
+          smooth=Smooth.None),
+        Ellipse(
+          extent={{-38,74},{-2,64}},
+          lineColor={255,255,255},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Ellipse(
+          extent={{2,74},{38,64}},
+          lineColor={255,255,255},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-52,50},{52,-80}},
+          lineColor={95,95,95},
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid),
+        Line(
+          points={{100,-80},{52,-80}},
+          color={0,0,255},
+          smooth=Smooth.None),
+        Line(
+          points={{-100,40},{32,40}},
+          color={255,0,0},
+          smooth=Smooth.None),
+        Line(
+          points={{-26,40},{-34,22}},
+          color={255,0,0},
+          smooth=Smooth.None),
+        Line(
+          points={{-26,40},{-18,22}},
+          color={255,0,0},
+          smooth=Smooth.None),
+        Line(
+          points={{32,40},{24,22}},
+          color={255,0,0},
+          smooth=Smooth.None),
+        Line(
+          points={{32,40},{40,22}},
+          color={255,0,0},
+          smooth=Smooth.None),
+        Line(
+          points={{0,40},{-8,22}},
+          color={255,0,0},
+          smooth=Smooth.None),
+        Line(
+          points={{0,40},{8,22}},
+          color={255,0,0},
+          smooth=Smooth.None)}),
+    Documentation(revisions="<html>
+<ul>
+<li>
+March 30, 2014 by Sen Huang:<br/>
+First implementation.
+</li>
+</ul>
+</html>"));
+end CoolingTower;

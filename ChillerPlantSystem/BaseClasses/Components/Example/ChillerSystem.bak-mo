@@ -1,0 +1,157 @@
+within ChillerPlantSystem.BaseClasses.Components.Example;
+model ChillerSystem
+  import ChillerPlantSystem.LejeunePlant.Chiller;
+  import ChillerPlantSystem;
+  extends Modelica.Icons.Example;
+  parameter Real tWai = 1800 "Waiting time";
+  parameter Modelica.SIunits.TemperatureDifference dT = 0.5
+    "Temperature difference for stage control";
+  package MediumCHW = Buildings.Media.ConstantPropertyLiquidWater
+    "Medium model";
+  package MediumCW = Buildings.Media.ConstantPropertyLiquidWater "Medium model";
+  parameter Modelica.SIunits.Power P_nominal = 756E3*2
+    "Nominal chiller power (at y=1)";
+  parameter Modelica.SIunits.TemperatureDifference dTCHW_nominal = 5.56
+    "Temperature difference at the chilled water side";
+  parameter Modelica.SIunits.TemperatureDifference dTCW_nominal = 5.18
+    "Temperature difference at the condenser water wide";
+  parameter Modelica.SIunits.Pressure dPCHW_nominal = 91166
+    "Pressure difference at the chilled water side";
+  parameter Modelica.SIunits.Pressure dPCW_nominal = 92661
+    "Pressure difference at the condenser water wide";
+  parameter Modelica.SIunits.Temperature TCHW_nominal = 273.15 + 5.56
+    "Temperature at the chilled water side";
+  parameter Modelica.SIunits.Temperature TCW_nominal = 273.15 + 29.44
+    "Temperature at the condenser water wide";
+  parameter Real COP_nominal = 5.86 "Chiller COP";
+  parameter Modelica.SIunits.MassFlowRate mCHW_flow_nominal = P_nominal*COP_nominal/dTCHW_nominal/4187
+    "Nominal mass flow rate at the chilled water side";
+  parameter Modelica.SIunits.MassFlowRate mCW_flow_nominal = mCHW_flow_nominal*(COP_nominal+1)/COP_nominal
+    "Nominal mass flow rate at the condenser water wide";
+  parameter Real ChillerCurve[:] = {1}
+    "Chiller operation Curve(need p(a=ChillerCurve, y=1)=1)";
+  parameter Real k = 1 "Gain of the PID controller";
+  parameter Real Ti = 60 "Intregration time of the PID controller";
+  ChillerPlantSystem.BaseClasses.Components.ChillerSystem
+                        chiSys(
+    redeclare package MediumCHW = MediumCHW,
+    redeclare package MediumCW = MediumCW,
+    dTCHW_nominal=dTCHW_nominal,
+    dTCW_nominal=dTCW_nominal,
+    dPCHW_nominal=dPCHW_nominal,
+    mCHW_flow_nominal=mCHW_flow_nominal,
+    mCW_flow_nominal=mCW_flow_nominal,
+    GaiPi=k,
+    tIntPi=Ti,
+    tWai=tWai,
+    dT=dT,
+    P_nominal=P_nominal,
+    dPCW_nominal=dPCW_nominal,
+    TCHW_nominal=TCHW_nominal,
+    TCW_nominal=TCW_nominal,
+    COP_nominal=COP_nominal,
+    ChillerCurve=ChillerCurve)
+               annotation (Placement(transformation(extent={{-20,-18},{0,2}})));
+  Modelica.Blocks.Sources.Step On(height=1, startTime=28800)
+                                                            annotation (Placement(transformation(extent={{-80,60},
+            {-60,80}})));
+  Buildings.Fluid.Sources.FixedBoundary sinCW(redeclare package Medium =
+               MediumCW, nPorts=1) "Sink for CW" annotation (Placement(
+        transformation(
+        extent={{-10,-10},{10,10}},
+        rotation=0,
+        origin={-70,-12})));
+  Buildings.Fluid.Sources.MassFlowSource_T souCW(
+    use_T_in=true,
+    m_flow=mCW_flow_nominal,
+    redeclare package Medium = MediumCW,
+    nPorts=1,
+    T=298.15) "Source for CW"
+    annotation (Placement(transformation(extent={{-50,-82},{-30,-62}})));
+  Modelica.Blocks.Sources.Constant TCWEntChi(k=273.15 + 29.44)
+    annotation (Placement(transformation(extent={{-80,-78},{-60,-58}})));
+  Buildings.Fluid.Sources.MassFlowSource_T souCHW(
+    use_T_in=true,
+    m_flow=mCHW_flow_nominal,
+    redeclare package Medium = MediumCHW,
+    nPorts=1,
+    T=298.15) "Source for CHW"
+    annotation (Placement(transformation(extent={{48,20},{28,40}})));
+  Buildings.Fluid.Sources.FixedBoundary sinCHW(redeclare package Medium =
+               MediumCHW, nPorts=1) "Sink for CHW" annotation (Placement(
+        transformation(
+        extent={{10,-10},{-10,10}},
+        rotation=0,
+        origin={70,-16})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senTCHWLeaChi(
+      redeclare package Medium = MediumCHW, m_flow_nominal=mCW_flow_nominal)
+    annotation (Placement(transformation(extent={{20,-26},{40,-6}})));
+  Modelica.Blocks.Sources.Constant TCHWSet(k=273.15 + 5.56)
+    annotation (Placement(transformation(extent={{-80,20},{-60,40}})));
+  Modelica.Blocks.Sources.Sine TCHWEntChi(
+    freqHz=1/28800,
+    amplitude=0,
+    offset=273.15 + 5.56 + 5.56)
+                    annotation (Placement(transformation(extent={{80,58},{60,78}})));
+  inner Modelica.Fluid.System system(T_ambient=288.15)
+    annotation (Placement(transformation(extent={{60,-80},{80,-60}})));
+equation
+
+  connect(On.y, chiSys.On)
+    annotation (Line(
+      points={{-59,70},{-36,70},{-36,-2},{-20.9,-2}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(TCWEntChi.y,souCW. T_in) annotation (Line(
+      points={{-59,-68},{-52,-68}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(souCW.ports[1], chiSys.port_a_CW)
+    annotation (Line(
+      points={{-30,-72},{-26,-72},{-26,-16},{-20,-16}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senTCHWLeaChi.port_a, chiSys.port_b_CHW)
+    annotation (Line(
+      points={{20,-16},{0,-16}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(chiSys.port_a_CHW, souCHW.ports[1])
+    annotation (Line(
+      points={{0,-12},{20,-12},{20,30},{28,30}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(TCHWSet.y, chiSys.TCHWSet) annotation (Line(
+      points={{-59,30},{-40,30},{-40,-8},{-20.9,-8}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(TCHWEntChi.y, souCHW.T_in)
+    annotation (Line(
+      points={{59,68},{56,68},{56,34},{50,34}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(senTCHWLeaChi.port_b, sinCHW.ports[1])
+    annotation (Line(
+      points={{40,-16},{60,-16}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(chiSys.port_b_CW, sinCW.ports[1])
+    annotation (Line(
+      points={{-20,-12},{-60,-12}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  annotation (__Dymola_Commands(file=
+          "Resources\Scripts\Dymola\BaseClasses\Components\Example\ChillerSystem.mos"
+        "Simulate and plot"),
+  Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{100,
+            100}}),                                                                    graphics));
+end ChillerSystem;

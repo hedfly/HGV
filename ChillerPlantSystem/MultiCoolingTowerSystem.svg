@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="2082.000000" height="1287.000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="963.500000" y="305.500000" width="153.000000" height="153.000000"/>
+	<text style="shape-rendering:crispEdges" x="1042.295000" y="382.000000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="10" font-family="Arial" text-anchor="middle">CoolingTowerModule</text>
+	<text style="shape-rendering:crispEdges" x="1042.295000" y="481.450000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="21" font-family="Arial" text-anchor="middle">cooTowC</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="963.500000" y="611.500000" width="153.000000" height="153.000000"/>
+	<text style="shape-rendering:crispEdges" x="1042.295000" y="688.000000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="10" font-family="Arial" text-anchor="middle">CoolingTowerModule</text>
+	<text style="shape-rendering:crispEdges" x="1042.295000" y="787.450000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="21" font-family="Arial" text-anchor="middle">cooTowB</text>
+	<rect style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,255)" stroke-opacity="1" x="963.500000" y="917.500000" width="153.000000" height="153.000000"/>
+	<text style="shape-rendering:crispEdges" x="1042.295000" y="994.000000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="10" font-family="Arial" text-anchor="middle">CoolingTowerModule</text>
+	<text style="shape-rendering:crispEdges" x="1042.295000" y="1093.450000" fill="rgb(0,0,255)" dominant-baseline="central" font-size="21" font-family="Arial" text-anchor="middle">cooTowA</text>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1" points="963.500000,382.000000 734.000000,382.000000 734.000000,994.000000 963.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1" points="963.500000,382.000000 734.000000,382.000000 734.000000,994.000000 963.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1" points="963.500000,688.000000 734.000000,688.000000 734.000000,994.000000 963.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1" points="963.500000,688.000000 734.000000,688.000000 734.000000,994.000000 963.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1" points="1116.500000,382.000000 1346.000000,382.000000 1346.000000,994.000000 1116.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1" points="1116.500000,382.000000 1346.000000,382.000000 1346.000000,994.000000 1116.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1" points="1116.500000,688.000000 1346.000000,688.000000 1346.000000,994.000000 1116.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1" points="1116.500000,688.000000 1346.000000,688.000000 1346.000000,994.000000 1116.500000,994.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1" points="963.500000,688.000000 275.000000,688.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1" points="963.500000,688.000000 275.000000,688.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="8" stroke-opacity="1" points="1116.500000,688.000000 1805.000000,688.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,127,255)" stroke-width="4" stroke-opacity="1" points="1116.500000,688.000000 1805.000000,688.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,412.600000 703.400000,412.600000 703.400000,1147.000000 206.150000,1147.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,412.600000 703.400000,412.600000 703.400000,1147.000000 206.150000,1147.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,718.600000 703.400000,718.600000 703.400000,1147.000000 206.150000,1147.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,718.600000 703.400000,718.600000 703.400000,1147.000000 206.150000,1147.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,1024.600000 703.400000,1024.600000 703.400000,1147.000000 206.150000,1147.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,1024.600000 703.400000,1024.600000 703.400000,1147.000000 206.150000,1147.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,351.400000 642.200000,351.400000 642.200000,336.100000 206.150000,336.100000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,351.400000 642.200000,351.400000 642.200000,336.100000 206.150000,336.100000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,657.400000 626.900000,657.400000 626.900000,382.000000 206.150000,382.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,657.400000 626.900000,657.400000 626.900000,382.000000 206.150000,382.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,963.400000 596.300000,963.400000 596.300000,427.900000 206.150000,427.900000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,963.400000 596.300000,963.400000 596.300000,427.900000 206.150000,427.900000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,320.800000 672.800000,320.800000 672.800000,160.150000 206.150000,160.150000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,320.800000 672.800000,320.800000 672.800000,160.150000 206.150000,160.150000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,626.800000 672.800000,626.800000 672.800000,160.150000 206.150000,160.150000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="948.200000,626.800000 672.800000,626.800000 672.800000,160.150000 206.150000,160.150000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="1124.150000,412.600000 1468.400000,412.600000 1468.400000,330.999745 1881.500000,330.999745"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="1124.150000,412.600000 1468.400000,412.600000 1468.400000,330.999745 1881.500000,330.999745"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="1124.150000,718.600000 1499.000000,718.600000 1499.000000,382.000000 1881.500000,382.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="1124.150000,718.600000 1499.000000,718.600000 1499.000000,382.000000 1881.500000,382.000000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="1124.150000,1024.600000 1529.600000,1024.600000 1529.600000,433.000255 1881.500000,433.000255"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-dasharray="4,2" stroke-opacity="1" points="1124.150000,1024.600000 1529.600000,1024.600000 1529.600000,433.000255 1881.500000,433.000255"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(255,255,255)" stroke-width="5" stroke-opacity="1" points="948.200000,932.800000 672.800000,932.800000 672.800000,160.150000 206.150000,160.150000"/>
+	<polyline style="shape-rendering:crispEdges" fill="none" stroke="rgb(0,0,127)" stroke-opacity="1" points="948.200000,932.800000 672.800000,932.800000 672.800000,160.150000 206.150000,160.150000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="703.400000" cy="718.600000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="703.400000" cy="1024.600000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="703.400000" cy="1024.600000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="672.800000" cy="320.800000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="672.800000" cy="320.800000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" cx="672.800000" cy="626.800000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" cx="734.000000" cy="688.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" cx="734.000000" cy="688.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" cx="1346.000000" cy="688.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" cx="1346.000000" cy="688.000000" rx="3.500000" ry="3.500000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1116.500000" cy="382.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="1116.500000" cy="382.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1116.500000" cy="382.000000" rx="6.120000" ry="6.120000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="963.500000" cy="382.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="963.500000" cy="382.000000" rx="7.650000" ry="7.650000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,336.100000 963.500000,351.400000 932.900000,366.700000 932.900000,336.100000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,305.500000 963.500000,320.800000 932.900000,336.100000 932.900000,305.500000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,397.300000 963.500000,412.600000 932.900000,427.900000 932.900000,397.300000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="1116.500000,404.950000 1131.800000,412.600000 1116.500000,420.250000 1116.500000,404.950000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1116.500000" cy="688.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="1116.500000" cy="688.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1116.500000" cy="688.000000" rx="6.120000" ry="6.120000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="963.500000" cy="688.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="963.500000" cy="688.000000" rx="7.650000" ry="7.650000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,642.100000 963.500000,657.400000 932.900000,672.700000 932.900000,642.100000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,611.500000 963.500000,626.800000 932.900000,642.100000 932.900000,611.500000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,703.300000 963.500000,718.600000 932.900000,733.900000 932.900000,703.300000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="1116.500000,710.950000 1131.800000,718.600000 1116.500000,726.250000 1116.500000,710.950000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1116.500000" cy="994.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="1116.500000" cy="994.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1116.500000" cy="994.000000" rx="6.120000" ry="6.120000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="963.500000" cy="994.000000" rx="7.650000" ry="7.650000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="963.500000" cy="994.000000" rx="7.650000" ry="7.650000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,948.100000 963.500000,963.400000 932.900000,978.700000 932.900000,948.100000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,917.500000 963.500000,932.800000 932.900000,948.100000 932.900000,917.500000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="932.900000,1009.300000 963.500000,1024.600000 932.900000,1039.900000 932.900000,1009.300000"/>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="1116.500000,1016.950000 1131.800000,1024.600000 1116.500000,1032.250000 1116.500000,1016.950000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="275.000000" cy="688.000000" rx="30.600000" ry="30.600000"/>
+	<text style="shape-rendering:crispEdges" x="275.000000" y="626.800000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="46" font-family="Arial" text-anchor="middle">port_a_CW</text>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(0,127,255)" stroke="rgb(0,0,0)" stroke-opacity="1" cx="1805.000000" cy="688.000000" rx="30.600000" ry="30.600000"/>
+	<ellipse style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,127,255)" stroke-opacity="1" cx="1805.000000" cy="688.000000" rx="22.950000" ry="22.950000"/>
+	<text style="shape-rendering:crispEdges" x="1805.000000" y="626.800000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="46" font-family="Arial" text-anchor="middle">port_b_CW</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="206.150000,1112.575000 275.000000,1147.000000 206.150000,1181.425000 206.150000,1112.575000"/>
+	<text style="shape-rendering:crispEdges" x="199.265000" y="1097.083750" fill="rgb(0,0,127)" dominant-baseline="central" font-size="17" font-family="Arial" text-anchor="middle">TWetBul</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="206.150000,125.725000 275.000000,160.150000 206.150000,194.575000 206.150000,125.725000"/>
+	<text style="shape-rendering:crispEdges" x="199.265000" y="110.233750" fill="rgb(0,0,127)" dominant-baseline="central" font-size="17" font-family="Arial" text-anchor="middle">TCWSet</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(0,0,127)" stroke="rgb(0,0,127)" stroke-opacity="1" points="206.150000,347.575000 275.000000,382.000000 206.150000,416.425000 206.150000,347.575000"/>
+	<text style="shape-rendering:crispEdges" x="199.265000" y="332.083750" fill="rgb(0,0,127)" dominant-baseline="central" font-size="17" font-family="Arial" text-anchor="middle">On</text>
+	<polygon style="shape-rendering:crispEdges" fill="rgb(255,255,255)" stroke="rgb(0,0,127)" stroke-opacity="1" points="1805.000000,343.750000 1881.500000,382.000000 1805.000000,420.250000 1805.000000,343.750000"/>
+	<text style="shape-rendering:crispEdges" x="1904.450000" y="316.975000" fill="rgb(0,0,127)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">P</text>
+	<text style="shape-rendering:crispEdges" x="1040.000000" y="1472.000000" fill="rgb(0,0,0)" dominant-baseline="central" font-size="38" font-family="Arial" text-anchor="middle">Dymola demo version, see www.Dymola.com</text>
+</svg>
