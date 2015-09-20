@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function winTRInteriorIrradiationInteriorShading
   "Hemispherical transmittance and back reflectance of a window system (glass and shading device) for interior irradiation with interior shading"
   extends

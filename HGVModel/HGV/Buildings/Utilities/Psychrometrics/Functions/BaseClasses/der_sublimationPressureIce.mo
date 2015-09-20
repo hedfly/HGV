@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
 function der_sublimationPressureIce
   "Derivative of function sublimationPressureIce"
     extends Modelica.Icons.Function;

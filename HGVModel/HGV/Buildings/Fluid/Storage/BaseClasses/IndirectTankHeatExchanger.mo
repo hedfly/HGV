@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage.BaseClasses;
+within HGV.Buildings.Fluid.Storage.BaseClasses;
 model IndirectTankHeatExchanger
   "Heat exchanger typically submerged in a fluid with a second fluid circulating through it"
 

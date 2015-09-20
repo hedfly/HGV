@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads.Examples;
 model VariableImpedance
   "Example that illustrates how using variable impedances"
   extends Modelica.Icons.Example;

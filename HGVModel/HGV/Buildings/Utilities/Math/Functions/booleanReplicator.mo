@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function booleanReplicator "Replicates Boolean signals"
   input Integer nout=1 "Number of outouts";
   input Boolean u "Boolean input signal";

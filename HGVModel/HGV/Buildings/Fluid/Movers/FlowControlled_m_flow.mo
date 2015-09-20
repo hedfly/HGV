@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers;
+within HGV.Buildings.Fluid.Movers;
 model FlowControlled_m_flow
   "Fan or pump with ideally controlled mass flow rate as input signal"
   extends Buildings.Fluid.Movers.BaseClasses.FlowControlled(

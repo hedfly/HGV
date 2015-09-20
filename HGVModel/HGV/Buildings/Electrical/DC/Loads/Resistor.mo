@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Loads;
+within HGV.Buildings.Electrical.DC.Loads;
 model Resistor "Ideal linear electrical resistor"
   extends Buildings.Electrical.Interfaces.Load(
     redeclare package PhaseSystem = PhaseSystems.TwoConductor,

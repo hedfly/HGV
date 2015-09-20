@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Storage;
+within HGV.Buildings.Electrical.DC.Storage;
 model Battery "Simple model of a battery"
  parameter Real etaCha(min=0, max=1, unit="1") = 0.9
     "Efficiency during charging";

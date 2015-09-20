@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Examples;
+within HGV.Buildings.Fluid.Sensors.Examples;
 model SpecificEntropy "Test model for the entropy flow rate sensors"
   extends Modelica.Icons.Example;
 

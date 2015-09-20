@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission;
+within HGV.Buildings.Electrical.Transmission;
 package BaseClasses "Package that contains partial models for lines and cables"
   extends Modelica.Icons.BasesPackage;
 

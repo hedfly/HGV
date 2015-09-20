@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.BaseClasses;
+within HGV.Buildings.Fluid.Actuators.BaseClasses;
 partial model PartialTwoWayValve "Partial model for a two way valve"
 
   extends Buildings.Fluid.BaseClasses.PartialResistance(

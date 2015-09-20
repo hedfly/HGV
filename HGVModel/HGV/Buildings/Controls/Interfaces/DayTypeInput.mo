@@ -1,4 +1,4 @@
-within Buildings.Controls.Interfaces;
+within HGV.Buildings.Controls.Interfaces;
 connector DayTypeInput = input Buildings.Controls.Types.Day
   "Input connector for demand response day"
 annotation (

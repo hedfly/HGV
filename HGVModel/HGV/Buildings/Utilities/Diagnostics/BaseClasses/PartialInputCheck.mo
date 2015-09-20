@@ -1,4 +1,4 @@
-within Buildings.Utilities.Diagnostics.BaseClasses;
+within HGV.Buildings.Utilities.Diagnostics.BaseClasses;
 block PartialInputCheck "Assert when condition is violated"
   extends Modelica.Blocks.Icons.Block;
   parameter Modelica.SIunits.Time startTime = 0

@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.ThermalZones;
+within HGV.Buildings.Examples.VAVReheat.ThermalZones;
 model Floor "Model of a floor of the building"
   replaceable package Medium = Modelica.Media.Interfaces.PartialMedium
     "Medium model for air" annotation (choicesAllMatching=true);

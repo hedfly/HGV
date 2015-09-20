@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Loads.Examples;
+within HGV.Buildings.Electrical.DC.Loads.Examples;
 model VariableLoad "Example using variable loads models"
   extends Modelica.Icons.Example;
   Conductor loa1(

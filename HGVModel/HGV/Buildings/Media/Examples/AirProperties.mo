@@ -1,4 +1,4 @@
-within Buildings.Media.Examples;
+within HGV.Buildings.Media.Examples;
 model AirProperties
   "Model that tests the implementation of the fluid properties"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function isMonotonic "Returns true if the argument is a monotonic sequence"
   input Real x[:] "Sequence to be tested";
   input Boolean strict=false "Set to true to test for strict monotonicity";

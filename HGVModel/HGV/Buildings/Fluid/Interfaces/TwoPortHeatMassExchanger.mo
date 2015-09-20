@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 model TwoPortHeatMassExchanger
   "Partial model transporting one fluid stream with storing mass or energy"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(

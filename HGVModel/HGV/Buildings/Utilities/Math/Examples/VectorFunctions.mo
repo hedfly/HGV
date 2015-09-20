@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model VectorFunctions "Test model for functions that take a vector as argument"
   extends Modelica.Icons.Example;
 

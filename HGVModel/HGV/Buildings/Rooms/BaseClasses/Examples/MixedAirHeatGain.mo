@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 model MixedAirHeatGain "Test model for the MixedAirHeatGain model"
   extends Modelica.Icons.Example;
 

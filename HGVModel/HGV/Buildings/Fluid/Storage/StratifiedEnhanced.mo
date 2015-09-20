@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage;
+within HGV.Buildings.Fluid.Storage;
 model StratifiedEnhanced "Stratified tank model with enhanced discretization"
   extends Stratified(nSeg=4, nPorts=3, vol(each prescribedHeatFlowRate=true));
 

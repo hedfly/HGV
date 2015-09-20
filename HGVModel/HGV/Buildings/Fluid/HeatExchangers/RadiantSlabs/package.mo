@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 package RadiantSlabs "Package with radiant slab models"
   extends Modelica.Icons.VariantsPackage;
 

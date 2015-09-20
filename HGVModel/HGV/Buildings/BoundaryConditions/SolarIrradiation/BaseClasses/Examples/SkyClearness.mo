@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
 model SkyClearness "Test model for sky clearness"
   extends Modelica.Icons.Example;
 

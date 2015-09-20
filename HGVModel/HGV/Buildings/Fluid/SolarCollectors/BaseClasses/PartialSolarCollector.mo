@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses;
 model PartialSolarCollector "Partial model for solar collectors"
  extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations;
   extends Buildings.Fluid.Interfaces.TwoPortFlowResistanceParameters(final dp_nominal = dp_nominal_final);

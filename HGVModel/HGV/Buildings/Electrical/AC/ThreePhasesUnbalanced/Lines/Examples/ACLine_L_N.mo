@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
 model ACLine_L_N
   "Test model for a three-phase unbalanced inductive line with neutral cable"
   extends Modelica.Icons.Example;

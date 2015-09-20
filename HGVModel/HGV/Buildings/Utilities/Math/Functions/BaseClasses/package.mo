@@ -1,6 +1,7 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 package BaseClasses "Package with base classes for Buildings.Utilities.Math.Functions"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

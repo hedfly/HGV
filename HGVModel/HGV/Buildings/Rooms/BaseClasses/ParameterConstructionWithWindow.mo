@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record ParameterConstructionWithWindow
   "Record for exterior constructions that have a window"
   extends Buildings.Rooms.BaseClasses.PartialParameterConstruction;

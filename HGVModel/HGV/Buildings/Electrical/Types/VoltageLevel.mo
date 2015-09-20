@@ -1,4 +1,4 @@
-within Buildings.Electrical.Types;
+within HGV.Buildings.Electrical.Types;
 type VoltageLevel = enumeration(
     Low "Low voltage",
     Medium "Medium voltage",

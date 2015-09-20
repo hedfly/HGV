@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Functions.HeatFlux;
+within HGV.Buildings.HeatTransfer.Convection.Functions.HeatFlux;
 function ceiling "Free convection, ceiling"
   extends
     Buildings.HeatTransfer.Convection.Functions.HeatFlux.BaseClasses.PartialHeatFlux;

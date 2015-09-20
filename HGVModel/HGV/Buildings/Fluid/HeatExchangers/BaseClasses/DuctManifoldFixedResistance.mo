@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model DuctManifoldFixedResistance
   "Manifold for a heat exchanger air duct connection"
   extends PartialDuctManifold;

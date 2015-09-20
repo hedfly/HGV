@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection;
+within HGV.Buildings.HeatTransfer.Convection;
 model Interior "Model for a interior (room-side) convective heat transfer"
   extends Buildings.HeatTransfer.Convection.BaseClasses.PartialConvection;
 

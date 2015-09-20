@@ -1,9 +1,6 @@
-within Buildings.BoundaryConditions;
+within HGV.Buildings.BoundaryConditions;
 package WeatherData "Weather data reader"
   extends Modelica.Icons.VariantsPackage;
-
-
-
 
 
 annotation (preferredView="info",

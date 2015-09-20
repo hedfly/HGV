@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
 model KMinusU "Test model for KMinusU"
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Sine pulse(

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function glassAbsInteriorIrradiationExteriorShading
   "Hemispherical absorptance of each glass pane for interior irradiation with exterior shading"
   input Real absIntIrrNoSha[N]

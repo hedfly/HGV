@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB;
+within HGV.Buildings.Utilities.IO.BCVTB;
 model BCVTB
   "Block that exchanges data with the Building Controls Virtual Test Bed"
   extends Modelica.Blocks.Interfaces.DiscreteBlock(final startTime=0,

@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized;
+within HGV.Buildings.Media.Specialized;
 package Air "Specialized implementation of air"
   extends Modelica.Icons.Package;
 

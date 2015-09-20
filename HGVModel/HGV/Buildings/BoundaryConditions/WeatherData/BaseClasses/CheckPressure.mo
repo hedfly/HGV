@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckPressure
   "Ensures that the interpolated pressure is between prescribed bounds"
   extends Modelica.Blocks.Icons.Block;

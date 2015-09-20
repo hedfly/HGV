@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.BaseClasses;
+within HGV.Buildings.Fluid.Actuators.BaseClasses;
 model ActuatorSignal
   "Partial model that implements the filtered opening for valves and dampers"
 

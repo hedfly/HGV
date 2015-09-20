@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model ShadeConvection
   "Model for convective heat balance of a layer that may or may not have a shade"
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses;
 block EN12975HeatLoss
   "Calculate the heat loss of a solar collector per EN12975"
 

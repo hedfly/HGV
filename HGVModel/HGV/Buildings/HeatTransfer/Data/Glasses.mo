@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Data;
+within HGV.Buildings.HeatTransfer.Data;
 package Glasses "Package with thermophysical properties for window glas"
     extends Modelica.Icons.MaterialPropertiesPackage;
   record Generic "Thermal properties of window glass"
@@ -20,8 +20,7 @@ package Glasses "Package with thermophysical properties for window glas"
     annotation (
     defaultComponentPrefixes="parameter",
     defaultComponentName="datGla",
-    Documentation(info=
-"<html>
+    Documentation(info="<html>
 <p>
 This record implements thermophysical properties for window glas.
 </p>
@@ -98,7 +97,7 @@ First implementation.
       tauIR=0,
       absIR_a=0.84,
       absIR_b=0.84) "Generic Bronze Glass 3.1mm. Manufacturer: Generic."
-    annotation(
+    annotation (
       defaultComponentPrefixes="parameter",
       defaultComponentName="datGla");
 
@@ -111,7 +110,7 @@ First implementation.
       tauIR=0,
       absIR_a=0.84,
       absIR_b=0.84) "Generic Bronze Glass 5.7mm. Manufacturer: Generic."
-    annotation(
+    annotation (
       defaultComponentPrefixes="parameter",
       defaultComponentName="datGla");
 
@@ -124,7 +123,7 @@ First implementation.
       tauIR=0,
       absIR_a=0.84,
       absIR_b=0.84) "Generic Clear Glass 3.048mm. Manufacturer: Generic."
-    annotation(
+    annotation (
       defaultComponentPrefixes="parameter",
       defaultComponentName="datGla");
 
@@ -137,7 +136,7 @@ First implementation.
       tauIR=0,
       absIR_a=0.84,
       absIR_b=0.84) "Generic Clear Glass 5.7mm. Manufacturer: Generic."
-    annotation(
+    annotation (
       defaultComponentPrefixes="parameter",
       defaultComponentName="datGla");
 

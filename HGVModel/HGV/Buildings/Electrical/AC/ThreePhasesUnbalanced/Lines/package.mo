@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced;
 package Lines "Package with transmission line models for three-phase unbalanced AC systems"
   extends Modelica.Icons.Package;
 

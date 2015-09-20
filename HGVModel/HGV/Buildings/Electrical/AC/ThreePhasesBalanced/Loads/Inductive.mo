@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Loads;
 model Inductive "Model of an inductive and resistive load"
   extends Buildings.Electrical.AC.OnePhase.Loads.Inductive(
     redeclare Interfaces.Terminal_n terminal,

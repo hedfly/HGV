@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckSkyCover "Constrains the sky cover to [0, 1]"
   extends Modelica.Blocks.Icons.Block;
 public

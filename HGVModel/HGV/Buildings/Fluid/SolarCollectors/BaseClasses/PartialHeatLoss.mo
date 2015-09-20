@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses;
 block PartialHeatLoss
   "Partial heat loss model on which ASHRAEHeatLoss and EN12975HeatLoss are based"
   extends Modelica.Blocks.Icons.Block;

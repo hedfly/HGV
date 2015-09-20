@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model FlowControlled_m_flow
   "Fan with zero mass flow rate and mass flow rate as input"
   extends Modelica.Icons.Example;

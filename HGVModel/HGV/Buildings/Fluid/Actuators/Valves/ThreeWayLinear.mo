@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves;
+within HGV.Buildings.Fluid.Actuators.Valves;
 model ThreeWayLinear "Three way valve with linear characteristics"
     extends BaseClasses.PartialThreeWayValve(
       redeclare TwoWayLinear res1,

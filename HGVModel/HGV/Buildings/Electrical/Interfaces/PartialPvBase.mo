@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 partial model PartialPvBase "Partial model with basic parameters for PVs"
   parameter Modelica.SIunits.Area A "Net surface area";
   parameter Real fAct(min=0, max=1, unit="1") = 0.9

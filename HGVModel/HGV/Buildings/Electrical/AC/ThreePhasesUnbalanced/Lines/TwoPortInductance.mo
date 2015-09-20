@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 model TwoPortInductance "Model of an inductance with two electrical ports"
   extends Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces.TwoPort;
   parameter Modelica.SIunits.Inductance L "Inductance";

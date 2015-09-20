@@ -1,4 +1,4 @@
-within Buildings.Fluid.Utilities;
+within HGV.Buildings.Fluid.Utilities;
 function polynomial
   "Polynomial, used because OpenModelica 1.4.3 does not expand the sum() into a scalar"
   extends Modelica.Icons.Function;

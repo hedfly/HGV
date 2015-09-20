@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model SpeedSelect "Test model for speed select"
   extends Modelica.Icons.Example;
   Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.SpeedSelect speSel(

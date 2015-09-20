@@ -1,4 +1,4 @@
-within Buildings.Electrical.Types;
+within HGV.Buildings.Electrical.Types;
 type CharacteristicResistance = Real (final quantity="Resistance per meter", final unit="Ohm/m")
   "Resistance per unit length" annotation (Documentation(revisions="<html>
 <ul>

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Examples;
 model SpaceCooling "Space cooling with DX coils"
   extends Modelica.Icons.Example;
   replaceable package Medium =

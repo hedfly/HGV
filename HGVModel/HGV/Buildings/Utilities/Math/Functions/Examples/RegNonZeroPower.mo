@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.Examples;
+within HGV.Buildings.Utilities.Math.Functions.Examples;
 model RegNonZeroPower
   extends Modelica.Icons.Example;
   Real y "Function value";

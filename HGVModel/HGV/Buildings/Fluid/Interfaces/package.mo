@@ -1,4 +1,4 @@
-within Buildings.Fluid;
+within HGV.Buildings.Fluid;
 package Interfaces "Package with interfaces for fluid models"
   extends Modelica.Icons.InterfacesPackage;
 
@@ -214,19 +214,6 @@ see the <i>info</i> section of the class.
 </html>"));
 
 end UsersGuide;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 annotation (preferredView="info", Documentation(info="<html>

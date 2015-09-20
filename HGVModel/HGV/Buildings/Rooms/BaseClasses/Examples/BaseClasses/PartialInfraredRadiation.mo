@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses.Examples.BaseClasses;
 model PartialInfraredRadiation
   "Partial model to test infrared radiation inside the room"
   extends Buildings.Rooms.BaseClasses.ConstructionRecords(

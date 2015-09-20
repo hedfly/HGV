@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.BaseClasses;
+within HGV.Buildings.Fluid.Actuators.BaseClasses;
 partial model PartialDamperExponential
   "Partial model for air dampers with exponential opening characteristics"
    extends Buildings.Fluid.BaseClasses.PartialResistance(

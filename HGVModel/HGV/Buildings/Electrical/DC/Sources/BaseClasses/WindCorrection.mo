@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources.BaseClasses;
+within HGV.Buildings.Electrical.DC.Sources.BaseClasses;
 block WindCorrection "Block for wind correction"
   extends Modelica.Blocks.Interfaces.BlockIcon;
   parameter Modelica.SIunits.Height h "Height over ground";

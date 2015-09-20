@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation;
 block DirectTiltedSurface "Direct solar irradiation on a tilted surface"
   extends
     Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.PartialSolarIrradiation;

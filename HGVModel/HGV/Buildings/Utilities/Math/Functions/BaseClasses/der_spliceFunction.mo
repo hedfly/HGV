@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Math.Functions.BaseClasses;
 function der_spliceFunction "Derivative of splice function"
     input Real pos;
     input Real neg;

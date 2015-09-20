@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Functions;
+within HGV.Buildings.Electrical.Transmission.Functions;
 function computeGMR
   "This function computes the geometric mean radius of a cable with 1 to 4 conductors"
   input Modelica.SIunits.Length d "Diameter of the conductor";

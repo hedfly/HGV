@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model WetCoilDiscretized
   "Coil with discretization along the flow paths and humidity condensation"
   // When replacing the volume, the Medium is constrained so that the enthalpyOfLiquid

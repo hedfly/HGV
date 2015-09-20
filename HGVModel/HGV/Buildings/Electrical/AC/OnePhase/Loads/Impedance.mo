@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads;
 model Impedance "Model of a generic impedance"
   extends Buildings.Electrical.Interfaces.Impedance(
     redeclare replaceable package PhaseSystem = PhaseSystems.OnePhase,

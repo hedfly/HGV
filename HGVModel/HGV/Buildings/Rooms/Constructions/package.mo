@@ -1,6 +1,7 @@
-within Buildings.Rooms;
+within HGV.Buildings.Rooms;
 package Constructions "Package with models for constructions that are used in the room model"
   extends Modelica.Icons.VariantsPackage;
+
 
   annotation (
   preferredView="info", Documentation(info="<html>

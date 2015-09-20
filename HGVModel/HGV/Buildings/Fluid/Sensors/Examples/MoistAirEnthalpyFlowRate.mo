@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Examples;
+within HGV.Buildings.Fluid.Sensors.Examples;
 model MoistAirEnthalpyFlowRate
   "Test model for the sensible and latent enthalpy flow rate sensors"
   extends Modelica.Icons.Example;

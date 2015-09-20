@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 function temperatureDrop
   "Calculate the temperature drop of the soil at the external boundary of the cylinder"
 input ExtendableArray table

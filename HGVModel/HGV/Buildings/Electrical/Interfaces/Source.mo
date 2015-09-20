@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model Source "Partial model of a generic source."
   replaceable package PhaseSystem =
       Buildings.Electrical.PhaseSystems.OnePhase constrainedby

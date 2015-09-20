@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Data;
+within HGV.Buildings.HeatTransfer.Data;
 package OpaqueConstructions
   "Package with opaque constructions for floors, walls, etc."
     extends Modelica.Icons.MaterialPropertiesPackage;

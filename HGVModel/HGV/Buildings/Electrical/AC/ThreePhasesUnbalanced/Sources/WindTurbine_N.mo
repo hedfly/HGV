@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
 model WindTurbine_N "Simple wind turbine source with neutral cable"
   extends BaseClasses.UnbalancedWindTurbine_N(
   redeclare Buildings.Electrical.AC.OnePhase.Sources.WindTurbine wt_phase1,

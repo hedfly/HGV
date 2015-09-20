@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 partial model PartialFlowMachine
   "Partial model to interface fan or pump models with the medium"
   extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations(

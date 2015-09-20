@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 partial model PartialDXCoil "Partial model for DX coil"
   extends
     Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.EssentialParameters;

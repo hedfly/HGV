@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Examples;
+within HGV.Buildings.HeatTransfer.Examples;
 model ConductorStepResponse "Test model for heat conductor"
   extends Modelica.Icons.Example;
   parameter Buildings.HeatTransfer.Data.Solids.Concrete concrete(x=0.12, nStaRef=4)

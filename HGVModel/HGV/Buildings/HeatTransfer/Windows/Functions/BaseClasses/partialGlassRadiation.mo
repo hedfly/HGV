@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.Functions.BaseClasses;
 partial function partialGlassRadiation
   "Partial function for glass radiation property"
 

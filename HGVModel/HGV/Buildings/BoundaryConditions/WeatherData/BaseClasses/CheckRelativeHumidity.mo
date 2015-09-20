@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckRelativeHumidity "Check the validity of relative humidity"
   extends Modelica.Blocks.Icons.Block;
 public

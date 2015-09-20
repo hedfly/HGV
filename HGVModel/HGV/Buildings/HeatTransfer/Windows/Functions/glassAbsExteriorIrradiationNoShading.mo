@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function glassAbsExteriorIrradiationNoShading
   "Angular and hemispherical absorptance of each glass pane for exterior irradiation without shading"
   extends

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model HACoilInside "Test model for HACoilInside"
   extends Modelica.Icons.Example;
 

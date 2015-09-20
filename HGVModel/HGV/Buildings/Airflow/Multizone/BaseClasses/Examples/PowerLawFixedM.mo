@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses.Examples;
+within HGV.Buildings.Airflow.Multizone.BaseClasses.Examples;
 model PowerLawFixedM "Test model for power law function"
   extends Modelica.Icons.Example;
   parameter Real k = 2/10^m "Flow coefficient, k = V_flow/ dp^m";

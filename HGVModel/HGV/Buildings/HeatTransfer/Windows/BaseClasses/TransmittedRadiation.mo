@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 block TransmittedRadiation "Transmitted radiation through window"
   extends Buildings.HeatTransfer.Windows.BaseClasses.PartialRadiation;
   Modelica.Blocks.Interfaces.RealOutput QTra_flow(final quantity="Power",

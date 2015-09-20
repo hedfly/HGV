@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows;
+within HGV.Buildings.HeatTransfer.Windows;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model GetHeaderElement "Test model to get header element"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Angle longitude(fixed=false, displayUnit="deg")

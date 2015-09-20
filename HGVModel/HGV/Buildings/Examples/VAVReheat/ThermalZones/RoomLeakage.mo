@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.ThermalZones;
+within HGV.Buildings.Examples.VAVReheat.ThermalZones;
 model RoomLeakage "Room leakage model"
   extends Buildings.BaseClasses.BaseIcon;
   replaceable package Medium = Modelica.Media.Interfaces.PartialMedium

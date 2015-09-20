@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Validation;
+within HGV.Buildings.Fluid.HeatExchangers.Validation;
 model HeaterCooler_T_dynamic
   "Model that demonstrates the ideal heater/cooler model for a prescribed outlet temperature, configured as dynamic"
   extends HeaterCooler_T(

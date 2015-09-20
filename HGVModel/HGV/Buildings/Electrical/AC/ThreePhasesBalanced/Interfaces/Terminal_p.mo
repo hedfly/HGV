@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Interfaces;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Interfaces;
 connector Terminal_p "AC three-phase balanced terminal ('positive')"
   extends Buildings.Electrical.Interfaces.Terminal(
     redeclare replaceable package PhaseSystem = PhaseSystems.OnePhase);

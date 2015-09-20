@@ -1,4 +1,4 @@
-within Buildings.Fluid.Utilities.BaseClasses;
+within HGV.Buildings.Fluid.Utilities.BaseClasses;
 function der_extendedPolynomial
   "Polynomial that is linearly extended at user specified values"
   extends Modelica.Icons.Function;

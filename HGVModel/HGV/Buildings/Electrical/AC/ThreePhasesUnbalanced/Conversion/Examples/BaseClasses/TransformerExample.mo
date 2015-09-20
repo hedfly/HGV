@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples.BaseClasses;
 model TransformerExample
   "This example represents the basic test for a transformer model"
   extends Modelica.Icons.Example;

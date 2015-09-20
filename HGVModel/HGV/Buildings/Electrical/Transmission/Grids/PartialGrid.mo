@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Grids;
+within HGV.Buildings.Electrical.Transmission.Grids;
 record PartialGrid "Partial model that represents a generalized grid"
   extends Modelica.Icons.MaterialProperty;
   parameter Integer nNodes "Number of nodes of the grid";

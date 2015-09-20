@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model DXCooling "Test model for DXCooling"
   extends Modelica.Icons.Example;
   package Medium =

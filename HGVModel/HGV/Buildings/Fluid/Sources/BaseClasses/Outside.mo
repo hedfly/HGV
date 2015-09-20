@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources.BaseClasses;
+within HGV.Buildings.Fluid.Sources.BaseClasses;
 partial model Outside
   "Boundary that takes weather data, and optionally trace substances, as an input"
   extends Modelica.Fluid.Sources.BaseClasses.PartialSource;

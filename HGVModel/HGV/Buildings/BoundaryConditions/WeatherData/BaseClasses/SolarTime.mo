@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block SolarTime "Solar time"
   extends Modelica.Blocks.Icons.Block;
   Modelica.Blocks.Interfaces.RealInput locTim(quantity="Time", unit="s")

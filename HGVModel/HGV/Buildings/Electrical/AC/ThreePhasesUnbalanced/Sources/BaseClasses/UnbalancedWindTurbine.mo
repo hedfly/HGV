@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses;
 model UnbalancedWindTurbine
   "Base model for an unbalanced wind power source without neutral cable"
   extends

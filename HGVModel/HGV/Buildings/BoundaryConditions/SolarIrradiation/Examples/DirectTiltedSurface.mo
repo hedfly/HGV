@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.Examples;
 model DirectTiltedSurface
   "Test model for direct solar irradiation on a tilted surface"
   extends Modelica.Icons.Example;

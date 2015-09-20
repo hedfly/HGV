@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources.Examples;
+within HGV.Buildings.Fluid.Sources.Examples;
 model Outside_CpLowRise
   "Test model for source and sink with outside weather data and wind pressure"
   extends Modelica.Icons.Example;

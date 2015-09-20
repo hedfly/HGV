@@ -1,6 +1,7 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 package BaseClasses "Package with base classes for Buildings.Rooms.Validation.BESTEST"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

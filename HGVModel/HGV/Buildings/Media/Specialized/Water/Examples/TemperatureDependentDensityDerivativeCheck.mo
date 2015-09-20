@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized.Water.Examples;
+within HGV.Buildings.Media.Specialized.Water.Examples;
 model TemperatureDependentDensityDerivativeCheck
   "Model that tests the derivative implementation"
   extends Modelica.Icons.Example;

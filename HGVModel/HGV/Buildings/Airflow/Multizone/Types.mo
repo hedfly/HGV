@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 package Types "Package with type definitions"
 
   type densitySelection = enumeration(

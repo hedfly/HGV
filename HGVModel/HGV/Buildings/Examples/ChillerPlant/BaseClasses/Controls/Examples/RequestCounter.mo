@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
 model RequestCounter "Test model for RequestCounter"
   extends Modelica.Icons.Example;
   Buildings.Examples.ChillerPlant.BaseClasses.Controls.RequestCounter reqCou(

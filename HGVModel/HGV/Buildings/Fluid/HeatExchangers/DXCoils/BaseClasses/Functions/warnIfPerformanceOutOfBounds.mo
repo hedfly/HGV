@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Functions;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Functions;
 function warnIfPerformanceOutOfBounds
   "Function that checks the performance and writes a warning if it is outside of 0.9 to 1.1"
   input Real x "Argument to be checked";

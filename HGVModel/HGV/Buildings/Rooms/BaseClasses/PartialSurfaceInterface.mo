@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 partial model PartialSurfaceInterface
   "Partial model that is used for infrared radiation balance"
   extends Buildings.Rooms.BaseClasses.ConstructionRecords;

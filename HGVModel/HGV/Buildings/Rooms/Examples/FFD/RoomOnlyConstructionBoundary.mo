@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 model RoomOnlyConstructionBoundary
   "Test model for natural convection in an empty room with only construction boundary."
   extends Modelica.Icons.Example;

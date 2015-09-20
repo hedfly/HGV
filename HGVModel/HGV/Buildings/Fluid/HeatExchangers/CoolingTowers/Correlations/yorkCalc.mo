@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations;
 function yorkCalc "Cooling tower performance correlation for YorkCalc model"
 
   input Modelica.SIunits.TemperatureDifference TRan

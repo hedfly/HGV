@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model SpeedControlled_y_linear
   "Pump with linear characteristic for pressure vs. flow rate"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes.Examples;
+within HGV.Buildings.Fluid.MixingVolumes.Examples;
 model MixingVolumePrescribedHeatFlowRate
   "Test model for heat transfer to volume"
   extends Modelica.Icons.Example;

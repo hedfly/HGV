@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct.ThermalZones;
+within HGV.Buildings.Examples.DualFanDualDuct.ThermalZones;
 model SupplyBranch "Supply branch of a dual duct system"
   replaceable package MediumA = Modelica.Media.Interfaces.PartialMedium
     "Medium model for air" annotation (choicesAllMatching=true);

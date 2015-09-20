@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB.BaseClasses;
+within HGV.Buildings.Utilities.IO.BCVTB.BaseClasses;
 function establishClientSocket "Establishes the client socket connection"
 
   input String xmlFileName = "socket.cfg"

@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model PartialTwoPort "Model of a generic two port component with phase systems"
 
   replaceable package PhaseSystem_p =

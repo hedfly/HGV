@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 class ExtendableArray
   "class used to create the external object: ExtendableArray"
 extends ExternalObject;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances;
+within HGV.Buildings.Fluid.FixedResistances;
 model LosslessPipe "Pipe with no flow friction and no heat transfer"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface;
   final parameter Boolean from_dp=true "Used to satisfy replaceable models";

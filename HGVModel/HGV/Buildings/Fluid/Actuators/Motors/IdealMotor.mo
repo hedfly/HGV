@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Motors;
+within HGV.Buildings.Fluid.Actuators.Motors;
 model IdealMotor "Ideal motor model with hysteresis"
   extends Modelica.Blocks.Interfaces.SISO;
 

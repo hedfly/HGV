@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines.Examples;
 model ACLine_RL "Test model for a single phase inductive-resistive line"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Resistance Rbase = 10

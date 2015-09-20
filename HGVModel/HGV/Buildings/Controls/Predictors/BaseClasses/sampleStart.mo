@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.BaseClasses;
+within HGV.Buildings.Controls.Predictors.BaseClasses;
 function sampleStart "Start time for sampling"
   extends Modelica.Icons.Function;
   input Modelica.SIunits.Time t "Simulation time";

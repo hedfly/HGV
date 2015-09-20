@@ -1,4 +1,4 @@
-within Buildings.Electrical.Utilities;
+within HGV.Buildings.Electrical.Utilities;
 model VoltageControl "Voltage controller"
   replaceable package PhaseSystem =
       Buildings.Electrical.PhaseSystems.PartialPhaseSystem constrainedby

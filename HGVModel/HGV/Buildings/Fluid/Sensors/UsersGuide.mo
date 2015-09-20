@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
   annotation (preferredView="info",

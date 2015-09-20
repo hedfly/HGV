@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 block CFDExchange "Block that exchanges data with the CFD code"
   extends Modelica.Blocks.Interfaces.DiscreteBlock;
   parameter String cfdFilNam "CFD input file name" annotation (Dialog(

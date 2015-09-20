@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions;
+within HGV.Buildings.BoundaryConditions;
 package Types "Package with type definitions"
  extends Modelica.Icons.TypesPackage;
   type DataSource = enumeration(

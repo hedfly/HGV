@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct;
+within HGV.Buildings.Examples.DualFanDualDuct;
 package Controls "Package with controller models"
     extends Modelica.Icons.VariantsPackage;
 end Controls;

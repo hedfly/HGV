@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 model FlowControlled
   "Partial model for fan or pump with ideally controlled mass flow rate or head as input signal"
 

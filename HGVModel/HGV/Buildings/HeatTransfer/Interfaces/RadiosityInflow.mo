@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Interfaces;
+within HGV.Buildings.HeatTransfer.Interfaces;
 connector RadiosityInflow = input Real(min=0, final unit="W", nominal=419)
   "Connector for inflowing radiosity"
   annotation(defaultComponentName = "JIn", Icon(graphics={Polygon(

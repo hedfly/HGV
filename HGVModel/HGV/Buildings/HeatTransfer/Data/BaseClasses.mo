@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Data;
+within HGV.Buildings.HeatTransfer.Data;
 package BaseClasses "Base classes for package Data"
   extends Modelica.Icons.BasesPackage;
   record Material "Thermal properties of materials w/o storage"

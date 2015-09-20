@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous;
+within HGV.Buildings.Controls.Continuous;
 block LimPID
   "P, PI, PD, and PID controller with limited output, anti-windup compensation and setpoint weighting"
   extends Modelica.Blocks.Continuous.LimPID(

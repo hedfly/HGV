@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVCO2.BaseClasses;
+within HGV.Buildings.Examples.VAVCO2.BaseClasses;
 model Occupancy "Model for occupancy"
 
   Modelica.Blocks.Sources.CombiTimeTable office1(

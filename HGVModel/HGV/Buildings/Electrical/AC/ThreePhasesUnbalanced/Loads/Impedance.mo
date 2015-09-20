@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
 model Impedance
   "Model of a three-phase unbalanced impedance without neutral cable"
   extends BaseClasses.Impedance(

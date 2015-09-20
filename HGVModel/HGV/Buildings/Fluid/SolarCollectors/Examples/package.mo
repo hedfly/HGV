@@ -1,12 +1,6 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package Examples "Examples demonstrating the use of models in the SolarCollectors package"
   extends Modelica.Icons.ExamplesPackage;
-
-
-
-
-
-
 
 
 
@@ -16,5 +10,4 @@ package Examples "Examples demonstrating the use of models in the SolarCollector
       the SolarCollectors package.
     </p>
   </html>"));
-
 end Examples;

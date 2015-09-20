@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.BaseClasses;
+within HGV.Buildings.Fluid.Actuators.BaseClasses;
 partial model PartialTwoWayValveKv
   "Partial model for a two way valve using a Kv characteristic"
   extends Buildings.Fluid.Actuators.BaseClasses.PartialTwoWayValve;

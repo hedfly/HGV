@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity.BaseClasses;
+within HGV.Buildings.HeatTransfer.Radiosity.BaseClasses;
 model ParametersTwoSurfaces
   "Parameters that are used to model two surfaces with the same area"
   parameter Modelica.SIunits.Emissivity absIR_a

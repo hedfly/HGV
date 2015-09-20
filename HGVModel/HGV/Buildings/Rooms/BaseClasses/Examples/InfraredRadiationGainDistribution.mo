@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 model InfraredRadiationGainDistribution
   "Test model for infrared radiation gain"
   extends Modelica.Icons.Example;

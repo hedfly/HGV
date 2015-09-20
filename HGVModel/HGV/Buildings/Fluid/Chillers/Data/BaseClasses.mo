@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers.Data;
+within HGV.Buildings.Fluid.Chillers.Data;
 package BaseClasses "Base classes for package Data"
   extends Modelica.Fluid.Icons.BaseClassLibrary;
 

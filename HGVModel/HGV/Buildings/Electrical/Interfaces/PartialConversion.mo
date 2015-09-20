@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model PartialConversion
   "Model representing a generic two port system for conversion"
   extends Buildings.Electrical.Interfaces.PartialTwoPort;

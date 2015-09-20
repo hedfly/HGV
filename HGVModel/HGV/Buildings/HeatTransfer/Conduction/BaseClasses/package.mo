@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction;
+within HGV.Buildings.HeatTransfer.Conduction;
 package BaseClasses "Package with base classes for Buildings.HeatTransfer.Conduction"
   extends Modelica.Icons.BasesPackage;
 

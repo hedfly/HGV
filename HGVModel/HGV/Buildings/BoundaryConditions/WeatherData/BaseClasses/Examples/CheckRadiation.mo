@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model CheckRadiation "Test model for CheckRadiation"
   extends
     Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples.ConvertRadiation;

@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.Validation;
+within HGV.Buildings.Controls.Predictors.Validation;
 model LinearInput
   "Demand response client with actual power consumption being linear in the temperature"
   extends

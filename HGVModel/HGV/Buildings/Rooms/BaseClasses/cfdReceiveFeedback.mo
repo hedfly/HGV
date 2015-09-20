@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 function cfdReceiveFeedback "Receive the feedback from CFD"
   output Integer retVal
     "Return value of the function (0 indicates CFD successfully stopped.)";

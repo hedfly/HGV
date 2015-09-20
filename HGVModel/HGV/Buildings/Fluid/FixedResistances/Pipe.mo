@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances;
+within HGV.Buildings.Fluid.FixedResistances;
 model Pipe "Pipe with finite volume discretization along flow path"
   extends Buildings.Fluid.FixedResistances.BaseClasses.Pipe(
    diameter=sqrt(4*m_flow_nominal/rho_default/v_nominal/Modelica.Constants.pi),

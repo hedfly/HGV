@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines.Examples;
 model ACSimpleGrid "Test model for a network model"
   extends Modelica.Icons.Example;
   Network network(

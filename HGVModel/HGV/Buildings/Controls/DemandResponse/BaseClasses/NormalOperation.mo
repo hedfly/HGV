@@ -1,4 +1,4 @@
-within Buildings.Controls.DemandResponse.BaseClasses;
+within HGV.Buildings.Controls.DemandResponse.BaseClasses;
 block NormalOperation "Normal operation"
   extends Modelica.StateGraph.StepWithSignal;
   Modelica.Blocks.Interfaces.RealInput PCon(unit="W")

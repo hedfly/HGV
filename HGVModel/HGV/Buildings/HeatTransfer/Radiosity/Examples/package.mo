@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

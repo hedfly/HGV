@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers.BaseClasses;
+within HGV.Buildings.Fluid.Chillers.BaseClasses;
 partial model PartialElectric
   "Partial model for electric chiller based on the model in DOE-2, CoolTools and EnergyPlus"
   extends Buildings.Fluid.Interfaces.FourPortHeatMassExchanger(
@@ -55,7 +55,8 @@ protected
   // Performance data
   parameter Modelica.SIunits.HeatFlowRate QEva_flow_nominal(max=0)
     "Reference capacity (negative number)";
-  parameter Real COP_nominal(min=0, unit="1") "Reference coefficient of performance";
+  parameter Real COP_nominal(min=0, unit="1")
+    "Reference coefficient of performance";
   parameter Real PLRMax(min=0, unit="1") "Maximum part load ratio";
   parameter Real PLRMinUnl(min=0, unit="1") "Minimum part unload ratio";
   parameter Real PLRMin(min=0, unit="1") "Minimum part load ratio";

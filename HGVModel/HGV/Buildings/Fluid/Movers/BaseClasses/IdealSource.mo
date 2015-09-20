@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 model IdealSource
   "Base class for pressure and mass flow source with optional power input"
   extends Buildings.Fluid.Interfaces.PartialTwoPortTransport(show_T=false);

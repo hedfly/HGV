@@ -1,4 +1,4 @@
-within Buildings.Utilities.Diagnostics;
+within HGV.Buildings.Utilities.Diagnostics;
 block AssertEquality "Assert when condition is violated"
   extends BaseClasses.PartialInputCheck(message = "Inputs differ by more than threShold");
 equation

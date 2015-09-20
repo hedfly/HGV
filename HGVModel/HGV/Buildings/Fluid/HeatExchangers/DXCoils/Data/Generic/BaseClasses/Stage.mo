@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses;
 record Stage "Generic data record for a stage of a DX coil"
   extends Modelica.Icons.Record;
 

@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 partial model TwoWayFlowElementBuoyancy
   "Flow resistance that uses the power law"
   extends Buildings.Airflow.Multizone.BaseClasses.TwoWayFlowElement;

@@ -1,4 +1,4 @@
-within Buildings.Controls.SetPoints;
+within HGV.Buildings.Controls.SetPoints;
 block HotWaterTemperatureReset
   "Block to compute the supply and return set point of heating systems"
   extends Modelica.Blocks.Icons.Block;

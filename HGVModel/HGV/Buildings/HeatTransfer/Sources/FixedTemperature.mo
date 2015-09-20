@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Sources;
+within HGV.Buildings.HeatTransfer.Sources;
 model FixedTemperature "Fixed temperature boundary condition in Kelvin"
 
   parameter Modelica.SIunits.Temperature T "Fixed temperature at port";

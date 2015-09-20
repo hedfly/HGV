@@ -1,4 +1,4 @@
-within Buildings.Electrical.Examples;
+within HGV.Buildings.Electrical.Examples;
 model RenewableSources
   "Example model that shows the impact of renewable sources on the electrical grid"
   extends Modelica.Icons.Example;

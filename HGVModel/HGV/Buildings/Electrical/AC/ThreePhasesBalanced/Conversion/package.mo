@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced;
 package Conversion "Package with transformers and converter models for three-phase balanced AC systems"
   extends Modelica.Icons.Package;
 

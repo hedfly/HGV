@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 package Examples "Test of components"
 extends Modelica.Icons.ExamplesPackage;
 

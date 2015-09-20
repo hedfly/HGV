@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.TestConditionalConstructions;
+within HGV.Buildings.Rooms.Examples.TestConditionalConstructions;
 package BaseClasses "Package with base classes for Buildings.Rooms.Examples.TestConditionalConstructions"
   extends Modelica.Icons.BasesPackage;
 

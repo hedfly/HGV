@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block IntegerReplicator "Integer signal replicator"
   extends Modelica.Blocks.Icons.IntegerBlock;
   parameter Integer nout=1 "Number of outputs";

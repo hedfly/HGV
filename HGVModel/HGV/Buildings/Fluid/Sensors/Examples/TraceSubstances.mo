@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Examples;
+within HGV.Buildings.Fluid.Sensors.Examples;
 model TraceSubstances "Test model for the extra property sensor"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Air(extraPropertiesNames={"CO2"})
@@ -52,8 +52,6 @@ model TraceSubstances "Test model for the extra property sensor"
     redeclare package Medium = Medium,
     m_flow_nominal=m_flow_nominal) "Sensor at exhaust air"
     annotation (Placement(transformation(extent={{50,-62},{30,-42}})));
-
-
 
   FixedResistances.FixedResistanceDpM res(
     redeclare package Medium = Medium,

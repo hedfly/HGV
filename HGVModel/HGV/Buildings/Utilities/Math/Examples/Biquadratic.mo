@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model Biquadratic "Test model for biquadratic function"
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Ramp x1(duration=1)

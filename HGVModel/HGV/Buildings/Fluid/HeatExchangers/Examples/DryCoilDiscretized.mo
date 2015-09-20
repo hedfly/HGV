@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model DryCoilDiscretized
   "Model that demonstrates use of a finite volume model of a heat exchanger without condensation"
   extends Modelica.Icons.Example;

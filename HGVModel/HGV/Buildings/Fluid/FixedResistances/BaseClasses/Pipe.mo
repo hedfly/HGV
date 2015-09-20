@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances.BaseClasses;
+within HGV.Buildings.Fluid.FixedResistances.BaseClasses;
 model Pipe
   "Model of a pipe with finite volume discretization along the flow path"
   extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations;

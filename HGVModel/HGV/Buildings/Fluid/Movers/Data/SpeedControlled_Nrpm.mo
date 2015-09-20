@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Data;
+within HGV.Buildings.Fluid.Movers.Data;
 record SpeedControlled_Nrpm "Generic data record for FlowMachine_Nrpm"
   extends SpeedControlled_y;
 

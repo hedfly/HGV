@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces;
 model WyeToDelta "This model represent a connection between wye to delta"
 
   Terminal_n wye "Terminal Y" annotation (Placement(transformation(extent={{-110,-10},{-90,10}}),

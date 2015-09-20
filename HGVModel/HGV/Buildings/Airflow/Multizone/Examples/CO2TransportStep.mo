@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model CO2TransportStep "Model that transport CO2 through buoyancy driven flow"
   extends Buildings.Airflow.Multizone.Validation.ThreeRoomsContam(
     volWes(nPorts=5),

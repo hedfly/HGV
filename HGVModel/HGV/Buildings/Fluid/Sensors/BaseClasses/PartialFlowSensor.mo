@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.BaseClasses;
+within HGV.Buildings.Fluid.Sensors.BaseClasses;
 partial model PartialFlowSensor
   "Partial component to model sensors that measure flow properties"
   extends Buildings.Fluid.Interfaces.PartialTwoPort;

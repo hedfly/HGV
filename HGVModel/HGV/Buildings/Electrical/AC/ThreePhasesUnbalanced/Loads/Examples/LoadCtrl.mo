@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.Examples;
 model LoadCtrl
   extends Modelica.Icons.Example;
   Sources.FixedVoltage_N sou(f=60, V=480) "Voltage source"

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 function X_pW "Humidity ratio for given water vapor pressure"
   extends Modelica.Icons.Function;
   input Modelica.SIunits.Pressure p_w(displayUnit="Pa",

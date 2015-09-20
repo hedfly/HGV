@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 block TrimAndRespondContinuousTimeApproximation "Trim and respond logic"
   extends Modelica.Blocks.Interfaces.SISO;
 

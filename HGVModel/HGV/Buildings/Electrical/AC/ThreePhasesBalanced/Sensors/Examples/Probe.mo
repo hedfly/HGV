@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sensors.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sensors.Examples;
 model Probe "This example illustrates how to use the probe model"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.ThreePhasesBalanced.Loads.Capacitive loaRC(

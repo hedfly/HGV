@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions;
+within HGV.Buildings.BoundaryConditions;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
 annotation (preferredView="info",

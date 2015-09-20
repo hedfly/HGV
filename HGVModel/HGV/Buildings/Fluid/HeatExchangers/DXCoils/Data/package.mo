@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils;
 package Data "Package with performance data for DX cooling coil"
   extends Modelica.Icons.MaterialPropertiesPackage;
 

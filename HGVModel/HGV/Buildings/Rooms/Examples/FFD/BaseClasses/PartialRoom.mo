@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD.BaseClasses;
+within HGV.Buildings.Rooms.Examples.FFD.BaseClasses;
 partial model PartialRoom "Partial model for a room"
   package MediumA = Buildings.Media.Air (
         T_default=283.15) "Medium model";

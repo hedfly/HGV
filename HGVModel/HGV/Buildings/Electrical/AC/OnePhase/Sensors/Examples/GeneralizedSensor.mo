@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sensors.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Sensors.Examples;
 model GeneralizedSensor
   "This example illustrates how to use the generalized sensor model"
   extends Modelica.Icons.Example;

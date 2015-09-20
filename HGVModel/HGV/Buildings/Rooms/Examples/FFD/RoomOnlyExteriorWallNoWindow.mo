@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 model RoomOnlyExteriorWallNoWindow
   "Natural convection in an empty room with only exterior walls without windows."
   extends Modelica.Icons.Example;

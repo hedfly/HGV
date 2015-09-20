@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Examples;
 model VariableSpeed "Test model for variable speed DX coil"
   package Medium = Buildings.Media.Air;
   extends Modelica.Icons.Example;

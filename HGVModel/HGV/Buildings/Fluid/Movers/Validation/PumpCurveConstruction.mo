@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model PumpCurveConstruction
   "Validation model that tests that the pump curve is properly extrapolated to V=0 and dp=0"
   extends Modelica.Icons.Example;

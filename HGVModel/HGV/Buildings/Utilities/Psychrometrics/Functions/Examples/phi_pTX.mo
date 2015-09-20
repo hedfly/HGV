@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.Examples;
 model phi_pTX "Model to test phi_pTX"
   extends Modelica.Icons.Example;
 

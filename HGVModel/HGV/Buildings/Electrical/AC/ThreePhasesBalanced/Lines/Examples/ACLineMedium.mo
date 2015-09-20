@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
 model ACLineMedium
   "Test model for a single phase line that uses medium voltage commercial cable information "
   extends Modelica.Icons.Example;

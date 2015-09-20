@@ -1,4 +1,4 @@
-within Buildings.Media.Examples;
+within HGV.Buildings.Media.Examples;
 model WaterDerivativeCheck "Model that tests the derivative implementation"
   extends Modelica.Icons.Example;
 

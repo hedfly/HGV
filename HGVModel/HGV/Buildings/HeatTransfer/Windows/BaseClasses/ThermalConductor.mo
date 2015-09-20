@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model ThermalConductor
   "Lumped thermal element with variable area, transporting heat without storing it"
   extends Modelica.Thermal.HeatTransfer.Interfaces.Element1D;

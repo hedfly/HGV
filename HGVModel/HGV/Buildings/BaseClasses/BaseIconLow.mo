@@ -1,4 +1,4 @@
-within Buildings.BaseClasses;
+within HGV.Buildings.BaseClasses;
 block BaseIconLow "Base icon with model name below the icon"
 
   annotation (Icon(graphics={Text(

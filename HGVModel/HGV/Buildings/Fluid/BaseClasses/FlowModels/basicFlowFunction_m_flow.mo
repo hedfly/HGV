@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses.FlowModels;
+within HGV.Buildings.Fluid.BaseClasses.FlowModels;
 function basicFlowFunction_m_flow "Basic class for flow models"
 
   input Modelica.SIunits.MassFlowRate m_flow

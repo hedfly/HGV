@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
 block SkyBrightness "Sky brightness"
   extends Modelica.Blocks.Icons.Block;
 public

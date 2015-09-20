@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers;
+within HGV.Buildings.Fluid.Movers;
 model SpeedControlled_y
   "Fan or pump with ideally controlled normalized speed y as input signal"
   extends Buildings.Fluid.Movers.BaseClasses.SpeedControlled(

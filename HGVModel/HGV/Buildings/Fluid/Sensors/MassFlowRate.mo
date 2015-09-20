@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model MassFlowRate "Ideal sensor for mass flow rate"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialFlowSensor(
     final m_flow_nominal = 0,

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces.Examples;
+within HGV.Buildings.Fluid.Interfaces.Examples;
 model ReverseFlowMassExchanger
   "Model that tests the reverse flow for a mass exchanger"
   extends Modelica.Icons.Example;

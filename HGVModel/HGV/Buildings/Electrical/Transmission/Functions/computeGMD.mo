@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Functions;
+within HGV.Buildings.Electrical.Transmission.Functions;
 function computeGMD
   "This function computes the geometric mean distance of a three-phase transmission line"
   input Modelica.SIunits.Length d1 "Distance between conductors";

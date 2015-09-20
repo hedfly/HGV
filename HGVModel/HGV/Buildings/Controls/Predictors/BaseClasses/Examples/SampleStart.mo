@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.BaseClasses.Examples;
+within HGV.Buildings.Controls.Predictors.BaseClasses.Examples;
 model SampleStart "Test model for sampleStart function"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Time tSimSta[21] = {i for i in -10:10}

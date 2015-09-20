@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Examples;
 model HumidityRatioPressure "Unit test for humidity ratio model"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Air "Medium model"

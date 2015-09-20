@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses.FlowModels;
+within HGV.Buildings.Fluid.BaseClasses.FlowModels;
 function basicFlowFunction_dp "Basic class for flow models"
 
   input Modelica.SIunits.Pressure dp(displayUnit="Pa")

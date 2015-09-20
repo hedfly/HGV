@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources;
+within HGV.Buildings.Electrical.DC.Sources;
 package BaseClasses "Package with base classes for DC sources"
   extends Modelica.Icons.BasesPackage;
 

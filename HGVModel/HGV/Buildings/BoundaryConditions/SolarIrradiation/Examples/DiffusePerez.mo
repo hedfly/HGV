@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.Examples;
 model DiffusePerez
   "Test model for diffuse solar irradiation on a tilted surface using the Perez model"
   extends Modelica.Icons.Example;

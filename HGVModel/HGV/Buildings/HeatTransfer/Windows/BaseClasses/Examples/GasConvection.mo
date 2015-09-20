@@ -1,12 +1,11 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model GasConvection "Test problem for convection in the gas layer"
   extends Modelica.Icons.Example;
   Buildings.HeatTransfer.Windows.BaseClasses.GasConvection conVer(
     A=1,
     linearize=false,
     gas=Buildings.HeatTransfer.Data.Gases.Air(x=0.1),
-    til=Buildings.Types.Tilt.Wall)
-    "Model for gas convection in vertical gap"
+    til=Buildings.Types.Tilt.Wall) "Model for gas convection in vertical gap"
     annotation (Placement(transformation(extent={{0,20},{20,40}})));
   Modelica.Blocks.Sources.Ramp TBC(
     duration=1,

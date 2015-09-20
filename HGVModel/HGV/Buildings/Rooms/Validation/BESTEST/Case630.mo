@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case630 "Case 620, but with added overhang and sidefins"
   extends Buildings.Rooms.Validation.BESTEST.Case620(
   roo(

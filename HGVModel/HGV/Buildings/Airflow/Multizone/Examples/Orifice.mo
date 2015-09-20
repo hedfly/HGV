@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model Orifice "Model with an orifice"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air;

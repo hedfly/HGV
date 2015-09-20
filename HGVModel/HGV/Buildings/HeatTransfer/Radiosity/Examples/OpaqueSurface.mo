@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity.Examples;
+within HGV.Buildings.HeatTransfer.Radiosity.Examples;
 model OpaqueSurface "Test model for indoor source as an opaque surface"
   extends Modelica.Icons.Example;
 

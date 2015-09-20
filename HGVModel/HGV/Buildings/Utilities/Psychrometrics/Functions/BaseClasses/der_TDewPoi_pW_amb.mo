@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
 function der_TDewPoi_pW_amb "Derivative of function TDewPoi_pW_amb"
   extends Modelica.Icons.Function;
 

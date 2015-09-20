@@ -1,4 +1,4 @@
-within Buildings.Controls.SetPoints.Examples;
+within HGV.Buildings.Controls.SetPoints.Examples;
 model Table "Test model for table that determines set points"
   extends Modelica.Icons.Example;
   Buildings.Controls.SetPoints.Table tabConExt(table=[20,0; 22,0.5; 25,0.5; 26,1])

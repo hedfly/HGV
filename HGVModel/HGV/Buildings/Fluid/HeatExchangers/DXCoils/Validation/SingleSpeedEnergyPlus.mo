@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Validation;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Validation;
 model SingleSpeedEnergyPlus
   "Validation model for single speed DX coil with PLR=1"
   package Medium = Buildings.Media.Air;

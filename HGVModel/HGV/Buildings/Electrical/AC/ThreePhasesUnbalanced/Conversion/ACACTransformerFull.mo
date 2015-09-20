@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
 model ACACTransformerFull "AC AC transformer detailed equivalent circuit (YY)"
   extends
     Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses.PartialConverterYY(

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.Examples;
 model pW_X "Model to test pW_X and its inverse function"
   extends Modelica.Icons.Example;
 

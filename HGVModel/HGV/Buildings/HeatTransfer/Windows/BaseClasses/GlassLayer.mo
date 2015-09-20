@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model GlassLayer "Model for a glass layer of a window assembly"
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.RadiosityTwoSurfaces;
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.ParametersTwoSurfaces(

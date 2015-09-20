@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 package BaseClasses "Package with base classes for Buildings.HeatTransfer.Windows.Functions"
   extends Modelica.Icons.BasesPackage;
 

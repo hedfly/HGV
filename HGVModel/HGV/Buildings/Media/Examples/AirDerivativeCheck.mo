@@ -1,4 +1,4 @@
-within Buildings.Media.Examples;
+within HGV.Buildings.Media.Examples;
 model AirDerivativeCheck "Model that tests the derivative implementation"
   extends Modelica.Icons.Example;
 

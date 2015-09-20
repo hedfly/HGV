@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers;
+within HGV.Buildings.Fluid.Chillers;
 model ElectricEIR "Electric chiller based on the DOE-2.1 model"
   extends Buildings.Fluid.Chillers.BaseClasses.PartialElectric(
   final QEva_flow_nominal = per.QEva_flow_nominal,

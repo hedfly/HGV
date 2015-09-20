@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Math.Functions.BaseClasses;
 function der_polynomial "Derivative for polynomial function"
     input Real x;
     input Real a[:];

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Loads;
 model Impedance "Model of a resistive load"
   extends Buildings.Electrical.Interfaces.Impedance(
     redeclare package PhaseSystem = PhaseSystems.OnePhase,

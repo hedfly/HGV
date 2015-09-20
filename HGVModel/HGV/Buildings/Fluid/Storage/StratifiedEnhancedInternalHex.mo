@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage;
+within HGV.Buildings.Fluid.Storage;
 model StratifiedEnhancedInternalHex
   "A model of a water storage tank with a secondary loop and intenral heat exchanger"
   extends StratifiedEnhanced;

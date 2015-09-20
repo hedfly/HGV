@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sensors;
+within HGV.Buildings.Electrical.AC.OnePhase.Sensors;
 model GeneralizedSensor "Sensor for power, voltage and current"
   extends Buildings.Electrical.Icons.GeneralizedSensor;
   extends Buildings.Electrical.Interfaces.PartialTwoPort(

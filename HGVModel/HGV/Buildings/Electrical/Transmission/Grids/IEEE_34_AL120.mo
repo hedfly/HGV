@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Grids;
+within HGV.Buildings.Electrical.Transmission.Grids;
 record IEEE_34_AL120 "Grid model inspired to the IEEE 34 Node test feeder"
   extends Buildings.Electrical.Transmission.Grids.PartialGrid(
     nNodes=34,

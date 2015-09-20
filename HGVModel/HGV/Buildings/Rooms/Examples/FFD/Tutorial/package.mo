@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 package Tutorial "Tutorial with step by step instructions for how to do coupled simulation"
   extends Modelica.Icons.Information;
 

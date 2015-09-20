@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs;
 package Types "Package with type definitions"
 
   type HeatTransfer = enumeration(

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 model TrapezoidalIntegration "Integration using the trapezoidal rule"
   extends Modelica.Blocks.Interfaces.MISO;
   parameter Integer N "Number of integrand points";

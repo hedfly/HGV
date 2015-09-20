@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses.Examples;
 model DewPointTemperatureDerivativeCheck
   "Model to test correct implementation of derivative"
   extends Modelica.Icons.Example;
@@ -12,7 +12,7 @@ equation
     x=Buildings.Utilities.Psychrometrics.Functions.pW_TDewPoi(  T=time*uniCon);
     der(y)=der(x);
     assert(abs(x-y) < 1E-2, "Model has an error");
-   annotation(                       __Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Utilities/Psychrometrics/Functions/BaseClasses/Examples/DewPointTemperatureDerivativeCheck.mos"
+   annotation (                      __Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Utilities/Psychrometrics/Functions/BaseClasses/Examples/DewPointTemperatureDerivativeCheck.mos"
         "Simulate and plot"),
       experiment(
         StartTime=273.15,

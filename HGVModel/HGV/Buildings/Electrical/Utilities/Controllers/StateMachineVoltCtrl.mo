@@ -1,4 +1,4 @@
-within Buildings.Electrical.Utilities.Controllers;
+within HGV.Buildings.Electrical.Utilities.Controllers;
 model StateMachineVoltCtrl "This model represents a simple voltage controller that unplug a load when
   there is a voltage fluctuation higher that a given threshold."
   Modelica.Blocks.Interfaces.RealInput V "Voltage of the node to be controlled";

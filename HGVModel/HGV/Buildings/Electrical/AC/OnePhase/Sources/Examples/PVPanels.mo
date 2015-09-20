@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sources.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Sources.Examples;
 model PVPanels "This example illustrates how to use PV panel models"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.OnePhase.Loads.Inductive RL(mode=Types.Load.VariableZ_y_input,

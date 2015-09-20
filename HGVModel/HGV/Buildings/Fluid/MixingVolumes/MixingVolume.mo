@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes;
+within HGV.Buildings.Fluid.MixingVolumes;
 model MixingVolume
   "Mixing volume with inlet and outlet ports (flow reversal is allowed)"
   extends Buildings.Fluid.MixingVolumes.BaseClasses.PartialMixingVolume;

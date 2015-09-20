@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 block PreCoolingStarter "Outputs true when precooling should start"
   extends Modelica.Blocks.Interfaces.BooleanSignalSource;
   parameter Modelica.SIunits.Temperature TOutLim = 286.15

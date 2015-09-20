@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.Examples;
 model Loads "This model tests the load models without neutral cable connection"
   extends Modelica.Icons.Example;
   Sources.FixedVoltage sou(definiteReference=true,

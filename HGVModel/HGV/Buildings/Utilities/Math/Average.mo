@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block Average "Average of a vector"
   extends Modelica.Blocks.Interfaces.MISO;
 equation

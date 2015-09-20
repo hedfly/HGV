@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines.Examples;
+within HGV.Buildings.Electrical.DC.Lines.Examples;
 model Resistance "Example model to test for the DC resistance two port model"
   extends Modelica.Icons.Example;
 

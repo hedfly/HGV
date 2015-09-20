@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block CoolingCapacity
   "Calculates cooling capacity at given temperature and flow fraction"
   extends Modelica.Blocks.Icons.Block;

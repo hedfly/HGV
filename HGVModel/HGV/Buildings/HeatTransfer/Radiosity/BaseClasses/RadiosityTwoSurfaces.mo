@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity.BaseClasses;
+within HGV.Buildings.HeatTransfer.Radiosity.BaseClasses;
 partial block RadiosityTwoSurfaces
   "Model for the radiosity balance of a device with two surfaces"
   extends Buildings.BaseClasses.BaseIcon;

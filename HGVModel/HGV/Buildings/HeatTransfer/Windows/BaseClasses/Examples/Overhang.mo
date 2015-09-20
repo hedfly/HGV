@@ -1,11 +1,10 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model Overhang "Test model for the overhang"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.IncidenceAngle incAng(
     lat=weaDat.lat,
     azi=Buildings.Types.Azimuth.S,
-    til=Buildings.Types.Tilt.Wall)
-    "Solar incidence angle on a tilted surface"
+    til=Buildings.Types.Tilt.Wall) "Solar incidence angle on a tilted surface"
     annotation (Placement(transformation(extent={{-40,0},{-20,20}})));
   Buildings.BoundaryConditions.WeatherData.ReaderTMY3 weaDat(filNam="modelica://Buildings/Resources/weatherdata/USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.mos")
     "Weather data"

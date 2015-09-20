@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 partial record RadiationBaseData
   "Basic parameters for window radiation calculation"
 

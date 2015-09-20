@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
 model ChillerSwitch "Test model for ChillerSwitch"
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Sine TSet(

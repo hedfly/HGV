@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.Examples;
 model Impedances
   "This model tests three-phase unbalanced impedances with and without neutral cable"
   extends Modelica.Icons.Example;

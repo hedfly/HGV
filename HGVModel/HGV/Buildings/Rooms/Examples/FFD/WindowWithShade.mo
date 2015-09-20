@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 model WindowWithShade
   "Natural convection in an empty room with exterior walls, windows and shades"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sensors;
 model Probe "Model of a probe that measures RMS voltage and angle"
   extends OnePhase.Sensors.Probe(
   redeclare Buildings.Electrical.AC.ThreePhasesBalanced.Interfaces.Terminal_n term,

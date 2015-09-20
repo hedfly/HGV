@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Examples;
 model MassFraction_pTphi "Unit test for dew point temperature calculation"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case600 "Case 600FF, but with dual-setpoint for heating and cooling"
   extends Case600FF(
     redeclare Buildings.Rooms.Validation.BESTEST.Data.StandardResults staRes(

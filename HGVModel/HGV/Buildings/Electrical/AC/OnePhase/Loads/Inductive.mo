@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads;
 model Inductive "Model of an inductive and resistive load"
   extends Buildings.Electrical.Interfaces.InductiveLoad(
     redeclare package PhaseSystem = PhaseSystems.OnePhase,

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses;
 record NominalValues "Data record of nominal values"
   extends Modelica.Icons.Record;
 

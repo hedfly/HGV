@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves.Examples;
+within HGV.Buildings.Fluid.Actuators.Valves.Examples;
 model TwoWayValvesMotor
   "Two way valves with different opening characteristics and motor"
   extends Modelica.Icons.Example;

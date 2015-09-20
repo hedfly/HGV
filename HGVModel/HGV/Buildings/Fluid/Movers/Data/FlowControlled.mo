@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Data;
+within HGV.Buildings.Fluid.Movers.Data;
 record FlowControlled
   "Generic data record for pumps and fans with prescribed m_flow or dp"
   extends Modelica.Icons.Record;

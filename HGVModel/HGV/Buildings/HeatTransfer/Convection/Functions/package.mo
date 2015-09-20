@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection;
+within HGV.Buildings.HeatTransfer.Convection;
 package Functions "Functions for convective heat transfer"
   annotation (Documentation(revisions="<html>
 <ul>

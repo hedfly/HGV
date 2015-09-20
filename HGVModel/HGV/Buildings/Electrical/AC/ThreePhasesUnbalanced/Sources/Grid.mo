@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
 model Grid "Electrical grid"
   parameter Modelica.SIunits.Frequency f(start = 60) "Frequency of the source";
   parameter Modelica.SIunits.Voltage V(start = 480) "RMS voltage of the source";

@@ -1,6 +1,7 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

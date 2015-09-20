@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Examples;
+within HGV.Buildings.HeatTransfer.Windows.Examples;
 model FixedShade "Test model for the fixed shade model"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
 model ExchangeValues "Test problem for the function that exchanges values"
  extends Modelica.Icons.Example;
   parameter Real x = 3;
@@ -27,7 +27,7 @@ algorithm
                        table=table, iX=10, x=6*x, iY=1);
   assert(abs(y-3) < 1E-10, "Error in implementation of exchangeVaules.");
 
-annotation(
+annotation (
 experiment(StopTime=1),
 __Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Fluid/HeatExchangers/Boreholes/BaseClasses/Examples/ExchangeValues.mos"
         "Simulate"),

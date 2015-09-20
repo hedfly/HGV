@@ -1,4 +1,4 @@
-within Buildings.Utilities.Time;
+within HGV.Buildings.Utilities.Time;
 block ModelTime "Model time"
   extends Modelica.Blocks.Interfaces.SO;
 equation

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model PipeManifoldFixedResistance
   "Pipe manifold for a heat exchanger connection"
   extends PartialPipeManifold;

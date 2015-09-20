@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block Splice "Block for splice function opertation"
   extends Modelica.Blocks.Icons.Block;
 

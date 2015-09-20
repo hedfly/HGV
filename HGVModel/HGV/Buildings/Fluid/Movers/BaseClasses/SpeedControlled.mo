@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 partial model SpeedControlled
   "Partial model for fan or pump with speed (y or Nrpm) as input signal"
   extends Buildings.Fluid.Movers.BaseClasses.PartialFlowMachine(

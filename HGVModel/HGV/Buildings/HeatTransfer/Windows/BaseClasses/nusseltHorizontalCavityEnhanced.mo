@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 function nusseltHorizontalCavityEnhanced
   "Nusselt number for horizontal cavity, bottom surface warmer than top surface"
   input Buildings.HeatTransfer.Data.Gases.Generic gas

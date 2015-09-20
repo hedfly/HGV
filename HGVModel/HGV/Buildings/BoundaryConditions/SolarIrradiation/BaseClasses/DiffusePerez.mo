@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
 block DiffusePerez
   "Hemispherical diffuse irradiation on a tilted surface with Perez's anisotropic model"
   extends Modelica.Blocks.Icons.Block;

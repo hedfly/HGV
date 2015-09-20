@@ -1,6 +1,7 @@
-within Buildings.HeatTransfer;
+within HGV.Buildings.HeatTransfer;
 package Sources "Thermal sources"
 extends Modelica.Icons.SourcesPackage;
+
 
   annotation (   Documentation(info="<html>
 This package is identical to

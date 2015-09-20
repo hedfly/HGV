@@ -1,4 +1,4 @@
-within Buildings.Utilities;
+within HGV.Buildings.Utilities;
 package Time "Package with models for time"
   extends Modelica.Icons.Package;
 

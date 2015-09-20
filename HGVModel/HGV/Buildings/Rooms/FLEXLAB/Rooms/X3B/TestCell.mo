@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Rooms.X3B;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms.X3B;
 model TestCell "Model of LBNL User Test Facility Cell X3A"
   extends Buildings.Rooms.MixedAir(AFlo=60.97,
       nSurBou=4,

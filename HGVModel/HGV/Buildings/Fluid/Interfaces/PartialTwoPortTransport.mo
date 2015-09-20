@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 partial model PartialTwoPortTransport
   "Partial element transporting fluid between two ports without storage of mass or energy"
   extends Buildings.Fluid.Interfaces.PartialTwoPort(

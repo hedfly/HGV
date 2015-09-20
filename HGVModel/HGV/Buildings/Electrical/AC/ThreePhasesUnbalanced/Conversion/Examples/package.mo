@@ -1,7 +1,6 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
 package Examples "Package with example models"
   extends Modelica.Icons.ExamplesPackage;
-
 
 
   annotation (Documentation(info="<html>

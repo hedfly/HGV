@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Controls.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.Controls.BaseClasses;
 model GCritCalc "Model calculating the critical insolation level"
 
   extends Modelica.Blocks.Icons.Block;

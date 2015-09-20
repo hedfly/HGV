@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block SmoothHeaviside
   "Once continuously differentiable approximation to the Heaviside function"
   extends Modelica.Blocks.Interfaces.SISO;

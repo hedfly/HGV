@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model DuctManifoldFlowDistributor
   "Manifold for duct inlet that distributes the mass flow rate equally"
   extends PartialDuctManifold;

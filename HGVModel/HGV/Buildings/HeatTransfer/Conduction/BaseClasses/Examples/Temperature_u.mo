@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Conduction.BaseClasses.Examples;
 model Temperature_u
   "Approximation of specific internal energy versus temperature curve with cubic hermite cubic spline"
   extends Modelica.Icons.Example;

@@ -1,7 +1,5 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Examples;
 package PerformanceCurves "Package with sevral performance curves"
-
-
 
 
   annotation (Documentation(info="<html>

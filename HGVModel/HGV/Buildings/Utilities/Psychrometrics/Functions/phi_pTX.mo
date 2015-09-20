@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 function phi_pTX
   "Relative humidity for given pressure, dry bulb temperature and moisture mass fraction"
   extends Modelica.Icons.Function;

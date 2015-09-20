@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.Examples;
 model X_pSatpphi "Model to test X_pSatpphi function"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air "Medium model"

@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model ConvertRadiation "Test model for ConvertRadiation"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.WeatherData.BaseClasses.ConvertRadiation

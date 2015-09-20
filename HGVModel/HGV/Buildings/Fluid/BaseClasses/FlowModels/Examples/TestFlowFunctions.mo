@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses.FlowModels.Examples;
+within HGV.Buildings.Fluid.BaseClasses.FlowModels.Examples;
 model TestFlowFunctions "Test model for flow functions"
   extends Modelica.Icons.Example;
  Modelica.SIunits.MassFlowRate m1_flow;

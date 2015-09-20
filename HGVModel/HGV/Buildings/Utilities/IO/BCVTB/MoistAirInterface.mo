@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB;
+within HGV.Buildings.Utilities.IO.BCVTB;
 model MoistAirInterface
   "Fluid interface that can be coupled to BCVTB for medium that model the air humidity"
   extends Buildings.Utilities.IO.BCVTB.BaseClasses.FluidInterface(bou(

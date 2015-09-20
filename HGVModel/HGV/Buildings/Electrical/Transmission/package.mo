@@ -1,4 +1,4 @@
-within Buildings.Electrical;
+within HGV.Buildings.Electrical;
 package Transmission "Package with models for transmission lines"
   extends Modelica.Icons.Package;
 

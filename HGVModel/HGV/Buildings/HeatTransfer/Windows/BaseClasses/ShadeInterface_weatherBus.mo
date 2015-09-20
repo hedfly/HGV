@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 partial model ShadeInterface_weatherBus
   "Base class for models of window shade and overhangs"
   extends Modelica.Blocks.Icons.Block;

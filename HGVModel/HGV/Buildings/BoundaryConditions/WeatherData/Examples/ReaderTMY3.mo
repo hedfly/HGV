@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.Examples;
 model ReaderTMY3 "Test model for reading weather data"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.WeatherData.ReaderTMY3 weaDat(

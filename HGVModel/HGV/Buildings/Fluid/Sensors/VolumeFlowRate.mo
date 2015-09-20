@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model VolumeFlowRate "Ideal sensor for volume flow rate"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialDynamicFlowSensor;
   extends Modelica.Icons.RotationalSensor;

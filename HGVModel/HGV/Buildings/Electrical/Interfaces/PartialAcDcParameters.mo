@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 record PartialAcDcParameters
   "Partial model that contains basic parameters for a DC/AC conversion system"
   parameter Real pf(min=0, max=1) = 0.9 "Power factor"

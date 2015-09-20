@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model SideFins "Test model for side fins"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.ZenithAngle zen(lat=0.73129295658562)

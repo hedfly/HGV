@@ -1,4 +1,4 @@
-within Buildings.Electrical;
+within HGV.Buildings.Electrical;
 package Utilities "Package with models and functions that are used by other models"
   extends Modelica.Icons.Package;
 

@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized;
+within HGV.Buildings.Media.Specialized;
 package Water "Specialized implementation of water"
   extends Modelica.Icons.Package;
 

@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckWindDirection "Constrains the wind direction to [0, 2*pi] degree"
   extends Modelica.Blocks.Icons.Block;
 public

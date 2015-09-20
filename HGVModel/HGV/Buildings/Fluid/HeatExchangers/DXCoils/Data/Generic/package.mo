@@ -1,6 +1,7 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Data;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Data;
 package Generic "Package with generic performance curves"
   extends Modelica.Icons.MaterialPropertiesPackage;
+
 
   annotation (Documentation(info="<html>
 <p>

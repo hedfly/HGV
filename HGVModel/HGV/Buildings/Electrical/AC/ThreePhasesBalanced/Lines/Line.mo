@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
 model Line "Model of an electrical line"
   extends Buildings.Electrical.AC.OnePhase.Lines.Line(
     redeclare Interfaces.Terminal_n terminal_n,

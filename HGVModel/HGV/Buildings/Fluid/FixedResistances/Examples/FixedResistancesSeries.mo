@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances.Examples;
+within HGV.Buildings.Fluid.FixedResistances.Examples;
 model FixedResistancesSeries "Test of multiple resistances in series"
   extends Modelica.Icons.Example;
 

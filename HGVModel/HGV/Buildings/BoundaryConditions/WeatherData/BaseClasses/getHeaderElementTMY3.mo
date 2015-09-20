@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 function getHeaderElementTMY3
   "Gets an element from the header of a TMY3 weather data file"
  input String filNam "Name of weather data file"

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 partial model PartialShade_weatherBus
   "Partial model to implement overhang and side fins with weather bus connector"
   extends Buildings.HeatTransfer.Windows.BaseClasses.ShadeInterface_weatherBus;

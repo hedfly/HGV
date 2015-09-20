@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 partial model PartialDuctPipeManifold
   "Partial heat exchanger duct and pipe manifold"
   extends Buildings.BaseClasses.BaseIcon;

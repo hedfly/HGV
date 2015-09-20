@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers;
 model YorkCalc
   "Cooling tower with variable speed using the York calculation for the approach temperature"
   extends Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses.CoolingTower;

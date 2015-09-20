@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources;
+within HGV.Buildings.Fluid.Sources;
 model MassFlowSource_h
   "Ideal flow source that produces a prescribed mass flow with prescribed specific enthalpy, mass fraction and trace substances"
   extends Modelica.Fluid.Sources.BaseClasses.PartialSource;

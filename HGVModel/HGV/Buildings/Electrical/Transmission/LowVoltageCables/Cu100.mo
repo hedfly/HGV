@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.LowVoltageCables;
+within HGV.Buildings.Electrical.Transmission.LowVoltageCables;
 record Cu100 "Cu cable 100 mm^2"
   extends Buildings.Electrical.Transmission.LowVoltageCables.Generic(
     material=Types.Material.Cu,

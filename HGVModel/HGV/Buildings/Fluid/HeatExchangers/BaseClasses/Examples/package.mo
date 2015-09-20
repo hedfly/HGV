@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

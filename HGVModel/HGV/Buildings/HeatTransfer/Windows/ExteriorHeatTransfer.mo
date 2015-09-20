@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows;
+within HGV.Buildings.HeatTransfer.Windows;
 model ExteriorHeatTransfer
   "Model for heat convection and radiation at the exterior surface of a window that may have a shading device"
   extends BaseClasses.PartialWindowBoundaryCondition(final thisSideHasShade=haveExteriorShade);

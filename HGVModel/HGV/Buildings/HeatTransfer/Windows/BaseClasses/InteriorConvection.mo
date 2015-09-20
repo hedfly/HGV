@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model InteriorConvection
   "Model for a interior (room-side) convective heat transfer with variable surface area"
   extends Buildings.HeatTransfer.Convection.BaseClasses.PartialConvection;

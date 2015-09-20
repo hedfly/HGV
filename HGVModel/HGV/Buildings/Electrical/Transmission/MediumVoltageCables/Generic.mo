@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.MediumVoltageCables;
+within HGV.Buildings.Electrical.Transmission.MediumVoltageCables;
 record Generic "Data record for a generic medium voltage cable"
   extends Modelica.Icons.MaterialProperty;
   extends Buildings.Electrical.Transmission.BaseClasses.BaseCable;

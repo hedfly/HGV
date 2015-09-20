@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model WetCoilCounterFlowPControl
   "Model that demonstrates use of a heat exchanger with condensation and with feedback control"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces;
 connector Terminal4_p
   "Terminal P for AC three-phase unbalanced systems (neutral cable)"
   Buildings.Electrical.AC.OnePhase.Interfaces.Terminal_p phase[4];

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block TWetBul_TDryBulPhi
   "Model to compute the wet bulb temperature based on relative humidity"
   extends Modelica.Blocks.Icons.Block;

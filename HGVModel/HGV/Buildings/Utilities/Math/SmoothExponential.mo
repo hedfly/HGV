@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block SmoothExponential
   "Once continuously differentiable approximation to exp(-|x|) in interval |x| < delta"
   extends Modelica.Blocks.Interfaces.SISO;

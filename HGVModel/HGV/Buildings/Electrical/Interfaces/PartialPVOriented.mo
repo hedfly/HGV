@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model PartialPVOriented "Base model of a PV system with orientation"
   extends Buildings.Electrical.Interfaces.PartialPvBase;
 

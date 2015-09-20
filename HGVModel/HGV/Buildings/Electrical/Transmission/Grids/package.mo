@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission;
+within HGV.Buildings.Electrical.Transmission;
 package Grids "Package that contains different types of grids"
   extends Modelica.Icons.MaterialPropertiesPackage;
 

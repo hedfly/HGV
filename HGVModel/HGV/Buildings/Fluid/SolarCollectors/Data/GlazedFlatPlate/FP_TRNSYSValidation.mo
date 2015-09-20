@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Data.GlazedFlatPlate;
+within HGV.Buildings.Fluid.SolarCollectors.Data.GlazedFlatPlate;
 record FP_TRNSYSValidation =
     SolarCollectors.Data.GenericSolarCollector (
     ATyp=Types.Area.Gross,
@@ -17,7 +17,7 @@ record FP_TRNSYSValidation =
     G_nominal=800,
     dT_nominal=10)
   "Default values in the TRNSYS Simulation Studio SDHW example"
-    annotation(
+    annotation (
 defaultComponentPrefixes="parameter",
 defaultComponentName="datSolCol",
 Documentation(info="<html>

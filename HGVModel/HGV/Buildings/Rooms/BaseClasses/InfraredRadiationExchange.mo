@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model InfraredRadiationExchange
   "Infrared radiation heat exchange between the room facing surfaces"
   extends Buildings.Rooms.BaseClasses.PartialSurfaceInterfaceRadiative;

@@ -1,4 +1,4 @@
-within Buildings.Rooms;
+within HGV.Buildings.Rooms;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
 

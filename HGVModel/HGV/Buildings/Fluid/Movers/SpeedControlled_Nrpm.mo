@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers;
+within HGV.Buildings.Fluid.Movers;
 model SpeedControlled_Nrpm
   "Fan or pump with ideally controlled speed Nrpm as input signal"
   extends Buildings.Fluid.Movers.BaseClasses.SpeedControlled(

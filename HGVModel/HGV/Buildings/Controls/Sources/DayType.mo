@@ -1,4 +1,4 @@
-within Buildings.Controls.Sources;
+within HGV.Buildings.Controls.Sources;
 model DayType "Block that outputs a signal that indicates week-day or week-end"
   extends Modelica.Blocks.Icons.DiscreteBlock;
   parameter Integer nout = 2

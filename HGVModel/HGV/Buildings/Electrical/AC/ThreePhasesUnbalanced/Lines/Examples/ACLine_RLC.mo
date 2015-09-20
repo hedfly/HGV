@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
 model ACLine_RLC "Test model for a three-phase unbalanced RLC line"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Resistance RBase = 3*10

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.BaseClasses;
 partial model Impedance_N
   "Partial model of a three-phase unbalanced impedance with neutral cable"
   extends

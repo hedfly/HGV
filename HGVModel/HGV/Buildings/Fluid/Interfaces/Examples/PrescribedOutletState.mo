@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces.Examples;
+within HGV.Buildings.Fluid.Interfaces.Examples;
 model PrescribedOutletState "Test model for prescribed outlet state"
   extends Modelica.Icons.Example;
 

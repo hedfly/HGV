@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model CFDHeatGain "Model to convert internal heat gain signals"
   extends Buildings.BaseClasses.BaseIcon;
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples;
 model SingleCircuitMultipleCircuitFiniteDifference
   "Model that tests the radiant slab with multiple parallel circuits"
   extends

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model PipeManifoldFlowDistributor
   "Manifold for heat exchanger register that distributes the mass flow rate equally"
   extends PartialPipeManifold;

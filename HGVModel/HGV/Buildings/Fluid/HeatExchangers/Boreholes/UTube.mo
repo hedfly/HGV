@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes;
 model UTube "Single U-tube borehole heat exchanger"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(
     show_T=true);

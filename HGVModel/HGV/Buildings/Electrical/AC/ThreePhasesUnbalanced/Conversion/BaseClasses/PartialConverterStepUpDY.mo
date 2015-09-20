@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses;
 partial model PartialConverterStepUpDY "Model of a transformer with D connection primary side and Y connection
   secondary side (Voltage step up)"
   extends

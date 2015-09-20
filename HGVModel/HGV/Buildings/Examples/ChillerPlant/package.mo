@@ -1,4 +1,4 @@
-within Buildings.Examples;
+within HGV.Buildings.Examples;
 package ChillerPlant "Chiller plant with water side economizer for data center"
 
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Conversion;
 model ACACTransformerFull
   "AC AC transformer full model for three phase balanced systems"
   extends Buildings.Electrical.AC.OnePhase.Conversion.ACACTransformerFull(

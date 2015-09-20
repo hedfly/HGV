@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 function X_pSatpphi "Humidity ratio for given water vapor pressure"
   extends Modelica.Icons.Function;
   input Modelica.SIunits.AbsolutePressure pSat "Saturation pressure";

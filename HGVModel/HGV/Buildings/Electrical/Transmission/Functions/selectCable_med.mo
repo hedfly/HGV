@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Functions;
+within HGV.Buildings.Electrical.Transmission.Functions;
 function selectCable_med "This function is used to automatically select the
     type of cable for medium voltages"
   input Modelica.SIunits.Power P_nominal = 0 "Rated power";

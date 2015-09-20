@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 partial model PowerLawResistance "Flow resistance that uses the power law"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(
     final m_flow_nominal=rho_default*k*dp_turbulent,

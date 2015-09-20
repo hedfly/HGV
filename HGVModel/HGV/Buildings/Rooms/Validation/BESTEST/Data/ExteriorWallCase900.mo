@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST.Data;
+within HGV.Buildings.Rooms.Validation.BESTEST.Data;
 record ExteriorWallCase900 =
     Buildings.HeatTransfer.Data.OpaqueConstructions.Generic (
     nLay=3,

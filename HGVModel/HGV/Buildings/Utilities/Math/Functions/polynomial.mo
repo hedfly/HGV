@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function polynomial "Polynomial function"
  input Real x "Independent variable";
  input Real a[:] "Coefficients";

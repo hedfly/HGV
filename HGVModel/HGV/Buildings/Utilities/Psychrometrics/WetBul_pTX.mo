@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block WetBul_pTX
   "Block to compute the wet bulb condition for given dry bulb temperature and humidity"
    extends Modelica.Blocks.Icons.Block;

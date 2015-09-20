@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation;
 block DiffusePerez
   "Hemispherical diffuse irradiation on a tilted surface using Perez's anisotropic sky model"
   extends

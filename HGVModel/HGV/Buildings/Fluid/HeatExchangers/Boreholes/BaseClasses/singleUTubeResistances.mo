@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 function singleUTubeResistances "Thermal resistances for single U-tube"
 
   // Geometry of the borehole

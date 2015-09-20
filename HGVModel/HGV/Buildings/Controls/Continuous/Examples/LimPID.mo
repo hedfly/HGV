@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous.Examples;
+within HGV.Buildings.Controls.Continuous.Examples;
 model LimPID "Test model for PID controller with optional reverse action"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 block AbsorbedRadiation "Absorbed radiation by window"
   extends Buildings.HeatTransfer.Windows.BaseClasses.PartialRadiation;
 

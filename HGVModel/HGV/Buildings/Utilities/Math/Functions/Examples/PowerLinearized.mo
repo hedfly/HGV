@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.Examples;
+within HGV.Buildings.Utilities.Math.Functions.Examples;
 model PowerLinearized
   "Test problem for function that linearizes y=x^n below some threshold"
   extends Modelica.Icons.Example;

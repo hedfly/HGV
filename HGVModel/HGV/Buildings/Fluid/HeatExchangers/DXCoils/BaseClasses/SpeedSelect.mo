@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block SpeedSelect
   "Selects the lower specified speed ratio for multispeed model"
   extends Modelica.Blocks.Icons.Block;

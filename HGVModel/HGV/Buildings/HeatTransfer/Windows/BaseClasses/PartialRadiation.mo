@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 partial block PartialRadiation
   "Partial model for variables and data used in radiation calculation"
   extends Modelica.Blocks.Icons.Block;

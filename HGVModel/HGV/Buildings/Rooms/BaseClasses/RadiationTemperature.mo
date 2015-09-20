@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model RadiationTemperature "Radiative temperature of the room"
   extends Buildings.Rooms.BaseClasses.PartialSurfaceInterfaceRadiative;
 

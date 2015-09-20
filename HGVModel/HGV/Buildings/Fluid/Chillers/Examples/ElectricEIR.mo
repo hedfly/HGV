@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers.Examples;
+within HGV.Buildings.Fluid.Chillers.Examples;
 model ElectricEIR "Test model for chiller electric EIR"
   extends Modelica.Icons.Example;
   extends Buildings.Fluid.Chillers.Examples.BaseClasses.PartialElectric(

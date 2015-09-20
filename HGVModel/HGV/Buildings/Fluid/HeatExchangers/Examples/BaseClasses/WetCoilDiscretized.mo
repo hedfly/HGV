@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Examples.BaseClasses;
 partial model WetCoilDiscretized
   "Model that demonstrates use of a finite volume model of a heat exchanger with condensation"
 

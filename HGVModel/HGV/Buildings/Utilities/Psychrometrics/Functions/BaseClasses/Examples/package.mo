@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

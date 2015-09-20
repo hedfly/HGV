@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model DryCoil "Test model for DryCoil"
 extends Modelica.Icons.Example;
   package Medium =

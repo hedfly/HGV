@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources;
+within HGV.Buildings.Electrical.DC.Sources;
 model PVSimple "Simple PV model"
   extends Buildings.Electrical.Interfaces.PartialPV(
     redeclare package PhaseSystem = PhaseSystems.TwoConductor,

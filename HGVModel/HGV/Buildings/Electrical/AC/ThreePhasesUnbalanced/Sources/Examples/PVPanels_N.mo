@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.Examples;
 model PVPanels_N
   "This example illustrates how to use PV panel models with neutral cable"
   extends Modelica.Icons.Example;

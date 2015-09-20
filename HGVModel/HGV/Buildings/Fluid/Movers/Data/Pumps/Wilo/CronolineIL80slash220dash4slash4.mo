@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Data.Pumps.Wilo;
+within HGV.Buildings.Fluid.Movers.Data.Pumps.Wilo;
 record CronolineIL80slash220dash4slash4
   "Pump data for a Wilo Cronoline-IL 80/220-4/4 pump"
   extends SpeedControlled_Nrpm(

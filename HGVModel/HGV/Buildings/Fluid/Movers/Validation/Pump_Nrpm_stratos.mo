@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model Pump_Nrpm_stratos "Model validation using a Wilo Stratos 80/1-12 pump"
   extends Modelica.Icons.Example;
   package Medium = Modelica.Media.Water.ConstantPropertyLiquidWater;

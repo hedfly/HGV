@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines;
 model TwoPortInductance
   "Model of an inductive element with two electrical ports"
   extends

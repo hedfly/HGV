@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Examples;
 model Phi_pTX "Model to test the relative humidity computation"
  extends Modelica.Icons.Example;
 

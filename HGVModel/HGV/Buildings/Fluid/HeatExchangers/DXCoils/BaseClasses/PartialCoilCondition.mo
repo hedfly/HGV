@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 partial block PartialCoilCondition
   "Partial block for dry and wet coil conditions"
   extends

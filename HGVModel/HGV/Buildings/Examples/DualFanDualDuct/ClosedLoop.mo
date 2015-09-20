@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct;
+within HGV.Buildings.Examples.DualFanDualDuct;
 model ClosedLoop "Closed loop model of a dual-fan dual-duct system"
   extends Modelica.Icons.Example;
 

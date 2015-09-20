@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses;
 partial model CoolingTower "Base class for cooling towers"
   extends Buildings.Fluid.Interfaces.TwoPortHeatMassExchanger(
     redeclare final Buildings.Fluid.MixingVolumes.MixingVolume vol);

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Examples;
 model YorkCalc
   "Test model for cooling tower using the York performance correlation"
   extends Modelica.Icons.Example;

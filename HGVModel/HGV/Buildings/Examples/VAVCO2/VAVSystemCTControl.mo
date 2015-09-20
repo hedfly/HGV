@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVCO2;
+within HGV.Buildings.Examples.VAVCO2;
 model VAVSystemCTControl
   "Variable air volume flow system of MIT building with CO2 control and continuous time control for static pressure reset"
   extends Modelica.Icons.Example;

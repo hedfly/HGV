@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.BaseClasses;
+within HGV.Buildings.HeatTransfer.Convection.BaseClasses;
 partial model PartialConvection "Partial model for heat convection"
   extends Buildings.BaseClasses.BaseIcon;
   parameter Modelica.SIunits.Area A "Heat transfer area";

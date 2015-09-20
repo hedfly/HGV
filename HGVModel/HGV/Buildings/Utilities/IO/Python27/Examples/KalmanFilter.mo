@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.Python27.Examples;
+within HGV.Buildings.Utilities.IO.Python27.Examples;
 model KalmanFilter
   "Kalman filter implemented in Python and called from Modelica"
   extends Modelica.Icons.Example;

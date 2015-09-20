@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block X_pTphi
   "Return steam mass fraction as a function of relative humidity phi and temperature T"
   extends

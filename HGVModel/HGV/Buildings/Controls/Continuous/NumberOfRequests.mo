@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous;
+within HGV.Buildings.Controls.Continuous;
 block NumberOfRequests
   "Outputs the number of signals that are above/below a certain threshold"
    extends Modelica.Blocks.Icons.Block;

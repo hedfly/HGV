@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model GetAbsolutePath "Test model to get the absolute path of a URI"
   extends Modelica.Icons.Example;
   parameter String f[:] = {"file://legal.html",

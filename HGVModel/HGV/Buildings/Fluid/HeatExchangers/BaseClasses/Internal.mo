@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 package Internal "Solve f(x, data) for x with given f"
   extends Modelica.Media.Common.OneNonLinearEquation;
 

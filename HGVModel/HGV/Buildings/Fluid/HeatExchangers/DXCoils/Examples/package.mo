@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils;
 package Examples "Package with example of DX cooling coil models"
   extends Modelica.Icons.ExamplesPackage;
 

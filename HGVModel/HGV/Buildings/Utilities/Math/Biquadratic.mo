@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block Biquadratic "Biquadratic function"
   extends Modelica.Blocks.Interfaces.SI2SO;
   parameter Real a[6] "Coefficients";

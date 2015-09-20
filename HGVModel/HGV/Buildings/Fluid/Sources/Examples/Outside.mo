@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources.Examples;
+within HGV.Buildings.Fluid.Sources.Examples;
 model Outside "Test model for source and sink with outside weather data"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air "Medium model for air";

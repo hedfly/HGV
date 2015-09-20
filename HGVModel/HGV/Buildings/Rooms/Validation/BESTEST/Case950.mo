@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case950
   "Case 900, but cooling based on schedule, night venting, and no heating"
   extends Case900(

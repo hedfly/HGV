@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function epsilon_C
   "Computes heat exchanger effectiveness for given capacity flow rates and heat exchanger flow regime"
   input Modelica.SIunits.ThermalConductance UA "UA value";

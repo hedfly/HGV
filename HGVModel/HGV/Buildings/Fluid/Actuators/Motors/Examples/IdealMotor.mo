@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Motors.Examples;
+within HGV.Buildings.Fluid.Actuators.Motors.Examples;
 model IdealMotor "Test model for IdealMotor"
   extends Modelica.Icons.Example;
   Buildings.Fluid.Actuators.Motors.IdealMotor mot(tOpe=60) "Motor model"

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer;
+within HGV.Buildings.HeatTransfer;
 package Interfaces "Package with interfaces for heat transfer models"
   extends Modelica.Icons.InterfacesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 model Line_N "Model of an electrical line with neutral cable"
   extends Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces.TwoPort_N;
   extends Buildings.Electrical.Transmission.BaseClasses.PartialBaseLine(

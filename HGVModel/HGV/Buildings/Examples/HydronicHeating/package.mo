@@ -1,6 +1,7 @@
-within Buildings.Examples;
+within HGV.Buildings.Examples;
 package HydronicHeating "Hydronic heating system with storage, two rooms and thermostatic radiator valves"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (
 Documentation(info="<html>

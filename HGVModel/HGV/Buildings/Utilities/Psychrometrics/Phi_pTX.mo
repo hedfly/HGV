@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block Phi_pTX
   "Block to compute the relative humidity for given pressure, dry bulb temperature and moisture mass fraction"
    extends Modelica.Blocks.Icons.Block;

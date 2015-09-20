@@ -1,4 +1,4 @@
-within Buildings.Fluid.Boilers;
+within HGV.Buildings.Fluid.Boilers;
 model BoilerPolynomial
   "Boiler with efficiency curve described by a polynomial of the temperature"
   extends Interfaces.TwoPortHeatMassExchanger(

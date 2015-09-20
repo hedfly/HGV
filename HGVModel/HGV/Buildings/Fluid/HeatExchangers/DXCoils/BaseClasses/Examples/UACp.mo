@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model UACp "Test model for UACp"
   extends Modelica.Icons.Example;
   package Medium =Buildings.Media.Air;

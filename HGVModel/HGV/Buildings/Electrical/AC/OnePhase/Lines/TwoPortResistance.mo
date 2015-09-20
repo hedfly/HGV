@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines;
 model TwoPortResistance "Model of a resistance with two electrical ports"
   extends
     Buildings.Electrical.Transmission.BaseClasses.PartialTwoPortResistance(

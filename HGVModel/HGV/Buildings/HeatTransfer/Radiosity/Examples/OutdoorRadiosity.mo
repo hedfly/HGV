@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity.Examples;
+within HGV.Buildings.HeatTransfer.Radiosity.Examples;
 model OutdoorRadiosity "Test model for outdoor radiosity"
   extends Modelica.Icons.Example;
   Buildings.HeatTransfer.Radiosity.OpaqueSurface sur(A=A, absIR=1)

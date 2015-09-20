@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 function cfdStartCosimulation "Start the coupled simulation with CFD"
   input String cfdFilNam "CFD input file name";
   input String[nSur] name "Surface names";

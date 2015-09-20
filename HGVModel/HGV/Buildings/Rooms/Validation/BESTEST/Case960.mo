@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case960 "Case 600, but with an unconditioned sun-space"
   extends Buildings.Rooms.Validation.BESTEST.Case600(
     roo(

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model CoolingCapacity "Test model for CoolingCapacity"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air;

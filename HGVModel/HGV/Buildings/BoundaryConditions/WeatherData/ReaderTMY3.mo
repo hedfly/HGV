@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData;
+within HGV.Buildings.BoundaryConditions.WeatherData;
 block ReaderTMY3 "Reader for TMY3 weather data"
 
   parameter Boolean computeWetBulbTemperature = true

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function splineDerivatives
   "Function to compute the derivatives for cubic hermite spline interpolation"
   input Real x[:] "Support point, strict monotone increasing";

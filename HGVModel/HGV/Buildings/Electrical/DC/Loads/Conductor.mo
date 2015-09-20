@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Loads;
+within HGV.Buildings.Electrical.DC.Loads;
 model Conductor "Model of a generic DC load"
     extends Buildings.Electrical.Interfaces.Load(
      redeclare package PhaseSystem = PhaseSystems.TwoConductor,

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 model DryCoil "Calculates dry coil condition"
  extends
     Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.PartialCoilCondition;

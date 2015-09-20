@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model ReverseBuoyancy3Zones
   "Model with three rooms and buoyancy-driven air circulation that reverses direction"
   extends Modelica.Icons.Example;

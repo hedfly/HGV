@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 block Economizer "Controller for economizer"
   import Buildings.Examples.VAVReheat.Controls.OperationModes;
   parameter Modelica.SIunits.TemperatureDifference dT(min=0.1)= 1

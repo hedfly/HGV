@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant;
+within HGV.Buildings.Examples.ChillerPlant;
 model DataCenterDiscreteTimeControl
   "Model of data center with trim and response control"
   extends Buildings.Examples.ChillerPlant.BaseClasses.DataCenter;

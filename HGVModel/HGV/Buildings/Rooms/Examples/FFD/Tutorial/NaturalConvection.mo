@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD.Tutorial;
+within HGV.Buildings.Rooms.Examples.FFD.Tutorial;
 model NaturalConvection "Tutorial for Natural Convection case"
   extends Modelica.Icons.Example;
   package MediumA =

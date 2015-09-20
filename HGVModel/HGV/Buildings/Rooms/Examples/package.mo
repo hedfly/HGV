@@ -1,4 +1,4 @@
-within Buildings.Rooms;
+within HGV.Buildings.Rooms;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

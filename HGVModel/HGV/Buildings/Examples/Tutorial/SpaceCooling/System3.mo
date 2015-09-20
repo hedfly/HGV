@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.SpaceCooling;
+within HGV.Buildings.Examples.Tutorial.SpaceCooling;
 model System3
   "Third part of the system model with air supply and closed loop control"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
 model SingleUTubeBoundaryCondition
   "Test model the temperature boundary condition of a single U tube heat exchanger"
   extends Modelica.Icons.Example;

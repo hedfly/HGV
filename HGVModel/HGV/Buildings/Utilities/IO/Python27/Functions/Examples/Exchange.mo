@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.Python27.Functions.Examples;
+within HGV.Buildings.Utilities.IO.Python27.Functions.Examples;
 model Exchange "Test model for exchange function"
   extends Modelica.Icons.Example;
 

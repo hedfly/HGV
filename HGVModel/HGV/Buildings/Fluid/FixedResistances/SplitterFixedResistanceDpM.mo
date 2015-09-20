@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances;
+within HGV.Buildings.Fluid.FixedResistances;
 model SplitterFixedResistanceDpM
   "Flow splitter with fixed resistance at each port"
     extends Buildings.BaseClasses.BaseIcon;

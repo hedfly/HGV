@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase;
+within HGV.Buildings.Electrical.AC.OnePhase;
 package Lines "Package with models for AC electrical lines"
   extends Modelica.Icons.Package;
 

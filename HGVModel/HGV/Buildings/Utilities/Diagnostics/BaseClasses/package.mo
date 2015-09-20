@@ -1,6 +1,7 @@
-within Buildings.Utilities.Diagnostics;
+within HGV.Buildings.Utilities.Diagnostics;
 package BaseClasses "Package with base classes for Buildings.Utilities.Diagnostics"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

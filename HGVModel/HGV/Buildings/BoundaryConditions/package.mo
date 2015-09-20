@@ -1,4 +1,4 @@
-within Buildings;
+within HGV.Buildings;
 package BoundaryConditions "Package with models for boundary conditions"
   extends Modelica.Icons.Package;
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers.BaseClasses;
+within HGV.Buildings.Fluid.Chillers.BaseClasses;
 function warnIfPerformanceOutOfBounds
   "Function that checks the performance and writes a warning if it is outside of 0.9 to 1.1"
   input Real x "Argument to be checked";

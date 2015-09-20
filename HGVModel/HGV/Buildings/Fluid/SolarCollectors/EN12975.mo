@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 model EN12975 "Model of a concentrating solar collector"
 extends Buildings.Fluid.SolarCollectors.BaseClasses.PartialSolarCollector(final perPar=per);
     parameter Buildings.Fluid.SolarCollectors.Data.GenericSolarCollector per

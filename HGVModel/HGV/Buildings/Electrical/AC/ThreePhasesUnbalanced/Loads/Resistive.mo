@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
 model Resistive
   "Model of a three-phase unbalanced resistive load without neutral cable"
   extends BaseClasses.LoadCtrl(

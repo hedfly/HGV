@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model OneRoom
   "Model with one room for the validation of the multizone air exchange models"
 

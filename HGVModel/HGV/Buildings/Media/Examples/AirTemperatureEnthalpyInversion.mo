@@ -1,4 +1,4 @@
-within Buildings.Media.Examples;
+within HGV.Buildings.Media.Examples;
 model AirTemperatureEnthalpyInversion
   "Model to check computation of h(T) and its inverse"
   extends Modelica.Icons.Example;

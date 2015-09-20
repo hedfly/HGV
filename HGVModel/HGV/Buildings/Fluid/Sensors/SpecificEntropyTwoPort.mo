@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model SpecificEntropyTwoPort "Ideal two port sensor for the specific entropy"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialDynamicFlowSensor;
   extends Modelica.Icons.RotationalSensor;

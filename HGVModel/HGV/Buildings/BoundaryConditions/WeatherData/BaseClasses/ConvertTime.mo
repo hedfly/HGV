@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block ConvertTime
   "Converts the simulation time to calendar time in scale of 1 year (365 days)"
   extends Modelica.Blocks.Icons.Block;

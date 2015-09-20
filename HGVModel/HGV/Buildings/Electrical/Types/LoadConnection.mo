@@ -1,4 +1,4 @@
-within Buildings.Electrical.Types;
+within HGV.Buildings.Electrical.Types;
 type LoadConnection = enumeration(
     wye_to_wyeg "Wye to wye grounded",
     wye_to_delta "Wye to delta")

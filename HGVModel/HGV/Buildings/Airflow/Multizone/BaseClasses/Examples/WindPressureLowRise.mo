@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses.Examples;
+within HGV.Buildings.Airflow.Multizone.BaseClasses.Examples;
 model WindPressureLowRise "Test model for wind pressure function"
   extends Modelica.Icons.Example;
   parameter Real Cp0 = 0.6

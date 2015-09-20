@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model TraceSubstances "Ideal one port trace substances sensor"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialAbsoluteSensor;
   extends Modelica.Icons.RotationalSensor;

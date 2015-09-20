@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes.Examples;
+within HGV.Buildings.Fluid.MixingVolumes.Examples;
 model MixingVolumeInitialization "Test model for mixing volume initialization"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Air;

@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST.Data;
+within HGV.Buildings.Rooms.Validation.BESTEST.Data;
 record ResultSummary "Record that is used for summary of the results"
  parameter Real Min "Minimum";
  parameter Real Max "Maximum";

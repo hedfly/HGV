@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
 model ACACTransformerDD "AC AC transformer simplified equivalent circuit (DD)"
   extends
     Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses.PartialConverterDD(

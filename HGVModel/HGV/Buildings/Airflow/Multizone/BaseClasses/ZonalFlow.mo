@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 partial model ZonalFlow "Flow across zonal boundaries of a room"
   extends Buildings.Fluid.Interfaces.PartialFourPortInterface(
      redeclare final package Medium1 = Medium,

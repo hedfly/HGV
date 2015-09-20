@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
   annotation (preferredView="info",

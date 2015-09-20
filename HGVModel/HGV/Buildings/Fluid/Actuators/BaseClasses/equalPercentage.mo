@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.BaseClasses;
+within HGV.Buildings.Fluid.Actuators.BaseClasses;
 function equalPercentage
   "Valve opening characteristics for equal percentage valve"
 

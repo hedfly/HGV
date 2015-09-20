@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model SpeedShift "Test model for SpeedShift block"
  extends Modelica.Icons.Example;
  parameter Integer nSta=4 "Number of standard compressor speeds";

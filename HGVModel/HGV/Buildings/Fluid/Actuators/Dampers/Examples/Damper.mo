@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Dampers.Examples;
+within HGV.Buildings.Fluid.Actuators.Dampers.Examples;
 model Damper
   "Damper with constant pressure difference and varying control signal"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves.Examples;
+within HGV.Buildings.Fluid.Actuators.Valves.Examples;
 model TwoWayValvePressureIndependent
   "Two way valves with pressure independent opening characteristic"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.TestConditionalConstructions;
+within HGV.Buildings.Rooms.Validation.TestConditionalConstructions;
 model OnlyExteriorWallNoWindow "Test model for room model"
   extends Modelica.Icons.Example;
   extends BaseClasses.PartialTestModel(

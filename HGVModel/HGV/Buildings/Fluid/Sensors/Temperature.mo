@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model Temperature "Ideal one port temperature sensor"
     extends Buildings.Fluid.Sensors.BaseClasses.PartialAbsoluteSensor;
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 model BoreholeSegment "Vertical segment of a borehole"
   extends Buildings.Fluid.Interfaces.PartialFourPortInterface(
      redeclare final package Medium1 = Medium,

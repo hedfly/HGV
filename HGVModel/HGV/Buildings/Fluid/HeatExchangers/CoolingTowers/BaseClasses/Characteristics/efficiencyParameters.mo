@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses.Characteristics;
 record efficiencyParameters "Record for efficiency parameters"
   extends Modelica.Icons.Record;
   parameter Real r_V[:](each min=0, each unit="1")

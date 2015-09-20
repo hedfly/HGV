@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers;
+within HGV.Buildings.Fluid.Movers;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

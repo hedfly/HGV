@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
 model ACSimpleGrid_N
   "Test model for a network model for three-phase unbalanced systems with neutral cable"
   extends Modelica.Icons.Example;

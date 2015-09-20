@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized.Air.Examples;
+within HGV.Buildings.Media.Specialized.Air.Examples;
 model PerfectGasTestImplementation
   extends Modelica.Icons.Example;
   extends Modelica.Media.Examples.Tests.Components.PartialTestModel(

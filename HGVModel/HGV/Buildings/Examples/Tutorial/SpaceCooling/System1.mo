@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.SpaceCooling;
+within HGV.Buildings.Examples.Tutorial.SpaceCooling;
 model System1
   "First part of the system model, consisting of the room with heat transfer"
   extends Modelica.Icons.Example;

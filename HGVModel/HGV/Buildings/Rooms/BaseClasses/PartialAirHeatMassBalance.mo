@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 partial model PartialAirHeatMassBalance
   "Partial model for heat and mass balance of the air"
   extends Buildings.Rooms.BaseClasses.ConstructionRecords;

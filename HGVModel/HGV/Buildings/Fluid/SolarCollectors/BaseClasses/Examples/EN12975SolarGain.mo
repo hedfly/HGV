@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses.Examples;
 model EN12975SolarGain "Example showing the use of EN12975SolarGain"
   extends Modelica.Icons.Example;
   parameter Buildings.Fluid.SolarCollectors.Data.GenericSolarCollector per=

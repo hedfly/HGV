@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model CheckRelativeHumidity "Test model for CheckRelativeHumidity"
   extends
     Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples.ConvertRelativeHumidity;

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer;
+within HGV.Buildings.HeatTransfer;
 package Radiosity "Package with models for radiosity transfer"
   extends Modelica.Icons.VariantsPackage;
 

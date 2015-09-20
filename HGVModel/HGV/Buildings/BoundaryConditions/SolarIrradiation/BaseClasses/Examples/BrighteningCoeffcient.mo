@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
 model BrighteningCoeffcient "Test model for brightening coeffcients"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.ZenithAngle zen(lat=

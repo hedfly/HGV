@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses.Examples;
 model InverseDewPointTemperatureDerivativeCheck_amb
   "Model to test correct implementation of derivative"
   extends Modelica.Icons.Example;

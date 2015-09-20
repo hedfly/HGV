@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function integerReplicator "Replicates integer signals"
   input Integer nout "Number of outputs";
   input Integer u "Integer input signal";

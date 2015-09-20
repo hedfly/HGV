@@ -1,4 +1,4 @@
-within Buildings.Controls;
+within HGV.Buildings.Controls;
 package Types "Package with type definitions"
   constant Integer nDayTypes = 3 "Integer with the number of day types";
 

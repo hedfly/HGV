@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses;
+within HGV.Buildings.Fluid.BaseClasses;
 partial model PartialResistance "Partial model for a hydraulic resistance"
     extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(
      show_T=false,

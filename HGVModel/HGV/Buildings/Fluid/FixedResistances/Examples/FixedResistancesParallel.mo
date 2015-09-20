@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances.Examples;
+within HGV.Buildings.Fluid.FixedResistances.Examples;
 model FixedResistancesParallel
   extends Modelica.Icons.Example;
 
@@ -85,5 +85,6 @@ equation
       color={0,0,127},
       smooth=Smooth.None));
     annotation (experiment(StopTime=1.0),
-__Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Fluid/FixedResistances/Examples/FixedResistancesParallel.mos" "Simulate and plot"));
+__Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Fluid/FixedResistances/Examples/FixedResistancesParallel.mos"
+        "Simulate and plot"));
 end FixedResistancesParallel;

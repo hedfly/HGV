@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sources.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Sources.Examples;
 model VariablePowerSource
   "This example illustrates how using a variable power source"
   extends Modelica.Icons.Example;

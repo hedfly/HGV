@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 block SideFins
   "For a window with side fins, outputs the fraction of the area that is sun exposed"
   extends Modelica.Blocks.Icons.Block;

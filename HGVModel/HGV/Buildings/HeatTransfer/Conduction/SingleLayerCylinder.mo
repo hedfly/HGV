@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction;
+within HGV.Buildings.HeatTransfer.Conduction;
 model SingleLayerCylinder "Heat conduction in a cylinder"
   replaceable parameter Buildings.HeatTransfer.Data.Soil.Generic material
     "Material thermal properties"

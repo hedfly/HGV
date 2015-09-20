@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record CFDSurfaceIdentifier "Data record to identify surfaces in the CFD code"
     extends Modelica.Icons.Record;
  parameter String name "Name of the surface";

@@ -1,4 +1,4 @@
-within Buildings;
+within HGV.Buildings;
 package Fluid "Package with models for fluid flow systems"
   extends Modelica.Icons.Package;
 

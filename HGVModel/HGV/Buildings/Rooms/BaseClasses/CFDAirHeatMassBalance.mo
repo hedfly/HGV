@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model CFDAirHeatMassBalance
   "Heat and mass balance of the air based on computational fluid dynamics"
   extends Buildings.Rooms.BaseClasses.PartialAirHeatMassBalance;

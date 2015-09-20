@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block Polynominal "Polynominal function"
   extends Modelica.Blocks.Interfaces.SISO;
  parameter Real a[:] "Coefficients";

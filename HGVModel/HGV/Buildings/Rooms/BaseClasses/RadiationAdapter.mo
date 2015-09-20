@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model RadiationAdapter
   "Model to connect between signals and heat port for radiative gains of the room"
   extends Buildings.BaseClasses.BaseIcon;

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 model OutdoorRadiosity
   "Model for the outdoor radiosity that strikes the window"
   parameter Modelica.SIunits.Area A "Area of receiving surface";

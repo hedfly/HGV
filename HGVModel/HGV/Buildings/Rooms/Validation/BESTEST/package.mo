@@ -1,8 +1,9 @@
-within Buildings.Rooms.Validation;
+within HGV.Buildings.Rooms.Validation;
 package BESTEST "This package contains the models for the BESTEST validation"
   extends Modelica.Icons.ExamplesPackage;
 
   constant Integer nStaRef = 6 "Number of states in a reference material";
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

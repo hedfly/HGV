@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model DryEffectivenessNTUMassFlow
   "Model of epsilon-NTU dry coil that tests variable mass flow rates"
   extends Modelica.Icons.Example;

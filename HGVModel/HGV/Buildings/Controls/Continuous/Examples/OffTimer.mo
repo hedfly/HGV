@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous.Examples;
+within HGV.Buildings.Controls.Continuous.Examples;
 model OffTimer "Example model for off timer"
   extends Modelica.Icons.Example;
 

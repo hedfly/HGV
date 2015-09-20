@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Validation;
+within HGV.Buildings.Fluid.HeatExchangers.Validation;
 model ConstantEffectiveness
   "Model that demonstrates use of a heat exchanger with constant effectiveness"
   extends Modelica.Icons.Example;

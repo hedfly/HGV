@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads;
 model Capacitive "Model of a capacitive and resistive load"
   extends Buildings.Electrical.Interfaces.CapacitiveLoad(
     redeclare package PhaseSystem = PhaseSystems.OnePhase,

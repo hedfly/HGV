@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.Examples;
+within HGV.Buildings.Utilities.Math.Functions.Examples;
 model SpliceFunction
   extends Modelica.Icons.Example;
 

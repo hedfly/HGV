@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 partial model PowerInterface
   "Partial model to compute power draw and heat dissipation of fans and pumps"
 

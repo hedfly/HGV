@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.BaseClasses;
+within HGV.Buildings.Utilities.Psychrometrics.BaseClasses;
 partial block HumidityRatioVaporPressure
   "Humidity ratio for given water vapor pressure"
   extends Modelica.Blocks.Icons.Block;

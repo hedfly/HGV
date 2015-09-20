@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model HANaturalCylinder "Test model for natural convection outside of a coil"
   extends Modelica.Icons.Example;
   Buildings.Fluid.HeatExchangers.BaseClasses.HANaturalCylinder hANatCyl(redeclare

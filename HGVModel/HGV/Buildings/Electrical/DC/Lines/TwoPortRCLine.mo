@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines;
+within HGV.Buildings.Electrical.DC.Lines;
 model TwoPortRCLine "Model of a two port DC resistance and capacity (T-model)"
   extends Buildings.Electrical.Transmission.BaseClasses.PartialTwoPortRLC(
     redeclare package PhaseSystem_p = PhaseSystems.TwoConductor,

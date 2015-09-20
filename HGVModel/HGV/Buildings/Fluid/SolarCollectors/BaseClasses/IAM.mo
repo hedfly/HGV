@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses;
 function IAM "Function for incident angle modifer"
 
   input Modelica.SIunits.Angle incAng "Incident angle";

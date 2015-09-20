@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model CenterOfGlass "Test model for center of glas heat transfer"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Area A=1 "Window surface area";

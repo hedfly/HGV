@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 model NaturalConvectionWithControl
   "A case of natural convection with feedback loop control"
   extends Buildings.Rooms.Examples.FFD.Tutorial.NaturalConvection(

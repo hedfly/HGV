@@ -1,4 +1,4 @@
-within Buildings.BaseClasses;
+within HGV.Buildings.BaseClasses;
 block BaseIcon "Base icon"
 
   annotation (Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,

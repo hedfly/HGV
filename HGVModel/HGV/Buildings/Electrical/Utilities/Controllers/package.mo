@@ -1,4 +1,4 @@
-within Buildings.Electrical.Utilities;
+within HGV.Buildings.Electrical.Utilities;
 package Controllers "Package that contains state machines and control models used by the utilities"
 extends Modelica.Icons.BasesPackage;
 

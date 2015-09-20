@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines;
+within HGV.Buildings.Electrical.DC.Lines;
 model TwoPortResistance "Model of a two port DC resistance"
   extends
     Buildings.Electrical.Transmission.BaseClasses.PartialTwoPortResistance(

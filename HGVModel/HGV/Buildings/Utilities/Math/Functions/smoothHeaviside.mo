@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function smoothHeaviside
   "Once continuously differentiable approximation to the Heaviside function"
   input Real x "Argument";

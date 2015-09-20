@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses;
+within HGV.Buildings.Fluid.BaseClasses;
 partial model PartialThreeWayResistance
   "Flow splitter with partial resistance model at each port"
   extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations(

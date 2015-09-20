@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC;
+within HGV.Buildings.Electrical.DC;
 package Loads "Package with models for DC electrical loads"
   extends Modelica.Icons.VariantsPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
 model TransformerDD
   "Test for the AC/AC transformer model with Delta-Delta configuration"
   extends BaseClasses.TransformerExample(

@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Rooms.Examples;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms.Examples;
 model TestBedX3WithRadiantFloor
   "Example model of test cells X3A and X3B connected to form test bed X3"
   extends Modelica.Icons.Example;

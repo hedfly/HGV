@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block SensibleHeatRatio "Calculates the sensible heat ratio"
   extends Modelica.Blocks.Icons.Block;
   replaceable package Medium =

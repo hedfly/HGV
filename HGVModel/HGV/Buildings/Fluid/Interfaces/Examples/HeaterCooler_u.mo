@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces.Examples;
+within HGV.Buildings.Fluid.Interfaces.Examples;
 model HeaterCooler_u
   "Model that tests a heat exchanger model with reverse flow"
   extends Modelica.Icons.Example;

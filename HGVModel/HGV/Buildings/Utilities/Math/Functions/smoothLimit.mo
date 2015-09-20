@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function smoothLimit
   "Once continuously differentiable approximation to the limit function"
   input Real x "Variable";

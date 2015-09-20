@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 package BaseClasses "Package with base classes for Buildings.HeatTransfer.Radiosity"
   extends Modelica.Icons.BasesPackage;
 

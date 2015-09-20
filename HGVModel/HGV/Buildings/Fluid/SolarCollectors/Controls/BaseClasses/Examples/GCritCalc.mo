@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Controls.BaseClasses.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.Controls.BaseClasses.Examples;
 model GCritCalc "Example showing the use of GCritCalc"
   extends Modelica.Icons.Example;
   Buildings.Fluid.SolarCollectors.Controls.BaseClasses.GCritCalc criSol(slope=-3.764,

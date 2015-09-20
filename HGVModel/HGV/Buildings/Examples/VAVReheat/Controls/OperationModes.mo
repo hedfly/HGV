@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 type OperationModes = enumeration(
     occupied "Occupied",
     unoccupiedOff "Unoccupied off",

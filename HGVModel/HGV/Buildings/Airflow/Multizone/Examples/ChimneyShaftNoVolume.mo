@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model ChimneyShaftNoVolume
   "Model that demonstrates the chimney effect with a steady-state model of a shaft"
   extends Modelica.Icons.Example;

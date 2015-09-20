@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case600FF
   "Basic test with light-weight construction and free floating temperature"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.Boiler;
+within HGV.Buildings.Examples.Tutorial.Boiler;
 model System3
   "3rd part of the system model, which adds the boiler loop with open loop control"
   extends Modelica.Icons.Example;

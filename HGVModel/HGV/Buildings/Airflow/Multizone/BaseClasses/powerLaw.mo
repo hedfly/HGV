@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 function powerLaw "Power law used in orifice equations"
   input Real k "Flow coefficient, k = V_flow/ dp^m";
   input Modelica.SIunits.Pressure dp "Pressure difference";

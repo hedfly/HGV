@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 package Examples "Package with example models"
   extends Modelica.Icons.ExamplesPackage;
 

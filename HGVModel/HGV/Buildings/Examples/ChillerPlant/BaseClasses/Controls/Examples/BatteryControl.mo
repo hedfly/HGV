@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
 model BatteryControl "Test model for battery control"
   extends Modelica.Icons.Example;
   Buildings.Examples.ChillerPlant.BaseClasses.Controls.BatteryControl

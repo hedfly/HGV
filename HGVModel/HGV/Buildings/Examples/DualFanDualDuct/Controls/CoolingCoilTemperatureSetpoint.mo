@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct.Controls;
+within HGV.Buildings.Examples.DualFanDualDuct.Controls;
 block CoolingCoilTemperatureSetpoint "Set point scheduler for cooling coil"
   extends Modelica.Blocks.Icons.Block;
   import Buildings.Examples.VAVReheat.Controls.OperationModes;

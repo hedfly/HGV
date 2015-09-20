@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 model Network "Three phases unbalanced AC network without neutral cable"
   extends Transmission.BaseClasses.PartialNetwork(
     redeclare

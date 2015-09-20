@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 partial block PartialCoilInterface "Partial block for DX coil"
   extends Modelica.Blocks.Icons.Block;
   extends

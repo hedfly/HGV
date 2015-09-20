@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
 model TransformerStepDownDY
   "Test for the AC/AC transformer model with Delta-Wye configuration (step-down voltage)"
   extends BaseClasses.TransformerExample(

@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.BaseClasses;
+within HGV.Buildings.Controls.Predictors.BaseClasses;
 function weatherRegression "Linear weather regression model"
   extends partialBaselinePrediction;
     input Modelica.SIunits.Temperature TCur "Current temperature";

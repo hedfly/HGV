@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.Validation;
+within HGV.Buildings.Controls.Predictors.Validation;
 model SineInput
   "Demand response client with sinusoidal input for actual power consumption"
   extends

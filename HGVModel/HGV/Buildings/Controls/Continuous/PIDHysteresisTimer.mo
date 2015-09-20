@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous;
+within HGV.Buildings.Controls.Continuous;
 model PIDHysteresisTimer
   "PID controller with anti-windup, hysteresis and timer to prevent short cycling"
   extends Modelica.Blocks.Interfaces.SVcontrol;

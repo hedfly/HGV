@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.BaseClasses;
 partial model BaseLoadCtrl
   "Partial model of a three-phase unbalanced load with voltage controllers"
   extends Buildings.Electrical.Interfaces.PartialPluggableUnbalanced;

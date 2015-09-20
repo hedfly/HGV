@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.Examples;
 model SaturationPressure "Model to test the saturationPressure function"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Temperature TMin = 190 "Temperature";

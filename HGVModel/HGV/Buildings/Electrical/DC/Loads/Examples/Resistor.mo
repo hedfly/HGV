@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Loads.Examples;
+within HGV.Buildings.Electrical.DC.Loads.Examples;
 model Resistor "Example model for resistor"
   extends Modelica.Icons.Example;
   Buildings.Electrical.DC.Loads.Resistor res2(R=2, V_nominal=12) "Resistor"

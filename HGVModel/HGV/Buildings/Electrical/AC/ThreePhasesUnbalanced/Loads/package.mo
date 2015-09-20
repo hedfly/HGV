@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced;
 package Loads "Package with load models for three-phase unbalanced AC systems"
   extends Modelica.Icons.VariantsPackage;
 

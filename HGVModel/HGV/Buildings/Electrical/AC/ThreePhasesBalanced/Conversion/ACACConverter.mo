@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Conversion;
 model ACACConverter "AC AC converter three phase balanced systems"
   extends Buildings.Electrical.AC.OnePhase.Conversion.ACACConverter(
     redeclare Interfaces.Terminal_n terminal_n,

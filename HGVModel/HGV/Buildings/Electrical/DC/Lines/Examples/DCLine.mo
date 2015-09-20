@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines.Examples;
+within HGV.Buildings.Electrical.DC.Lines.Examples;
 model DCLine "Example model to test the DC lines"
   extends Modelica.Icons.Example;
   Line line(

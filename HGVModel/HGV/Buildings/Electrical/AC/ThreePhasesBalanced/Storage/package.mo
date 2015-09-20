@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced;
 package Storage "Package with models for electrical storage with a AC three-phase balanced connector"
   extends Modelica.Icons.Package;
 

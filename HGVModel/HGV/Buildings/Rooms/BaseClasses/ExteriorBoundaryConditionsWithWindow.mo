@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model ExteriorBoundaryConditionsWithWindow
   "Model for exterior boundary conditions for constructions with a window"
   extends Buildings.Rooms.BaseClasses.ExteriorBoundaryConditions(

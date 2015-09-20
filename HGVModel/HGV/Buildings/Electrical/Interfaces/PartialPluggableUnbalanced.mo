@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 record PartialPluggableUnbalanced "Partial interface for unbalanced loads"
   parameter Boolean plugPhase1 = true "If true, phase 1 is connected";
   parameter Boolean plugPhase2 = true "If true, phase 2 is connected";

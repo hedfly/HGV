@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SkyTemperature.Examples;
+within HGV.Buildings.BoundaryConditions.SkyTemperature.Examples;
 model BlackBody "Test model for black body sky temperature"
   extends Modelica.Icons.Example;
 

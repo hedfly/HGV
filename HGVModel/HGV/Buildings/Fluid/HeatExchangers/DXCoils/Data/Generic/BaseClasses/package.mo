@@ -1,10 +1,6 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic;
 package BaseClasses "Package with base classes for performance data"
   extends Modelica.Icons.BasesPackage;
-
-
-
-
 
 
 
@@ -33,5 +29,4 @@ First implementation.
 </li>
 </ul>
 </html>"));
-
 end BaseClasses;

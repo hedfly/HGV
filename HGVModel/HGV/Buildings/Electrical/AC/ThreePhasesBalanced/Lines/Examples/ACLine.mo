@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
 model ACLine "Test model for single phase lines that use commercial cables"
   extends Modelica.Icons.Example;
   ThreePhasesBalanced.Sources.FixedVoltage E(definiteReference=true,

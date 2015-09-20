@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources;
+within HGV.Buildings.Electrical.DC.Sources;
 model WindTurbine
   "Wind turbine with power output based on table as a function of wind speed"
   extends Buildings.Electrical.Interfaces.PartialWindTurbine(

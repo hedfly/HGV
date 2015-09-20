@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function inverseXRegularized
   "Function that approximates 1/x by a twice continuously differentiable function"
  input Real x "Abscissa value";

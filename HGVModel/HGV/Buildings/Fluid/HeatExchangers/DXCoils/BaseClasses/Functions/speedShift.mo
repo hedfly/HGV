@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Functions;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Functions;
 function speedShift "Interpolates value between two speeds"
   //x in cubic Hermite function
   input Real spe "Speed of compressor";

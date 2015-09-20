@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model MassExchange
   "Block to compute the latent heat transfer based on the Lewis number"
   extends Buildings.BaseClasses.BaseIcon;

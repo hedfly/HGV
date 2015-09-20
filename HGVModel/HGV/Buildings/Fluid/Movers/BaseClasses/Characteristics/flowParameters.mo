@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.Movers.BaseClasses.Characteristics;
 record flowParameters "Record for flow parameters"
   extends Modelica.Icons.Record;
 

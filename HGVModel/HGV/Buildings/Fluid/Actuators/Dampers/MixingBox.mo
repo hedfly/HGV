@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Dampers;
+within HGV.Buildings.Fluid.Actuators.Dampers;
 model MixingBox "Outside air mixing box with interlocked air dampers"
   extends Buildings.Fluid.Actuators.BaseClasses.ActuatorSignal;
 

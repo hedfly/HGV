@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers;
+within HGV.Buildings.Fluid.Movers;
 model FlowControlled_dp
   "Fan or pump with ideally controlled head dp as input signal"
   extends Buildings.Fluid.Movers.BaseClasses.FlowControlled(

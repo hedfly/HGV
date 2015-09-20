@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
 model SolarHourAngle "Test model for solar hour angle"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.BaseClasses.SolarHourAngle

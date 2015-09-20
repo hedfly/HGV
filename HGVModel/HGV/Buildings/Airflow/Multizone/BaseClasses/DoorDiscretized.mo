@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 partial model DoorDiscretized
   "Door model using discretization along height coordinate"
   extends Buildings.Airflow.Multizone.BaseClasses.TwoWayFlowElementBuoyancy;

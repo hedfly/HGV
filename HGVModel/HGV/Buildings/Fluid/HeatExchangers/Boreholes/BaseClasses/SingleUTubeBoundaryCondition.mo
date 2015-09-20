@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 model SingleUTubeBoundaryCondition
   "Prescribed temperature at the outer boundary of a single U tube borehole"
   replaceable parameter Buildings.HeatTransfer.Data.Soil.Generic matSoi

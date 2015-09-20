@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity.BaseClasses;
+within HGV.Buildings.HeatTransfer.Radiosity.BaseClasses;
 model ParametersOneSurface "Parameters that are used to model one surface"
   parameter Modelica.SIunits.Emissivity absIR "Infrared absorptivity";
   parameter Modelica.SIunits.ReflectionCoefficient rhoIR

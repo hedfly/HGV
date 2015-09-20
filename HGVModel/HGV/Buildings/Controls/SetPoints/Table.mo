@@ -1,4 +1,4 @@
-within Buildings.Controls.SetPoints;
+within HGV.Buildings.Controls.SetPoints;
 model Table
   "Model for a set point that is interpolated based on a user-specified table"
   extends Modelica.Blocks.Interfaces.SISO;

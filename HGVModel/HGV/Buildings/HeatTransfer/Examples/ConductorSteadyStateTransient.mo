@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Examples;
+within HGV.Buildings.HeatTransfer.Examples;
 model ConductorSteadyStateTransient "Test model for heat conductor"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 block RadiositySplitter
   "Splits the incoming radiosity into two flows based on an input signal"
   extends Modelica.Blocks.Icons.Block;

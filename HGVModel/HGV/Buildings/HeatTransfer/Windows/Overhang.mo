@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows;
+within HGV.Buildings.HeatTransfer.Windows;
 model Overhang
   "For a window with an overhang, outputs the fraction of the window area exposed to the sun"
   extends Buildings.Rooms.BaseClasses.Overhang;

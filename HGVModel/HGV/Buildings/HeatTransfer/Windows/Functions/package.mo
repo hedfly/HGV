@@ -1,6 +1,7 @@
-within Buildings.HeatTransfer.Windows;
+within HGV.Buildings.HeatTransfer.Windows;
 package Functions "Functions used in window radiation model"
   extends Modelica.Icons.Package;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sensors;
 package Examples "Package with example models"
   extends Modelica.Icons.ExamplesPackage;
 

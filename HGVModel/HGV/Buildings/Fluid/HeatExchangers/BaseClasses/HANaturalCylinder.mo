@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model HANaturalCylinder
   "Calculates an hA value for natural convection around a cylinder"
   extends Modelica.Blocks.Icons.Block;

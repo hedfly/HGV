@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sensors;
+within HGV.Buildings.Electrical.DC.Sensors;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

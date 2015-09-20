@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Functions.HeatFlux;
+within HGV.Buildings.HeatTransfer.Convection.Functions.HeatFlux;
 function rayleigh "Rayleigh number with smooth transition to lower limit"
   extends Modelica.Icons.Function;
  input Modelica.SIunits.Length x "Layer thickness";

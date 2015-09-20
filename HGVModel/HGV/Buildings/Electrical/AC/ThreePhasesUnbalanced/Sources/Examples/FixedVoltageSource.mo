@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.Examples;
 model FixedVoltageSource
   "This example illustrates how using a fixed voltage source"
   extends Modelica.Icons.Example;

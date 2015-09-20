@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses;
 partial model BaseUnbalancedPV "Partial model for an unbalanced PV source"
   extends Buildings.Electrical.Interfaces.PartialPluggableUnbalanced;
   extends Buildings.Electrical.Interfaces.PartialPvBase;

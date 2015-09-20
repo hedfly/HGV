@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block TWetBul_TDryBulXi
   "Model to compute the wet bulb temperature based on mass fraction"
   extends Modelica.Blocks.Icons.Block;

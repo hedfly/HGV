@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes.BaseClasses;
+within HGV.Buildings.Fluid.MixingVolumes.BaseClasses;
 partial model PartialMixingVolume
   "Partial mixing volume with inlet and outlet ports (flow reversal is allowed)"
 

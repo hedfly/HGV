@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Loads.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Loads.Examples;
 model Impedances "Example that illustrates the use of the impedance models"
    extends Modelica.Icons.Example;
   Sources.FixedVoltage sou(f=60, V=480) "Voltage source"

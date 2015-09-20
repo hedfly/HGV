@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model DryEffectivenessNTU
   "Heat exchanger with effectiveness - NTU relation and no moisture condensation"
   extends Buildings.Fluid.HeatExchangers.BaseClasses.PartialEffectiveness(

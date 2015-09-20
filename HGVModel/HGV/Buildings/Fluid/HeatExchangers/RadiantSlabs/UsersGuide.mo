@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
   annotation (preferredView="info",

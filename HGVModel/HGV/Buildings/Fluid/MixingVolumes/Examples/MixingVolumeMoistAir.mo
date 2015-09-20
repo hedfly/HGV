@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes.Examples;
+within HGV.Buildings.Fluid.MixingVolumes.Examples;
 model MixingVolumeMoistAir
   extends Modelica.Icons.Example;
 

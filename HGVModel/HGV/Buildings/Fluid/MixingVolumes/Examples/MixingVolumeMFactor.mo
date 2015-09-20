@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes.Examples;
+within HGV.Buildings.Fluid.MixingVolumes.Examples;
 model MixingVolumeMFactor
   "A check for verifying the implementation of the parameter mSenFac"
   extends Buildings.Fluid.MixingVolumes.Examples.MixingVolumeMassFlow(

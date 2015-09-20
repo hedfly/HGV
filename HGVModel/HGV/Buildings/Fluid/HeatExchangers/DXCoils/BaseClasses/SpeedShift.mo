@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block SpeedShift "Interpolates values between speeds"
   parameter Integer nSta "Number of standard compressor speeds";
   parameter Modelica.SIunits.AngularVelocity speSet[nSta](each displayUnit="1/min")

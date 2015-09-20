@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function devAbsExteriorIrradiationInteriorShading
   "Angular and hemispherical absorptance of a shading device for exterior irradiation with interior shading"
   extends

@@ -1,10 +1,8 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package Controls "Package for solar thermal collector controllers"
 
 
   extends Modelica.Icons.Package;
-
-
 
 
   annotation(Documentation(info="<html>

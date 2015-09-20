@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model MassFraction "Ideal one port mass fraction sensor"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialAbsoluteSensor(
     redeclare replaceable package Medium =

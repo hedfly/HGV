@@ -1,9 +1,8 @@
-within Buildings.Fluid.MassExchangers.Examples;
+within HGV.Buildings.Fluid.MassExchangers.Examples;
 model Humidifier_u "Model that demonstrates the ideal humidifier model"
   extends Modelica.Icons.Example;
 
   package Medium = Buildings.Media.Air;
-
 
   parameter Modelica.SIunits.MassFlowRate m_flow_nominal=
      3000/1000/20 "Nominal mass flow rate";

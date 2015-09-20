@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block X_pW "Humidity ratio for given water vapor pressure"
   extends
     Buildings.Utilities.Psychrometrics.BaseClasses.HumidityRatioVaporPressure;

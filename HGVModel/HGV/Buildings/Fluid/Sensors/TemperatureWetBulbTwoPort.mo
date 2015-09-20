@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model TemperatureWetBulbTwoPort "Ideal wet bulb temperature sensor"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialDynamicFlowSensor;
   Modelica.Blocks.Interfaces.RealOutput T(

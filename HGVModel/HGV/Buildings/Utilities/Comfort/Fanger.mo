@@ -1,4 +1,4 @@
-within Buildings.Utilities.Comfort;
+within HGV.Buildings.Utilities.Comfort;
 model Fanger "Thermal comfort model according to Fanger"
 extends Buildings.BaseClasses.BaseIcon;
 

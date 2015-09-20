@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sensors.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Sensors.Examples;
 model Probe "This example illustrates how to use the probe model"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.OnePhase.Loads.Capacitive loaRC(

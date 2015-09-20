@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines.Examples;
 model ACLine
   "Test model for a single phase line that uses commercial cable information"
   extends Modelica.Icons.Example;

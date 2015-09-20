@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model Manifold "Test model for coil manifold"
  package Medium1 = Buildings.Media.Water "Water";
  package Medium2 = Buildings.Media.Air "Air";

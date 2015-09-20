@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block RegNonZeroPower
   "Power function, regularized near zero, but nonzero value for x=0"
   extends Modelica.Blocks.Interfaces.SISO;

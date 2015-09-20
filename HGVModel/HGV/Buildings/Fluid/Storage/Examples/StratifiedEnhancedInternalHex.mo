@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage.Examples;
+within HGV.Buildings.Fluid.Storage.Examples;
 model StratifiedEnhancedInternalHex
   "Example showing the use of StratifiedEnhancedInternalHex"
   extends Modelica.Icons.Example;

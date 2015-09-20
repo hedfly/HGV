@@ -1,4 +1,4 @@
-within Buildings.Fluid.MassExchangers.Examples;
+within HGV.Buildings.Fluid.MassExchangers.Examples;
 model ConstantEffectiveness
   extends Modelica.Icons.Example;
 

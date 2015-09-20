@@ -1,6 +1,7 @@
-within Buildings.Controls.Predictors.Validation;
+within HGV.Buildings.Controls.Predictors.Validation;
 package BaseClasses "Package with base classes for Buildings.Controls.Predictors.Examples"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

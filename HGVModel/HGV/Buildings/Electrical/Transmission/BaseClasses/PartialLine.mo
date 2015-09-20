@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.BaseClasses;
+within HGV.Buildings.Electrical.Transmission.BaseClasses;
 partial model PartialLine "Partial cable line dispersion model"
   extends Buildings.Electrical.Interfaces.PartialTwoPort;
   extends Buildings.Electrical.Transmission.BaseClasses.PartialBaseLine;

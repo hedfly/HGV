@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 model ForcedConvection "Ventilation with forced convection in an empty room"
   extends Modelica.Icons.Example;
   extends Buildings.Rooms.Examples.FFD.BaseClasses.PartialRoom(

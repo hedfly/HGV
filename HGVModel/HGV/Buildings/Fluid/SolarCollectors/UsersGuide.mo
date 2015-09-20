@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package UsersGuide "User's Guide for Buildings.Fluid.SolarCollectors"
   extends Modelica.Icons.Information;
 

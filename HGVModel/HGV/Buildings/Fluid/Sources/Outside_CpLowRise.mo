@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources;
+within HGV.Buildings.Fluid.Sources;
 model Outside_CpLowRise
   "Boundary that takes weather data as an input and computes wind pressure for low-rise buildings"
   extends Buildings.Fluid.Sources.BaseClasses.Outside;

@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat;
+within HGV.Buildings.Examples.VAVReheat;
 model ClosedLoop
   "Variable air volume flow system with terminal reheat and five thermal zones"
   extends Modelica.Icons.Example;

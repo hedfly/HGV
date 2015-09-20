@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Controls.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.Controls.Examples;
 model SolarPumpController "Example for the solar pump controller"
   extends Modelica.Icons.Example;
   Buildings.Fluid.SolarCollectors.Controls.SolarPumpController

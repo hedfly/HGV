@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 block Overhang
   "For a window with an overhang, outputs the fraction of the area that is sun exposed"
   extends Modelica.Blocks.Icons.Block;

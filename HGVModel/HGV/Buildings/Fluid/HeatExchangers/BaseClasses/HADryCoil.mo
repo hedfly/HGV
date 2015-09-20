@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model HADryCoil "Sensible convective heat transfer model for air to water coil"
   extends Buildings.BaseClasses.BaseIcon;
   parameter Modelica.SIunits.ThermalConductance UA_nominal(min=0)

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block DryWetSelector "Selects results from dry or wet coil"
 
  constant Modelica.SIunits.MassFraction deltaX=0.0001

@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 model CFDHeatGain "Test model for the CFDHeatGain model"
   extends Modelica.Icons.Example;
 

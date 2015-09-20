@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 partial block PartialSurfaceCondition
   "Partial block for apparatus dew and dry point calculation"
   extends Modelica.Blocks.Icons.Block;

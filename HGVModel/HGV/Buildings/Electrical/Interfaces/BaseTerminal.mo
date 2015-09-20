@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 connector BaseTerminal "Empty connector used by partial models"
 
   annotation (Documentation(info="<html>

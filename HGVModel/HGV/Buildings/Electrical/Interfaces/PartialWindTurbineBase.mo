@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 partial model PartialWindTurbineBase
   "Base class for turbine model that contains basic parameters"
   final parameter Modelica.SIunits.Velocity vIn = table[1,1]

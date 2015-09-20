@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 package Examples "Collection of models that illustrate model use and test models"
 extends Modelica.Icons.ExamplesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
 model FixedVoltage_N "Fixed voltage source with neutral cable"
   extends
     Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses.PartialSource_N;

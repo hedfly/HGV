@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
 model PipeToSlabConductance
   "Convective heat transfer in pipes and fictitious resistance to average slab temperature"
   replaceable package Medium =

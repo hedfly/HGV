@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 block EconomizerTemperatureControl
   "Controller for economizer mixed air temperature"
   extends Modelica.Blocks.Icons.Block;

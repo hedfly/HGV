@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction.BaseClasses;
+within HGV.Buildings.HeatTransfer.Conduction.BaseClasses;
 function der_temperature_u
   "Computes the derivative of the temperature of a phase change material with respect to specific internal energy"
   input Modelica.SIunits.SpecificHeatCapacity c "Specific heat capacity";

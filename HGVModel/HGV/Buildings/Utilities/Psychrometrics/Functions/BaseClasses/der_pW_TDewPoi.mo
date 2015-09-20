@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses;
 function der_pW_TDewPoi "Derivative of function pW_TDewPoi"
   extends Modelica.Icons.Function;
   input Modelica.SIunits.Temperature T "Dew point temperature";

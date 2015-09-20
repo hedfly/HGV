@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 model FourPortHeatMassExchanger
   "Model transporting two fluid streams between four ports with storing mass or energy"
   extends Buildings.Fluid.Interfaces.PartialFourPortInterface(

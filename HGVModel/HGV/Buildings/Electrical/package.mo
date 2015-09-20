@@ -1,4 +1,4 @@
-within Buildings;
+within HGV.Buildings;
 package Electrical "Package with models for electrical systems"
   extends Modelica.Icons.Package;
 

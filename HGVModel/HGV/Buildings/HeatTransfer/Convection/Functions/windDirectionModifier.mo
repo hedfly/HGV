@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Functions;
+within HGV.Buildings.HeatTransfer.Convection.Functions;
 function windDirectionModifier
   "Wind direction modifier that is used to compute the wind-driven convective heat transfer coefficient"
   extends Modelica.Icons.Function;

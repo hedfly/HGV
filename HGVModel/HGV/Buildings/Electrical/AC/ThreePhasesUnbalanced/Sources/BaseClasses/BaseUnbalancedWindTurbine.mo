@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses;
 partial model BaseUnbalancedWindTurbine
   "Partial model for an unbalanced wind power source"
   extends Buildings.Electrical.Interfaces.PartialPluggableUnbalanced;

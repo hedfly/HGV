@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Data;
+within HGV.Buildings.Fluid.SolarCollectors.Data;
 record GenericSolarCollector
   "Generic data record providing inputs for specific collector data records"
   extends Modelica.Icons.Record;
@@ -23,7 +23,7 @@ record GenericSolarCollector
     "Nominal solar irradiance specified in ratings data";
    parameter Modelica.SIunits.TemperatureDifference dT_nominal
     "Nominal temperature difference specified in ratings data";
-annotation(
+annotation (
 defaultComponentPrefixes="parameter",
 defaultComponentName="datSolCol",
 Documentation(info="<html>

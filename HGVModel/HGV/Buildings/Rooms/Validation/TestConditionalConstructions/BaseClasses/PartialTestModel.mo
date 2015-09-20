@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.TestConditionalConstructions.BaseClasses;
+within HGV.Buildings.Rooms.Validation.TestConditionalConstructions.BaseClasses;
 partial model PartialTestModel
   "Partial model that is used to build the test cases"
   package MediumA = Buildings.Media.Air "Medium model";

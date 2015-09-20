@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces.Examples;
+within HGV.Buildings.Fluid.Interfaces.Examples;
 model ReverseFlowHumidifier
   "Model that tests the reverse flow for a humidifier"
   extends Modelica.Icons.Example;

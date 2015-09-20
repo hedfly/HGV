@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckTemperature "Check the validity of temperature data"
   extends Modelica.Blocks.Icons.Block;
 public

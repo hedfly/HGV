@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources;
 model PVsimple "Simple PV source without neutral cable"
   extends
     Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.BaseClasses.UnbalancedPV(

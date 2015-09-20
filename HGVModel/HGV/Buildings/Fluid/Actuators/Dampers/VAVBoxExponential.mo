@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Dampers;
+within HGV.Buildings.Fluid.Actuators.Dampers;
 model VAVBoxExponential
   "VAV box with a fixed resistance plus a damper model withe exponential characteristics"
   extends Buildings.Fluid.Actuators.BaseClasses.PartialDamperExponential(

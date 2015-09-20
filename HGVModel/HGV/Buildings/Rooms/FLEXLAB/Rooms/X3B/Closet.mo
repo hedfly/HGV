@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Rooms.X3B;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms.X3B;
 model Closet "Model of the closet connected to test cell X3A"
   extends Buildings.Rooms.MixedAir(
   hRoo = 3.6576,

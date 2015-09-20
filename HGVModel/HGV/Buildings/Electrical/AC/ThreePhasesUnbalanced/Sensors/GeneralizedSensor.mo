@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
 model GeneralizedSensor
   "Sensor for power, voltage and current (3 wire system, no neutral cable)"
 

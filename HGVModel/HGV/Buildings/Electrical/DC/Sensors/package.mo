@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC;
+within HGV.Buildings.Electrical.DC;
 package Sensors "Package with sensors for DC electrical systems"
 extends Modelica.Icons.SensorsPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 model ErrorControl "Interface that defines parameters for error control"
   parameter Boolean forceErrorControlOnFlow = true
     "Flag to force error control on m_flow. Set to true if interested in flow rate";

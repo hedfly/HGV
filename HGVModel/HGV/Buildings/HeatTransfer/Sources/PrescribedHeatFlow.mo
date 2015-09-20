@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Sources;
+within HGV.Buildings.HeatTransfer.Sources;
 model PrescribedHeatFlow "Prescribed heat flow boundary condition"
   Modelica.Blocks.Interfaces.RealInput Q_flow
         annotation (Placement(transformation(

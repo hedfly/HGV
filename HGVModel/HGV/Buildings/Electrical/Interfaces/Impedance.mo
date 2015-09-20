@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model Impedance "Partial model representing a generalized impedance"
   extends Buildings.Electrical.Interfaces.Load(
     final linearized = false,

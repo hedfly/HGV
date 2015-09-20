@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model CoilRegister "Register for a heat exchanger"
   import Modelica.Constants;
   extends Buildings.Fluid.Interfaces.FourPortFlowResistanceParameters(

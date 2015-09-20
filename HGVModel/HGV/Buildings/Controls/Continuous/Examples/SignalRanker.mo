@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous.Examples;
+within HGV.Buildings.Controls.Continuous.Examples;
 model SignalRanker "Example model for signal ranker"
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Sine sine(freqHz=2)

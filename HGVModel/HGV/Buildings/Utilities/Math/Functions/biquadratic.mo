@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function biquadratic "Biquadratic function"
  input Real a[6] "Coefficients";
  input Real x1 "Independent variable";

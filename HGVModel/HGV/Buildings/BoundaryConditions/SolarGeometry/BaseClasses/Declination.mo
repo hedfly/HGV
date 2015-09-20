@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses;
 block Declination "Declination angle"
   extends Modelica.Blocks.Icons.Block;
 public

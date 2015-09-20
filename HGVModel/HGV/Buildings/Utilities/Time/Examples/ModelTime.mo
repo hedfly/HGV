@@ -1,4 +1,4 @@
-within Buildings.Utilities.Time.Examples;
+within HGV.Buildings.Utilities.Time.Examples;
 model ModelTime "Test model for the ModelTime block"
   extends Modelica.Icons.Example;
   Buildings.Utilities.Time.ModelTime modTim "Model time"

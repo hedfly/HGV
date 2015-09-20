@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function bicubic "Bicubic function"
  input Real a[10] "Coefficients";
  input Real x1 "Independent variable";

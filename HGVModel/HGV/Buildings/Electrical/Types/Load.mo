@@ -1,4 +1,4 @@
-within Buildings.Electrical.Types;
+within HGV.Buildings.Electrical.Types;
 type Load = enumeration(
     FixedZ_steady_state "Fixed Z, steady-state",
     FixedZ_dynamic "Fixed Z, dynamic",

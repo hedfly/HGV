@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.Python27;
+within HGV.Buildings.Utilities.IO.Python27;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

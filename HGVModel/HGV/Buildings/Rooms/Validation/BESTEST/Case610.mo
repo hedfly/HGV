@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case610 "Case 600 with south shading"
   extends Buildings.Rooms.Validation.BESTEST.Case600(
   roo(

@@ -1,13 +1,5 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses;
 package Characteristics "Functions for fan characteristics"
-
-
-
-
-
-
-
-
 
 
   annotation (Documentation(info="<html>

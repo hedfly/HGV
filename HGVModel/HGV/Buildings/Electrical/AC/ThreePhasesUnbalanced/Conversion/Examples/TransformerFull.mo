@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
 model TransformerFull "Test for the AC/AC transformer full model"
   extends BaseClasses.TransformerExample(
   redeclare Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors.ProbeWye probe_2,

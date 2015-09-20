@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block ToDryAir
   "Block to convert absolute humidity from [kg/kg total air] to [kg/kg dry air]"
   extends Modelica.Blocks.Icons.Block;

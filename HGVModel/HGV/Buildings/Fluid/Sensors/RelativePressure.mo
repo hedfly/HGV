@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model RelativePressure "Ideal relative pressure sensor"
   extends Modelica.Icons.TranslationalSensor;
   replaceable package Medium =

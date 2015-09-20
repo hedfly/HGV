@@ -1,6 +1,7 @@
-within Buildings.HeatTransfer;
+within HGV.Buildings.HeatTransfer;
 package Convection "Package with models for convective heat transfer"
   extends Modelica.Icons.VariantsPackage;
+
 
 annotation (Documentation(info="<html>
 <p>

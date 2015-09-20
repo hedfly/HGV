@@ -1,6 +1,7 @@
-within Buildings.BoundaryConditions;
+within HGV.Buildings.BoundaryConditions;
 package SkyTemperature "Package with models to compute the sky temperature"
   extends Modelica.Icons.VariantsPackage;
+
 
 annotation (preferredView="info",
 Documentation(info="<html>

@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC;
+within HGV.Buildings.Electrical.DC;
 package Sources "Package with models for DC sources"
   extends Modelica.Icons.SourcesPackage;
 

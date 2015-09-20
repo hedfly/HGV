@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
 model ACSimpleGridMedium "Test model for a network model with medium voltage"
   extends Modelica.Icons.Example;
   ThreePhasesBalanced.Lines.Network network(

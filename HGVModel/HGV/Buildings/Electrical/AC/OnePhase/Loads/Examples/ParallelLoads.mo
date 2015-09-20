@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads.Examples;
 model ParallelLoads
   "Example that illustrates the use of the load models at constant voltage"
   extends Modelica.Icons.Example;

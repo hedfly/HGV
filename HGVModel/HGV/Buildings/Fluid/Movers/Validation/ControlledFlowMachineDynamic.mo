@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model ControlledFlowMachineDynamic
   "Fans with different control signals as input and a dynamic speed signal"
   extends Modelica.Icons.Example;

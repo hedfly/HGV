@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model PipeManifoldNoResistance "Manifold for heat exchanger register"
   extends PartialPipeManifold;
  parameter Boolean connectAllPressures=true;

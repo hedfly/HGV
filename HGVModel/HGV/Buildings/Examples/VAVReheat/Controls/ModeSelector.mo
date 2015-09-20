@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 model ModeSelector "Finite State Machine for the operational modes"
   Modelica.StateGraph.InitialStep initialStep
     annotation (Placement(transformation(extent={{-80,20},{-60,40}})));

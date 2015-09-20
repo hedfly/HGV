@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 model TwoPortRL
   "Model of a resistive-inductive element with two electrical ports"
   extends Modelica.Electrical.Analog.Interfaces.ConditionalHeatPort;

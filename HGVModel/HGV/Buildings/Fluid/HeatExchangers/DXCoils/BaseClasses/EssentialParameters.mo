@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 partial block EssentialParameters "A partial block for essential parameters"
 
   parameter Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.DXCoil

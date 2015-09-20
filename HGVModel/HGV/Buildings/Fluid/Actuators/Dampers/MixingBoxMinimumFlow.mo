@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Dampers;
+within HGV.Buildings.Fluid.Actuators.Dampers;
 model MixingBoxMinimumFlow
   "Outside air mixing box with parallel damper for minimum outside air flow rate"
  extends Buildings.Fluid.Actuators.Dampers.MixingBox;

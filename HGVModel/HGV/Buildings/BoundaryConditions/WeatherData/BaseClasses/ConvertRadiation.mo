@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block ConvertRadiation
   "Convert the unit of solar radiation received from the TMY3 data file"
   extends Modelica.Blocks.Icons.Block;

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Examples;
+within HGV.Buildings.HeatTransfer.Convection.Examples;
 model Exterior "Test model for exterior heat transfer coefficients"
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Constant T1(k=290.15)

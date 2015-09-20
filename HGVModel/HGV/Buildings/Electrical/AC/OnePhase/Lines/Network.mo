@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines;
 model Network "Single phase AC network"
   extends Buildings.Electrical.Transmission.BaseClasses.PartialNetwork(
     V_nominal(start = 110),

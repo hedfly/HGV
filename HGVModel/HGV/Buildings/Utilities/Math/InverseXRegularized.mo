@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block InverseXRegularized
   "Function that approximates 1/x by a twice continuously differentiable function"
   extends Modelica.Blocks.Interfaces.SISO;

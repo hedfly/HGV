@@ -1,4 +1,4 @@
-within Buildings;
+within HGV.Buildings;
 package Utilities "Package with utility functions such as for I/O"
   extends Modelica.Icons.Package;
 

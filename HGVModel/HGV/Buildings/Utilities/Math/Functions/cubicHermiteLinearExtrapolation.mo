@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function cubicHermiteLinearExtrapolation
   "Interpolate using a cubic Hermite spline with linear extrapolation"
   input Real x "Abscissa value";

@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 model MixedAirTemperatureSetpoint
   "Mixed air temperature setpoint for economizer"
   extends Modelica.Blocks.Icons.Block;

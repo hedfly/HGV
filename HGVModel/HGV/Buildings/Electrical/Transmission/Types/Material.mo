@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Types;
+within HGV.Buildings.Electrical.Transmission.Types;
 type Material = enumeration(
     Cu "Copper",
     Al "Aluminium") "Material of the cable" annotation (Documentation(revisions="<html>

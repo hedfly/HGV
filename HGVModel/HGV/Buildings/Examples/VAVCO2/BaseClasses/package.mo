@@ -1,6 +1,7 @@
-within Buildings.Examples.VAVCO2;
+within HGV.Buildings.Examples.VAVCO2;
 package BaseClasses "Package with base classes for Buildings.Examples.VAVCO2"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

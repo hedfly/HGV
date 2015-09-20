@@ -1,4 +1,4 @@
-within Buildings.Fluid.Delays;
+within HGV.Buildings.Fluid.Delays;
 model DelayFirstOrder
   "Delay element, approximated by a first order differential equation"
   extends Buildings.Fluid.MixingVolumes.MixingVolume(final V=V_nominal,

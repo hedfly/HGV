@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Examples;
+within HGV.Buildings.Fluid.Sensors.Examples;
 model TemperatureWetBulb "Test model for the wet bulb temperature sensor"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Air "Medium model"

@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 block LinearPiecewiseTwo "A two-pieces linear piecewise function"
   extends Modelica.Blocks.Icons.Block;
   parameter Real x0 "First interval [x0, x1]";

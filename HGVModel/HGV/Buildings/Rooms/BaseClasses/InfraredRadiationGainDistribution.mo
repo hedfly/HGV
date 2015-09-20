@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model InfraredRadiationGainDistribution
   "Infrared radiative heat gain distribution between the room facing surfaces"
   extends Buildings.Rooms.BaseClasses.PartialSurfaceInterfaceRadiative;

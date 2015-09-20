@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers.Examples.BaseClasses;
+within HGV.Buildings.Fluid.Chillers.Examples.BaseClasses;
 partial model PartialElectric
   "Base class for test model of chiller electric EIR"
  package Medium1 = Buildings.Media.Water "Medium model";

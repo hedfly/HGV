@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses;
 model DataCenterContinuousTimeControl
   extends Buildings.Examples.ChillerPlant.DataCenterContinuousTimeControl;
   Modelica.Blocks.Interfaces.RealOutput PAC

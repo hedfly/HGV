@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 model RoomOnlySurfaceBoundary
   "Natural convection in an empty room with only surface boundary"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function appartusDewPoint "Computes the apparatus dewpoint temperature"
   import psy = Buildings.Utilities.Psychrometrics.Functions;
 

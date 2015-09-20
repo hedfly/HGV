@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
 model SingleUTubeResistances "Model that tests the resistances in the borehole"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Water "Medium in the pipes";

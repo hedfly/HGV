@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model IntegerReplicator "Test model for integer replicator"
 
   extends Modelica.Icons.Example;

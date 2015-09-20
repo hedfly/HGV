@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record ConstructionRecords "Data records for construction data"
   extends Buildings.Rooms.BaseClasses.ConstructionNumbers;
 

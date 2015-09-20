@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses;
 partial model PartialConverterYY "Model of a transformer with Y connection primary side and Y
   connection secondary side"
   extends

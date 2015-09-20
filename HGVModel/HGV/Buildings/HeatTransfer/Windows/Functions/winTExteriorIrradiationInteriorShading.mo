@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function winTExteriorIrradiationInteriorShading
   "Angular and hemispherical transmittance of a window system (glass and shading device) for exterior irradiation with interior shading"
   extends

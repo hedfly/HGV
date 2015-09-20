@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Examples;
 model TWetBul_TDryBulXi
   extends Modelica.Icons.Example;
 

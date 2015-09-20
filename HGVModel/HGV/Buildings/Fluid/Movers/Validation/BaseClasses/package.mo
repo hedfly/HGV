@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 package BaseClasses "Package with base classes for Buildings.Fluid.Movers.Validation"
   extends Modelica.Icons.BasesPackage;
 

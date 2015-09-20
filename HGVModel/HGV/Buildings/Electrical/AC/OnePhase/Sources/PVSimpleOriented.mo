@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sources;
+within HGV.Buildings.Electrical.AC.OnePhase.Sources;
 model PVSimpleOriented "Simple PV model with orientation"
   extends Buildings.Electrical.Interfaces.PartialAcDcParameters;
   extends Buildings.Electrical.Interfaces.PartialPVOriented(

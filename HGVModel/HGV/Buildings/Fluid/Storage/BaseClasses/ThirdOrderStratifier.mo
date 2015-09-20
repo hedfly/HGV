@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage.BaseClasses;
+within HGV.Buildings.Fluid.Storage.BaseClasses;
 model ThirdOrderStratifier
   "Model to reduce the numerical dissipation in a tank"
   extends Buildings.BaseClasses.BaseIcon;

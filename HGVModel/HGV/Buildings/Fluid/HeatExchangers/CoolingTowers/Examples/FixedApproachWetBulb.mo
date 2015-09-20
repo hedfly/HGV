@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Examples;
 model FixedApproachWetBulb
   "Test model for cooling tower with fixed approach temperature using the wet-bulb temperature"
   extends Modelica.Icons.Example;

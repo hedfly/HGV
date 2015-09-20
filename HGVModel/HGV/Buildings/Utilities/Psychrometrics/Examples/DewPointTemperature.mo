@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Examples;
 model DewPointTemperature "Unit test for dew point temperature calculation"
   extends Modelica.Icons.Example;
    package Medium = Buildings.Media.Air "Medium model"

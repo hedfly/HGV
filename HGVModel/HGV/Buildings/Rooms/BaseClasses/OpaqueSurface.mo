@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record OpaqueSurface "Record for exterior constructions that have no window"
   extends Buildings.HeatTransfer.Data.OpaqueSurfaces.Generic;
   parameter String name = ""

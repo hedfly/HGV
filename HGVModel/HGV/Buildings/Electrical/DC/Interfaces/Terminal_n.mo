@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Interfaces;
+within HGV.Buildings.Electrical.DC.Interfaces;
 connector Terminal_n "Terminal n for DC electrical systems"
   extends Buildings.Electrical.Interfaces.Terminal(
     redeclare package PhaseSystem =

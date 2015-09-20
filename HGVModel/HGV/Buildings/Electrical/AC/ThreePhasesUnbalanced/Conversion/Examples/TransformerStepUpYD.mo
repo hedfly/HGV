@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
 model TransformerStepUpYD
   "Test for the AC/AC transformer model with Wye-Delta configuration (step-up voltage)"
   extends BaseClasses.TransformerExample(

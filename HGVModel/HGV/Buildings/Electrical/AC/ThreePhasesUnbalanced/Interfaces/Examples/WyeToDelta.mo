@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces.Examples;
 model WyeToDelta "Test for Y to D connection"
 
   Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces.WyeToDelta wyeToDelta

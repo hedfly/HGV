@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model MediumColumn
   "Vertical shaft with no friction and no storage of heat and mass"
   import Modelica.Constants;

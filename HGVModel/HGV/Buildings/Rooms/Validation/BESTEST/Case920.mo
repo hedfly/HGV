@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case920 "Case 900, but with windows on East and West side walls"
   extends Buildings.Rooms.Validation.BESTEST.Case900(
   roo(

@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
 model RelativeAirMass "Test model for relative air mass"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.RelativeAirMass

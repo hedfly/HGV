@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
 model FixedVoltage "Fixed three-phase balanced AC voltage source"
   extends Buildings.Electrical.AC.OnePhase.Sources.FixedVoltage(
     redeclare Interfaces.Terminal_p terminal,

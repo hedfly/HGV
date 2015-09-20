@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses.Functions;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses.Functions;
 function heatFlowRate "Heat flow rate for epsilon-NTU model"
   extends Modelica.Icons.Function;
   input Modelica.SIunits.Temperature T_a "Temperature at port_a";

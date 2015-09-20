@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses;
 function nominalValuesToString
   "Converts the nominal values to a string representation"
   extends Modelica.Icons.Function;

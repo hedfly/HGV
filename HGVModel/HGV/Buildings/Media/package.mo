@@ -1,6 +1,7 @@
-within Buildings;
+within HGV.Buildings;
 package Media "Package with medium models"
   extends Modelica.Icons.Package;
+
 
   annotation (preferredView="info", Documentation(info="<html>
 <p>

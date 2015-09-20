@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 package BaseClasses "Package with base classes for Buildings.Utilities.Psychrometrics.Functions"
   extends Modelica.Icons.BasesPackage;
 

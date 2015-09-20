@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model Ground "Generalized model of a ground connection."
   replaceable package PhaseSystem =
       Buildings.Electrical.PhaseSystems.PartialPhaseSystem constrainedby

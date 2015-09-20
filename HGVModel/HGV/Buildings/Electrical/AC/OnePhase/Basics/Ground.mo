@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Basics;
+within HGV.Buildings.Electrical.AC.OnePhase.Basics;
 model Ground "Ground connection"
   extends Buildings.Electrical.Interfaces.Ground(
     redeclare package PhaseSystem = PhaseSystems.OnePhase,

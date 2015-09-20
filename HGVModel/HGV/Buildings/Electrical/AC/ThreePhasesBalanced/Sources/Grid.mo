@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
 model Grid "Electrical grid"
   extends Buildings.Electrical.AC.OnePhase.Sources.Grid(
     redeclare Interfaces.Terminal_p terminal,

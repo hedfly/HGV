@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData;
+within HGV.Buildings.BoundaryConditions.WeatherData;
 expandable connector Bus "Data bus that stores weather data"
   extends Modelica.Icons.SignalBus;
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 record LumpedVolumeDeclarations "Declarations for lumped volumes"
   replaceable package Medium =
     Modelica.Media.Interfaces.PartialMedium "Medium in the component"

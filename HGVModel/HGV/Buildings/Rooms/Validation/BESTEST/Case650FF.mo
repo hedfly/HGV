@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case650FF
   "Case 600, no heating, no cooling, and ventilation as in case 650"
   extends Case600FF(

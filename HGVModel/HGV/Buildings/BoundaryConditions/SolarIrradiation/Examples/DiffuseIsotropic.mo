@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.Examples;
 model DiffuseIsotropic
   "Test model for diffuse solar irradiation on a tilted surface using the isotropic model"
   extends Modelica.Icons.Example;

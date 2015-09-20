@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 function cfdSendStopCommand "Send the stop command to CFD"
 
 external"C" cfdSendStopCommand() annotation (Include=

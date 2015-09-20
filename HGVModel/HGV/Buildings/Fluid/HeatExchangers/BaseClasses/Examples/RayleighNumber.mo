@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model RayleighNumber "Test model for RayleighNumber"
   extends Modelica.Icons.Example;
   Buildings.Fluid.HeatExchangers.BaseClasses.RayleighNumber rayleighNumber(ChaLen=

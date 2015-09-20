@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Examples;
 model GeneratorLoadGrid "Generator with a load and grid connection"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant;
+within HGV.Buildings.Examples.ChillerPlant;
 model DataCenterRenewables
   "Model of a data center connected to renewable energy generation"
   extends Modelica.Icons.Example;

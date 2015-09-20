@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
 model TrimAndRespond "Test model for TrimAndRespond"
   extends Modelica.Icons.Example;
 

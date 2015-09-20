@@ -1,4 +1,4 @@
-within Buildings.Rooms;
+within HGV.Buildings.Rooms;
 model MixedAir "Model of a room in which the air is completely mixed"
   extends Buildings.Rooms.BaseClasses.RoomHeatMassBalance(
   redeclare Buildings.Rooms.BaseClasses.MixedAirHeatMassBalance air(

@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous;
+within HGV.Buildings.Controls.Continuous;
 block SignalRanker "Ranks output signals such that y[i] >= y[i+1]"
    extends Modelica.Blocks.Interfaces.MIMO(final nout=nin);
 protected

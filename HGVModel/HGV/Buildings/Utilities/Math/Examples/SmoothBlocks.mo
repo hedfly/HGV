@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model SmoothBlocks "Test model for smooth min and smooth max functions"
   extends Modelica.Icons.Example;
   SmoothMax smoMax(deltaX=0.5) annotation (Placement(transformation(extent={{

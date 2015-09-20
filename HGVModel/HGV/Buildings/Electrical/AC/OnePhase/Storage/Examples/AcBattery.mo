@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Storage.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Storage.Examples;
 model AcBattery "This example shows how to use the AC battery model"
   extends Modelica.Icons.Example;
   Battery bat_ideal(

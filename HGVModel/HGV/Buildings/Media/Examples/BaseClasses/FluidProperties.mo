@@ -1,4 +1,4 @@
-within Buildings.Media.Examples.BaseClasses;
+within HGV.Buildings.Media.Examples.BaseClasses;
 partial model FluidProperties
   "Model that tests the implementation of the fluid properties"
 

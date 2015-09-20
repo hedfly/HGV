@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources;
+within HGV.Buildings.Electrical.DC.Sources;
 model PVSimpleOriented "Simple PV model with orientation"
   extends Buildings.Electrical.Interfaces.PartialPVOriented(
     redeclare package PhaseSystem = PhaseSystems.TwoConductor,

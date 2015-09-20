@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.Examples;
 model FlatPlateWithTank
   "Example showing use of the flat plate solar collector in a complete solar thermal system"
   extends Modelica.Icons.Example;

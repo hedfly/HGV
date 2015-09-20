@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function dynamicViscosityWater "Returns the dynamic viscosity for water"
     input Modelica.SIunits.Temperature T "Thermodynamic state record";
     output Modelica.SIunits.DynamicViscosity mu "Dynamic viscosity";

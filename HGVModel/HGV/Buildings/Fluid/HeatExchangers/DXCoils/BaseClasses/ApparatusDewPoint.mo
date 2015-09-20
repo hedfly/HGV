@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block ApparatusDewPoint "Calculates air properties at apparatus dew point"
   extends
     Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.PartialSurfaceCondition;

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
 package BaseClasses "Package with base class models"
 extends Modelica.Icons.BasesPackage;
 

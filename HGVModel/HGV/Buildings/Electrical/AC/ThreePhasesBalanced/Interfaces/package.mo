@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced;
 package Interfaces "Package interfaces for three-phase balanced AC systems"
   extends Modelica.Icons.InterfacesPackage;
 

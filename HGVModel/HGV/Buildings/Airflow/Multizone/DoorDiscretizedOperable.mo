@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model DoorDiscretizedOperable
   "Door model using discretization along height coordinate"
   extends Buildings.Airflow.Multizone.BaseClasses.DoorDiscretized;

@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model MediumColumnDynamic
   "Vertical shaft with no friction and storage of heat and mass"
   extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations;

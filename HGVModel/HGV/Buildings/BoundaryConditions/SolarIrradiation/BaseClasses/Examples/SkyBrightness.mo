@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.Examples;
 model SkyBrightness "Test model for sky brightness"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarIrradiation.BaseClasses.RelativeAirMass relAirMas

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function quadraticLinear
   "Function that is quadratic in first argument and linear in second argument"
  input Real a[6] "Coefficients";

@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record SideFins "Record for window side fins"
   extends Modelica.Icons.Record;
   parameter Modelica.SIunits.Length h(min=0)

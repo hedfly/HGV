@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves.Data;
+within HGV.Buildings.Fluid.Actuators.Valves.Data;
 record Generic "Generic record for valve parameters"
   extends Modelica.Icons.Record;
   parameter Real y[:](each min=0, each max=1)

@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant;
+within HGV.Buildings.Examples.ChillerPlant;
 package BaseClasses "Package with base classes for Buildings.Examples.ChillerPlant"
 extends Modelica.Icons.BasesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.Icons;
+within HGV.Buildings.Electrical.Icons;
 partial class GeneralizedProbe
   "Icon representing a generalized probe that measures voltage, and phase angle"
   annotation (Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},

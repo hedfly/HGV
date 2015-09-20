@@ -1,4 +1,4 @@
-within Buildings.Rooms.Constructions.BaseClasses;
+within HGV.Buildings.Rooms.Constructions.BaseClasses;
 partial model PartialConstruction
   "Partial model for exterior construction that has no window"
 

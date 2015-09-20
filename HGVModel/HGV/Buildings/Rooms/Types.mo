@@ -1,4 +1,4 @@
-within Buildings.Rooms;
+within HGV.Buildings.Rooms;
 package Types "Package with type definitions"
 
   type CFDBoundaryConditions = enumeration(

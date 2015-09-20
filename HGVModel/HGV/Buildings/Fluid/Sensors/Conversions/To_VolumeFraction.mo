@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Conversions;
+within HGV.Buildings.Fluid.Sensors.Conversions;
 model To_VolumeFraction "Conversion from mass fraction to volume fraction"
 
   parameter Modelica.SIunits.MolarMass MMMea "Molar mass of measured substance";

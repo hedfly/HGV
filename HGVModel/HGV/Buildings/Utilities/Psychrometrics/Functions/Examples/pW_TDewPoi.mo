@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.Examples;
 model pW_TDewPoi "Model to test pW_TDewPoi and its inverse function"
   extends Modelica.Icons.Example;
 

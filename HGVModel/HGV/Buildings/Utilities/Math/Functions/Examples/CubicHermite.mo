@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.Examples;
+within HGV.Buildings.Utilities.Math.Functions.Examples;
 model CubicHermite "Test problem for cubic hermite splines"
   extends Modelica.Icons.Example;
   parameter Real[:] xd={-1,1,5,6} "Support points";

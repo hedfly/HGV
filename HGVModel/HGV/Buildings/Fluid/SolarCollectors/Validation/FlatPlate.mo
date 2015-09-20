@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Validation;
+within HGV.Buildings.Fluid.SolarCollectors.Validation;
 model FlatPlate "Validation model for FlatPlate"
   extends Modelica.Icons.Example;
   replaceable package Medium = Buildings.Media.Water "Medium in the system";

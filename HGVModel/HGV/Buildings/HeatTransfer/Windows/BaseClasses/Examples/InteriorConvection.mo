@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model InteriorConvection
   "Test model for the interior heat transfer due to convection"
   extends Modelica.Icons.Example;

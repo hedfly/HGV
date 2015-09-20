@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.BaseClasses;
+within HGV.Buildings.Controls.Predictors.BaseClasses;
 function average "Average of past 10 days"
   extends partialBaselinePrediction;
 algorithm

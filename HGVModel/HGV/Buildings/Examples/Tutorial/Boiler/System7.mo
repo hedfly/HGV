@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.Boiler;
+within HGV.Buildings.Examples.Tutorial.Boiler;
 model System7
   "7th part of the system model, which implements the on/off control using a state machine"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Controls;
+within HGV.Buildings.Fluid.SolarCollectors.Controls;
 model SolarPumpController
   "Controller which activates a circulation pump when solar radiation is above a critical level"
   extends Modelica.Blocks.Icons.Block;

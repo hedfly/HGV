@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model SkyRadiationExchange
   "Radiative heat exchange with the sky and the ambient"
   extends Buildings.BaseClasses.BaseIcon;

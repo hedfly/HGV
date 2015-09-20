@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.Validation;
+within HGV.Buildings.Controls.Predictors.Validation;
 model ConstantInput
   "Demand response client with constant input for actual power consumption"
   extends

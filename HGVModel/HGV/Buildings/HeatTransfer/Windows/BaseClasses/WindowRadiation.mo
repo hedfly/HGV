@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 block WindowRadiation "Calculation radiation for window"
 
   extends Buildings.HeatTransfer.Windows.BaseClasses.PartialRadiation;

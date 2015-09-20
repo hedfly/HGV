@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Dampers;
+within HGV.Buildings.Fluid.Actuators.Dampers;
 model Exponential "Air damper with exponential opening characteristics"
   extends Buildings.Fluid.Actuators.BaseClasses.PartialDamperExponential(
   final dp_nominal=(m_flow_nominal/kDam_default)^2,

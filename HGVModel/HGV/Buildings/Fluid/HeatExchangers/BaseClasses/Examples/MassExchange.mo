@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model MassExchange "Test model for latent heat exchange"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation.BaseClasses;
+within HGV.Buildings.Fluid.Movers.Validation.BaseClasses;
 model ControlledFlowMachine
 
   package Medium = Buildings.Media.Air;

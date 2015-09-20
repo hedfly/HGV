@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses.FlowModels.Examples;
+within HGV.Buildings.Fluid.BaseClasses.FlowModels.Examples;
 model InverseFlowFunction "Test model for flow function and its inverse"
   extends Modelica.Icons.Example;
  Modelica.SIunits.MassFlowRate m_flow;

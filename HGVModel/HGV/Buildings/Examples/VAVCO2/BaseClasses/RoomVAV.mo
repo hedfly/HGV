@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVCO2.BaseClasses;
+within HGV.Buildings.Examples.VAVCO2.BaseClasses;
 model RoomVAV "Model for CO2 emitted by people"
   replaceable package Medium =
       Modelica.Media.Interfaces.PartialMedium "Medium in the component";

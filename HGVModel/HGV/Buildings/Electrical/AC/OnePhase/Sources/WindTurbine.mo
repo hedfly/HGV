@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sources;
+within HGV.Buildings.Electrical.AC.OnePhase.Sources;
 model WindTurbine "Simple wind turbine model"
   extends Buildings.Electrical.Interfaces.PartialWindTurbine(
     redeclare package PhaseSystem = Buildings.Electrical.PhaseSystems.OnePhase,

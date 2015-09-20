@@ -1,6 +1,7 @@
-within Buildings.Fluid.Sources;
+within HGV.Buildings.Fluid.Sources;
 package BaseClasses "Package with base classes for Buildings.Fluid.Sources"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

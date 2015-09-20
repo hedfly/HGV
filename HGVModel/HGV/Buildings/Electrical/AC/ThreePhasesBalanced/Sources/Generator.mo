@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
 model Generator "Model of a generator"
   extends Buildings.Electrical.AC.OnePhase.Sources.Generator(
     redeclare Interfaces.Terminal_p terminal,

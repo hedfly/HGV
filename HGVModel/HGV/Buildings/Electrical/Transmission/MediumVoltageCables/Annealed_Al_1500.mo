@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.MediumVoltageCables;
+within HGV.Buildings.Electrical.Transmission.MediumVoltageCables;
 record Annealed_Al_1500 "Annealed Al cable - AWG 1500"
   extends Buildings.Electrical.Transmission.MediumVoltageCables.Generic(
     material=Types.Material.Al,

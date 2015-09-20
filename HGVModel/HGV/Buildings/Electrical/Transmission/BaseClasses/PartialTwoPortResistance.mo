@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.BaseClasses;
+within HGV.Buildings.Electrical.Transmission.BaseClasses;
 partial model PartialTwoPortResistance
   "Partial model of a resistive element that links two electrical connectors"
   extends Interfaces.PartialTwoPort;

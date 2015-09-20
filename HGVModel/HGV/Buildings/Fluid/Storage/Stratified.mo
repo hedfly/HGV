@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage;
+within HGV.Buildings.Fluid.Storage;
 model Stratified "Model of a stratified tank for thermal energy storage"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(
       showDesignFlowDirection=false);

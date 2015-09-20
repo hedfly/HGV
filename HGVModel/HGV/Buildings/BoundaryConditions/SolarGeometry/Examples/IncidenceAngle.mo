@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.Examples;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.Examples;
 model IncidenceAngle "Test model for solar incidence angle"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.IncidenceAngle incAngHor(

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model Shade "Test model for exterior shade heat transfer"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Area A=1 "Window surface area";

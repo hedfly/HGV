@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
 package Examples "Package with example models"
   extends Modelica.Icons.ExamplesPackage;
   model Sensors "Test models for sensors and probes"

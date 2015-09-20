@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
 model TwoPortInductance "Model of an inductance with two electrical ports"
   extends Buildings.Electrical.AC.OnePhase.Lines.TwoPortInductance(
     redeclare Interfaces.Terminal_n terminal_n,

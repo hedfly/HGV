@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block BooleanReplicator "Boolean signal replicator"
   extends Modelica.Blocks.Icons.BooleanBlock;
   parameter Integer nout=1 "Number of outputs";

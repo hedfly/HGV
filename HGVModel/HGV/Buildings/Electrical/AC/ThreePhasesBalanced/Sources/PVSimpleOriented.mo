@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
 model PVSimpleOriented "Model of a simple PV panel with orientation"
   extends Buildings.Electrical.AC.OnePhase.Sources.PVSimpleOriented(
     redeclare Interfaces.Terminal_p terminal,

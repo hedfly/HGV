@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model DryCoilDiscretized
   "Coil with discretization along the flow paths and no humidity condensation"
   extends Fluid.Interfaces.PartialFourPortInterface(show_T=false);

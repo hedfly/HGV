@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized.Water;
+within HGV.Buildings.Media.Specialized.Water;
 package Examples "Collection of models that test the water models"
   extends Modelica.Icons.ExamplesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Interfaces;
+within HGV.Buildings.Electrical.AC.OnePhase.Interfaces;
 connector Terminal_n "Terminal n for AC one phase systems"
   extends Buildings.Electrical.Interfaces.Terminal(
     redeclare replaceable package PhaseSystem =

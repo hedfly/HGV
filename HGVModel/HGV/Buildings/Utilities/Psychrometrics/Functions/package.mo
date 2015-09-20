@@ -1,6 +1,7 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 package Functions "Package with psychrometric functions"
   extends Modelica.Icons.Package;
+
 
   annotation (preferredView="info", Documentation(info="<html>
 <p>

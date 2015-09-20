@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
 model ProbeDelta
   "Model of a probe that measures voltage magnitude and angle (Delta configuration)"
   extends

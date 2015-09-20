@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model MassFractionTwoPort "Ideal two port mass fraction sensor"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialDynamicFlowSensor(
     redeclare replaceable package Medium =

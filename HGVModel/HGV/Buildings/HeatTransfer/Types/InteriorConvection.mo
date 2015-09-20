@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Types;
+within HGV.Buildings.HeatTransfer.Types;
 type InteriorConvection = enumeration(
     Fixed "Fixed coefficient (a user-specified parameter is used)",
     Temperature "Temperature dependent")

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
 model ACLineMatrix_RL_N
   "Test model for a three-phase unbalanced inductive-resistive line with neutral cable specified by a Z matrix"
   extends Modelica.Icons.Example;

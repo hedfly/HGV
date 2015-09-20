@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples;
 model StepResponseFiniteDifference "Model that tests the radiant slab"
   extends
     Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples.StepResponseEpsilonNTU(

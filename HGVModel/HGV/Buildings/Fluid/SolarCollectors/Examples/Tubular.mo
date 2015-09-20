@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.Examples;
 model Tubular "Example showing the use of Tubular"
   extends Modelica.Icons.Example;
   replaceable package Medium = Buildings.Media.Water "Medium in the system";

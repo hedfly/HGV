@@ -1,4 +1,4 @@
-within Buildings.Electrical.Types;
+within HGV.Buildings.Electrical.Types;
 type CharacteristicReactance =  Real (final quantity="Reactance per meter",  final unit="Ohm/m")
   "Reactance per unit length" annotation (Documentation(revisions="<html>
 <ul>

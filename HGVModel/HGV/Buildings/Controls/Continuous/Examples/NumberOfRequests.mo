@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous.Examples;
+within HGV.Buildings.Controls.Continuous.Examples;
 model NumberOfRequests
   "Example model for block that outputs the number of requests"
   extends Modelica.Icons.Example;

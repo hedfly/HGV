@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 model State
   "Block that outputs the mode if the state is active, or zero otherwise"
   extends Modelica.StateGraph.StepWithSignal;

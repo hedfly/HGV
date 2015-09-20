@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 model HexInternalElement "Internal part of a borehole"
   extends Buildings.Fluid.Interfaces.FourPortHeatMassExchanger(
     redeclare final package Medium1 = Medium,

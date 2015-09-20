@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 block KMinusU "Output y=k-u"
   extends Modelica.Blocks.Icons.Block;
 public

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.Examples;
 model WindTurbine "Example for the WindTurbine AC model"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.ThreePhasesUnbalanced.Sources.WindTurbine tur(

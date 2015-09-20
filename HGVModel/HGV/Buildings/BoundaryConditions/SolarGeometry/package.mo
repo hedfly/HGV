@@ -1,6 +1,7 @@
-within Buildings.BoundaryConditions;
+within HGV.Buildings.BoundaryConditions;
 package SolarGeometry "Package with models to compute solar geometry"
   extends Modelica.Icons.VariantsPackage;
+
 
 annotation (preferredView="info",
 Documentation(info="<html>

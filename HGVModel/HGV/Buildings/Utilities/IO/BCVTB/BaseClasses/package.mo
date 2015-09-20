@@ -1,6 +1,7 @@
-within Buildings.Utilities.IO.BCVTB;
+within HGV.Buildings.Utilities.IO.BCVTB;
 package BaseClasses "Package with base classes for Buildings.Utilities.IO.BCVTB"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

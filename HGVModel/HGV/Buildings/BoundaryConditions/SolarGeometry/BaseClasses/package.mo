@@ -1,6 +1,7 @@
-within Buildings.BoundaryConditions.SolarGeometry;
+within HGV.Buildings.BoundaryConditions.SolarGeometry;
 package BaseClasses "Package with base classes for Buildings.BoundaryConditions.SolarGeometry"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

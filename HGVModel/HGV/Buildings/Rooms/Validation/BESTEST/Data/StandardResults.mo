@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST.Data;
+within HGV.Buildings.Rooms.Validation.BESTEST.Data;
 record StandardResults "ASHRAE Standard Results"
     extends Modelica.Icons.Record;
 

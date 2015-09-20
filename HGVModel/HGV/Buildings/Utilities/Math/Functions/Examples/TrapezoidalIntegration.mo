@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.Examples;
+within HGV.Buildings.Utilities.Math.Functions.Examples;
 model TrapezoidalIntegration
   "Tests the correct implementation of the function trapezoidalIntegration"
   extends Modelica.Icons.Example;

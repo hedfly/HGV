@@ -1,4 +1,4 @@
-within Buildings;
+within HGV.Buildings;
 package Airflow "Package to compute airflow and contaminant transport between rooms"
   extends Modelica.Icons.Package;
 

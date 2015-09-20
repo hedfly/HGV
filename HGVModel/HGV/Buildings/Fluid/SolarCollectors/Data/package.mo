@@ -1,6 +1,7 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package Data "Data for solar thermal collectors"
 extends Modelica.Icons.MaterialPropertiesPackage;
+
 
 annotation (Documentation(info="<html>
   <p>

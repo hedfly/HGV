@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model HeaterCooler_u "Heater or cooler with prescribed heat flow rate"
   extends Buildings.Fluid.Interfaces.TwoPortHeatMassExchanger(
     redeclare final Buildings.Fluid.MixingVolumes.MixingVolume vol,

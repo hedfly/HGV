@@ -1,4 +1,4 @@
-within Buildings.Rooms.Constructions;
+within HGV.Buildings.Rooms.Constructions;
 model Construction "Model for an opaque construction that has no window"
   extends Buildings.Rooms.Constructions.BaseClasses.PartialConstruction(
     final AOpa=A);
@@ -6,8 +6,7 @@ model Construction "Model for an opaque construction that has no window"
   annotation (
 defaultComponentName="conOpa",
 Diagram(coordinateSystem(preserveAspectRatio=true, extent={{-300,-300},
-            {300,300}})),
-                          Icon(coordinateSystem(preserveAspectRatio=true,
+            {300,300}})), Icon(coordinateSystem(preserveAspectRatio=true,
           extent={{-300,-300},{300,300}}), graphics={
         Rectangle(
           extent={{-290,202},{298,198}},

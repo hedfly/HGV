@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
 model SolarAzimuth "Test model for zenith angle"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Angle lat= 41.98*Modelica.Constants.pi/180

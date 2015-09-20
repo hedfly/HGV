@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.Boiler;
+within HGV.Buildings.Examples.Tutorial.Boiler;
 model System4
   "4th part of the system model, which adds closed-loop control for the pumps and the boiler"
   extends Modelica.Icons.Example;

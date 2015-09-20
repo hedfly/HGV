@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction.BaseClasses;
+within HGV.Buildings.HeatTransfer.Conduction.BaseClasses;
 partial model PartialConductor "Partial model for heat conductor"
   extends Buildings.BaseClasses.BaseIcon;
   parameter Modelica.SIunits.Area A "Heat transfer area";

@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct.Controls;
+within HGV.Buildings.Examples.DualFanDualDuct.Controls;
 block HeatingCoilTemperatureSetpoint "Set point scheduler for heating coil"
   import Buildings.Examples.VAVReheat.Controls.OperationModes;
   extends CoolingCoilTemperatureSetpoint(TSetPoi(

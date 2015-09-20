@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers;
 model FixedApproach "Cooling tower with constant approach temperature"
   extends Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses.CoolingTower;
 

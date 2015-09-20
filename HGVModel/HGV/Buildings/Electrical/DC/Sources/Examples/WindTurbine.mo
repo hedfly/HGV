@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources.Examples;
+within HGV.Buildings.Electrical.DC.Sources.Examples;
 model WindTurbine "Example for the WindTurbine model"
   extends Modelica.Icons.Example;
   Buildings.Electrical.DC.Sources.WindTurbine           tur(

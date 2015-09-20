@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Conversion.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Conversion.Examples;
 model ACDCConverter
   "This example illustrates how to use the AC/DC converter model"
   extends Modelica.Icons.Example;

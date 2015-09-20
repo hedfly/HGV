@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs;
 model SingleCircuitSlab "Model of a single circuit of a radiant slab"
   extends Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses.Slab;
   extends Buildings.Fluid.FixedResistances.BaseClasses.Pipe(

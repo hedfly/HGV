@@ -1,6 +1,7 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package Validation "Collection of validation models"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

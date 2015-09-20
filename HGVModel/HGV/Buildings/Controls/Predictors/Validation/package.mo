@@ -1,6 +1,7 @@
-within Buildings.Controls.Predictors;
+within HGV.Buildings.Controls.Predictors;
 package Validation "Collection of models that validate the load predictors"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

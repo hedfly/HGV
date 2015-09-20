@@ -1,13 +1,5 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 package Characteristics "Functions for fan or pump characteristics"
-
-
-
-
-
-
-
-
 
 
   annotation (Documentation(info="<html>

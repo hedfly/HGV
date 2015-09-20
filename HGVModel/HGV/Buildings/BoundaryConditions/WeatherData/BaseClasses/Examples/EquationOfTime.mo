@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model EquationOfTime "Test model for equation of time"
   extends Modelica.Icons.Example;
   Utilities.Time.ModelTime modTim "Block that outputs simulation time"

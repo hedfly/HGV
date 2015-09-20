@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads.BaseClasses;
 partial model BaseImpedance
   "Partial model of a three-phase unbalanced impedance"
   extends Buildings.Electrical.Interfaces.PartialPluggableUnbalanced;

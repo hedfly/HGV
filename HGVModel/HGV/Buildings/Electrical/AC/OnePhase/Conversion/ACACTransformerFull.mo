@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Conversion;
+within HGV.Buildings.Electrical.AC.OnePhase.Conversion;
 model ACACTransformerFull "AC AC transformer with detailed equivalent circuit"
   extends Buildings.Electrical.Icons.RefAngleConversion;
   extends Buildings.Electrical.Interfaces.PartialConversion(

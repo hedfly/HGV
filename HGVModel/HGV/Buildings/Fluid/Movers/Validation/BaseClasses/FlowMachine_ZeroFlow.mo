@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation.BaseClasses;
+within HGV.Buildings.Fluid.Movers.Validation.BaseClasses;
 partial model FlowMachine_ZeroFlow
   "Base class to test flow machines with zero flow rate"
 

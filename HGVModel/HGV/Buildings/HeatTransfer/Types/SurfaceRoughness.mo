@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Types;
+within HGV.Buildings.HeatTransfer.Types;
 type SurfaceRoughness = enumeration(
     VeryRough "Very rough",
     Rough "Rough",

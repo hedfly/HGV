@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model SmoothLimit "Test model for smooth limit"
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Sine sine(freqHz=8)

@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses.Examples;
 model ASHRAESolarGain "Example showing the use of ASHRAESolarGain"
   extends Modelica.Icons.Example;
   parameter Buildings.Fluid.SolarCollectors.Data.GenericSolarCollector per=

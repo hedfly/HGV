@@ -1,8 +1,6 @@
-within Buildings.Rooms.FLEXLAB.Rooms;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms;
 package X3B "Models of rooms in test cell X3B"
 extends Modelica.Icons.Package;
-
-
 
 
   annotation(Documentation(info="<html>

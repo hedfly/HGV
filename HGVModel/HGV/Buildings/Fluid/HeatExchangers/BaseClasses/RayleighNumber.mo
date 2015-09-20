@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model RayleighNumber
   "Calculates the Rayleigh number for a given fluid and characteristic length"
   extends Modelica.Blocks.Icons.Block;

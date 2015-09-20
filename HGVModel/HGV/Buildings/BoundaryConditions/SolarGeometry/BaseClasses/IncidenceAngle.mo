@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses;
 block IncidenceAngle "The solar incidence angle on a tilted surface"
   extends Modelica.Blocks.Icons.Block;
 public

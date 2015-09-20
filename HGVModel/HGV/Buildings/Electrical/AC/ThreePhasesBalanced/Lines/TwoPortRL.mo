@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
 model TwoPortRL
   "Model of a resistive-inductive element with two electrical ports"
   extends Buildings.Electrical.AC.OnePhase.Lines.TwoPortRL(

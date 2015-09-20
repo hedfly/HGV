@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function glassTRInteriorIrradiationNoShading
   "Transmittance and reflectance of each glass pane for interior irradiation without shading"
   extends

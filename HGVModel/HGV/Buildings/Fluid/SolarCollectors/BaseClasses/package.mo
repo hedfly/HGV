@@ -1,14 +1,6 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package BaseClasses "Package with base classes for Buildings.Fluid.SolarCollectors"
 extends Modelica.Icons.BasesPackage;
-
-
-
-
-
-
-
-
 
 
 annotation (preferredView="info", Documentation(info="<html>

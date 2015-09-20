@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 block TrimAndRespond "Trim and respond logic"
   extends Modelica.Blocks.Interfaces.DiscreteSISO;
   parameter Real uTri "Value to triggering the request for actuator";

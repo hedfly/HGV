@@ -1,6 +1,7 @@
-within Buildings.Electrical;
+within HGV.Buildings.Electrical;
 package Examples "Package with example models"
 extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (Documentation(info="<html>
 <p>

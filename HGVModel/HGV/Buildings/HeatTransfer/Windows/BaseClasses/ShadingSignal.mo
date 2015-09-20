@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 block ShadingSignal
   "Converts the shading signal to be strictly bigger than 0 and smaller than 1"
   extends Modelica.Blocks.Interfaces.SO;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Conversions.Examples;
+within HGV.Buildings.Fluid.Sensors.Conversions.Examples;
 model To_VolumeFraction "Example problem for conversion model"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air(extraPropertiesNames={"CO2"});

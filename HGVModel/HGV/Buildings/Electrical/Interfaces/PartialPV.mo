@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model PartialPV "Base model for a PV system"
   extends Buildings.Electrical.Interfaces.PartialPvBase;
   replaceable package PhaseSystem =

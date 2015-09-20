@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Examples;
 model MultiStage "Test model for multi stage DX coil"
   package Medium = Buildings.Media.Air;
   extends Modelica.Icons.Example;

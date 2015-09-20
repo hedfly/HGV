@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model CFDFluidInterface
  extends Buildings.BaseClasses.BaseIcon;
 

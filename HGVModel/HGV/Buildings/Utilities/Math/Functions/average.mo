@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function average "Average of a vector"
   input Integer nin "Number of inputs";
   input Real u[nin] "Input vector";

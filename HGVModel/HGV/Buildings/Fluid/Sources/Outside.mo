@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources;
+within HGV.Buildings.Fluid.Sources;
 model Outside
   "Boundary that takes weather data, and optionally trace substances, as an input"
   extends Buildings.Fluid.Sources.BaseClasses.Outside;

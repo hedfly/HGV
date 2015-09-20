@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.Examples;
 model Converter "Test for the AC/AC converter model"
   extends BaseClasses.TransformerExample(
   V_primary = 480,

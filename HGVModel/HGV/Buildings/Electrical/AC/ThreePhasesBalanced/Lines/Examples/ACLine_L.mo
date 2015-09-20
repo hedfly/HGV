@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines.Examples;
 model ACLine_L "Test model for single phase inductive lines"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Inductance Lbase = 10/2/Modelica.Constants.pi/60

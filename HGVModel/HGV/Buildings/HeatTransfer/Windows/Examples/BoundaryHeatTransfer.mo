@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Examples;
+within HGV.Buildings.HeatTransfer.Windows.Examples;
 model BoundaryHeatTransfer
   "Test model for the heat transfer at the window boundary condition"
   extends Modelica.Icons.Example;

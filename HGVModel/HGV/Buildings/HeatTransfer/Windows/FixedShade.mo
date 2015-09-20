@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows;
+within HGV.Buildings.HeatTransfer.Windows;
 model FixedShade "Model for exterior shade due to overhang and/or side fin"
   extends HeatTransfer.Windows.BaseClasses.ShadeInterface_weatherBus;
   parameter Buildings.Rooms.BaseClasses.ParameterConstructionWithWindow conPar

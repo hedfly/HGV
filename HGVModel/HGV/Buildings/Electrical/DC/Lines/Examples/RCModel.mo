@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines.Examples;
+within HGV.Buildings.Electrical.DC.Lines.Examples;
 model RCModel "Example model to test for the DC RC two port model"
   extends Modelica.Icons.Example;
 

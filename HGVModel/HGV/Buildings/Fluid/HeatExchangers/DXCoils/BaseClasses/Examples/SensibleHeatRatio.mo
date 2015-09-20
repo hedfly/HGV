@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model SensibleHeatRatio "Test model for SensibleHeatRatio"
  extends Modelica.Icons.Example;
  package Medium =

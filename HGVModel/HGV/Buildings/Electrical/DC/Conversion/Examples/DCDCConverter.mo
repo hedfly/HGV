@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Conversion.Examples;
+within HGV.Buildings.Electrical.DC.Conversion.Examples;
 model DCDCConverter "Test model DC to DC converter"
   extends Modelica.Icons.Example;
   Buildings.Electrical.DC.Loads.Conductor resistor(

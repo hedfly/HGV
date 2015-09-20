@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Examples;
+within HGV.Buildings.HeatTransfer.Examples;
 model ConductorSingleLayerCylinder
   "Test model for heat conduction in a cylinder"
   extends Modelica.Icons.Example;

@@ -1,11 +1,10 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function ntu_epsilonZ
   "Computes number of transfer units for given heat exchanger effectiveness and heat exchanger flow regime"
   import f = Buildings.Fluid.Types.HeatExchangerFlowRegime;
   input Real eps(min=0, max=0.999) "Heat exchanger effectiveness";
   input Real Z(min=0, max=1) "Ratio of capacity flow rate (CMin/CMax)";
-  input Integer flowRegime
-    "Heat exchanger flow regime";
+  input Integer flowRegime "Heat exchanger flow regime";
   output Real NTU "Number of transfer units";
 
 protected

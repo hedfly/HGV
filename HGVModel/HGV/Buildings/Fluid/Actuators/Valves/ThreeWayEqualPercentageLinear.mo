@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves;
+within HGV.Buildings.Fluid.Actuators.Valves;
 model ThreeWayEqualPercentageLinear
   "Three way valve with equal percentage and linear characteristics"
     extends BaseClasses.PartialThreeWayValve(

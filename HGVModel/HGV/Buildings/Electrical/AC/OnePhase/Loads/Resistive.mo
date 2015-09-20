@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads;
 model Resistive "Model of a resistive load"
   extends Buildings.Electrical.Interfaces.Load(
     redeclare package PhaseSystem = PhaseSystems.OnePhase,

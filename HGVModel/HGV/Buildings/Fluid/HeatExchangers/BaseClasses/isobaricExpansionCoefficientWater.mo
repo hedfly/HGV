@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function isobaricExpansionCoefficientWater
   "Returns the isobaric expansion coefficient for water"
     input Modelica.SIunits.Temperature T "Thermodynamic state record";

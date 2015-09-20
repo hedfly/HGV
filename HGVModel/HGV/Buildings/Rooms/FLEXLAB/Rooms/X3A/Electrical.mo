@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Rooms.X3A;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms.X3A;
 model Electrical "Model of the electrical room attached to test cell X3A"
   extends Buildings.Rooms.MixedAir(
   hRoo = 3.6576,

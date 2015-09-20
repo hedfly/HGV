@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves.Examples;
+within HGV.Buildings.Fluid.Actuators.Valves.Examples;
 model TwoWayValveTable
   "Two way valve with nonlinear opening characteristics based on a table"
   extends Modelica.Icons.Example;

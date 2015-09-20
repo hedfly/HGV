@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Examples;
+within HGV.Buildings.HeatTransfer.Windows.Examples;
 model Window "Test model for the window"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Area A=1 "Window surface area";

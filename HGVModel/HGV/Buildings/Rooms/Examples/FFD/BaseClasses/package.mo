@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 package BaseClasses "Package with base classes for Buildings.Rooms.Examples.FFD"
   extends Modelica.Icons.BasesPackage;
 

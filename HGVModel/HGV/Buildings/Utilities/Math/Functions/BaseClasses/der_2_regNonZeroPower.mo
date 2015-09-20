@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.BaseClasses;
+within HGV.Buildings.Utilities.Math.Functions.BaseClasses;
 function der_2_regNonZeroPower
   "Power function, regularized near zero, but nonzero value for x=0"
  input Real x "Abscissa value";

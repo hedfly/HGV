@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 model Evaporation
   "Model that computes evaporation of water that accumulated on the coil surface"
   extends Modelica.Blocks.Icons.Block;

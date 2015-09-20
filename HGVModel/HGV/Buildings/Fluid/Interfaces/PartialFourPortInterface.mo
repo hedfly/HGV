@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 partial model PartialFourPortInterface
   "Partial model transporting fluid between two ports without storing mass or energy"
   extends Buildings.Fluid.Interfaces.FourPort;

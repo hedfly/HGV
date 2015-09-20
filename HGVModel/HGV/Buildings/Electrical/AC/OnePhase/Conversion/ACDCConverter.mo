@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Conversion;
+within HGV.Buildings.Electrical.AC.OnePhase.Conversion;
 model ACDCConverter "AC DC converter"
   extends Buildings.Electrical.Interfaces.PartialConversion(
     redeclare package PhaseSystem_p = PhaseSystems.TwoConductor,

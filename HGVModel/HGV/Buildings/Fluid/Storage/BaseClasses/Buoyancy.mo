@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage.BaseClasses;
+within HGV.Buildings.Fluid.Storage.BaseClasses;
 model Buoyancy
   "Model to add buoyancy if there is a temperature inversion in the tank"
   extends Buildings.BaseClasses.BaseIcon;

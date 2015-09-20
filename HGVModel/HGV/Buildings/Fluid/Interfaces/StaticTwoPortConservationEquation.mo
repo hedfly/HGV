@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 model StaticTwoPortConservationEquation
   "Partial model for static energy and mass conservation equations"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(

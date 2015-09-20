@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckCeilingHeight
   "Ensures that the ceiling height is above a lower bound"
   extends Modelica.Blocks.Icons.Block;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model ApparatusDryPoint "Test model for ApparatusDryPoint"
   extends Modelica.Icons.Example;
   parameter Integer nSta=4;

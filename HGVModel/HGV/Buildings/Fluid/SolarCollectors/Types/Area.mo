@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Types;
+within HGV.Buildings.Fluid.SolarCollectors.Types;
 type Area = enumeration(
     Gross "Gross area",
     Aperture "Net aperture area")

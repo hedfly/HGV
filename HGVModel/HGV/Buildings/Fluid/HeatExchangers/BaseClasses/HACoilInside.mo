@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model HACoilInside "Calculates the hA value for water inside a coil"
   extends Buildings.BaseClasses.BaseIcon;
 

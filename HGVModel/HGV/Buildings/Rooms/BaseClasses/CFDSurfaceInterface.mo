@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model CFDSurfaceInterface
  extends Buildings.BaseClasses.BaseIcon;
   parameter Buildings.Rooms.Types.CFDBoundaryConditions bouCon

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.BaseClasses;
+within HGV.Buildings.Fluid.Actuators.BaseClasses;
 function exponentialDamper
   "Damper opening characteristics for an exponential damper"
   input Real y(min=0, max=1, unit="")

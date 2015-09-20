@@ -1,4 +1,4 @@
-within Buildings.Rooms.Constructions.Examples;
+within HGV.Buildings.Rooms.Constructions.Examples;
 model ExteriorWallWithWindow "Test model for an exterior wall with a window"
   extends Modelica.Icons.Example;
   parameter Modelica.SIunits.Area A=3*10

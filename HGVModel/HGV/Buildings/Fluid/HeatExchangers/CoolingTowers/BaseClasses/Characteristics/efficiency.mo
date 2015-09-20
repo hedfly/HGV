@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.BaseClasses.Characteristics;
 function efficiency "Flow vs. efficiency characteristics for fan or pump"
   extends Modelica.Icons.Function;
 

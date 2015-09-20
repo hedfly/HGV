@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Lines;
 model TwoPortResistance "Model of a resistance with two electrical ports"
   extends Buildings.Electrical.AC.OnePhase.Lines.TwoPortResistance(
     redeclare Interfaces.Terminal_n terminal_n,

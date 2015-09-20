@@ -1,12 +1,6 @@
-within Buildings.Fluid;
+within HGV.Buildings.Fluid;
 package Sources "Package with boundary condition models"
   extends Modelica.Icons.SourcesPackage;
-
-
-
-
-
-
 
 
 annotation (preferredView="info",

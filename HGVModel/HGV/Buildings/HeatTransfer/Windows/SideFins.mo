@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows;
+within HGV.Buildings.HeatTransfer.Windows;
 model SideFins
   "For a window with side fins, outputs the fraction of the window area exposed to the sun"
   extends Buildings.Rooms.BaseClasses.SideFins;

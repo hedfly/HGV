@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB;
+within HGV.Buildings.Utilities.IO.BCVTB;
 block To_degC "Converts Kelvin to Celsius"
   extends Modelica.Blocks.Icons.Block;
 

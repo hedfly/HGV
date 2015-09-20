@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs;
 package BaseClasses "Package with base classes for Buildings.Fluid.HeatExchangers.RadiantSlabs"
   extends Modelica.Icons.BasesPackage;
 

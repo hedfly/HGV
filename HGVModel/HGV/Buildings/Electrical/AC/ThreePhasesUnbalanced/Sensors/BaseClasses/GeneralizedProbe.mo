@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors.BaseClasses;
 partial model GeneralizedProbe
   "Partial model of a generalized three-phase probe"
   extends Icons.GeneralizedProbe;

@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls.Examples;
+within HGV.Buildings.Examples.VAVReheat.Controls.Examples;
 model OperationModes "Test model for operation modes"
     extends Modelica.Icons.Example;
   import ModelicaVAV = Buildings.Examples.VAVReheat;

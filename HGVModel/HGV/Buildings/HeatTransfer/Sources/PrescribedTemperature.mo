@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Sources;
+within HGV.Buildings.HeatTransfer.Sources;
 model PrescribedTemperature "Variable temperature boundary condition in Kelvin"
 
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_b port annotation (Placement(transformation(extent={{90,

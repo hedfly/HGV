@@ -1,4 +1,4 @@
-within Buildings;
+within HGV.Buildings;
 package Rooms "Package with models for rooms"
   extends Modelica.Icons.Package;
 

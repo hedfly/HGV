@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model SpeedControlled_y
   "Fan with zero mass flow rate and control signal y as input"
   extends Modelica.Icons.Example;

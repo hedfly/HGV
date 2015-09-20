@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage;
+within HGV.Buildings.Fluid.Storage;
 package BaseClasses "Package with base classes for Buildings.Fluid.Storage"
   extends Modelica.Icons.BasesPackage;
 

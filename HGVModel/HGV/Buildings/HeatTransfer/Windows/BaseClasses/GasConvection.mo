@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model GasConvection
   "Model for heat convection through gas in a window assembly"
   extends Modelica.Thermal.HeatTransfer.Interfaces.Element1D(

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves;
+within HGV.Buildings.Fluid.Actuators.Valves;
 model TwoWayPressureIndependent "Model of a pressure-independent two way valve"
   extends Buildings.Fluid.Actuators.BaseClasses.PartialTwoWayValve(
             final linearized = false,

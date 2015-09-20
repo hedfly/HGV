@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model OneEffectiveAirLeakageArea "Model with an effective air leakage area"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air;

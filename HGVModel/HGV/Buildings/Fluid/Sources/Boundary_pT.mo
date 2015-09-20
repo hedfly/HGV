@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources;
+within HGV.Buildings.Fluid.Sources;
 model Boundary_pT
   "Boundary with prescribed pressure, temperature, composition and trace substances"
   extends Modelica.Fluid.Sources.BaseClasses.PartialSource;

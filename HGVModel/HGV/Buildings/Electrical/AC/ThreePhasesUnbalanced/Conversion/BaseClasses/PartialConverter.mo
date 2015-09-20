@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion.BaseClasses;
 partial model PartialConverter "Partial model of a transformer"
   extends Buildings.Electrical.Icons.RefAngleConversion;
   replaceable Buildings.Electrical.Interfaces.PartialConversion

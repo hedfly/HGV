@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 function powerSeries "Power series used to compute far-field temperature"
   input Real u "u";
   input Integer N "Number of coefficients";

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Examples;
 model GridDCLoad "Model of a DC load connected to the grid"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.OnePhase.Sources.Grid

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function glassPropertyUncoated
   "Compute angular variation and hemispherical integration of the transmittance and reflectance for a uncoated glass pane without shading"
   extends

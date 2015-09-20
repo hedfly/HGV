@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 model IndoorRadiosity "Model for indoor radiosity"
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.RadiosityOneSurface;
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.ParametersOneSurface(

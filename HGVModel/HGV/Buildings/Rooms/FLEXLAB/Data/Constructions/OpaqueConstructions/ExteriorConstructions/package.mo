@@ -1,6 +1,7 @@
-within Buildings.Rooms.FLEXLAB.Data.Constructions.OpaqueConstructions;
+within HGV.Buildings.Rooms.FLEXLAB.Data.Constructions.OpaqueConstructions;
 package ExteriorConstructions "Exterior walls in FLEXLAB test cells"
   extends Modelica.Icons.MaterialPropertiesPackage;
+
 
   annotation(Documentation(info="<html>
     <p>

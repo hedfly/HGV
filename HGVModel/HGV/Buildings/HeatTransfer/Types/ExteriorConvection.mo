@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Types;
+within HGV.Buildings.HeatTransfer.Types;
 type ExteriorConvection = enumeration(
     Fixed "Fixed coefficient (a user-specified parameter is used)",
     TemperatureWind "Wind speed and temperature dependent")

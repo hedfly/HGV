@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block CheckRadiation "Ensure that the radiation is not smaller than 0"
   extends Modelica.Blocks.Icons.Block;
 public

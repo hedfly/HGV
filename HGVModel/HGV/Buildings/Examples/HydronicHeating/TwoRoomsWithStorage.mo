@@ -1,4 +1,4 @@
-within Buildings.Examples.HydronicHeating;
+within HGV.Buildings.Examples.HydronicHeating;
 model TwoRoomsWithStorage
   "Model of a hydronic heating system with energy storage"
   extends Modelica.Icons.Example;

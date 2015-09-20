@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission;
+within HGV.Buildings.Electrical.Transmission;
 package Functions "Package that contains functions to compute cable properties"
   extends Modelica.Icons.Package;
 

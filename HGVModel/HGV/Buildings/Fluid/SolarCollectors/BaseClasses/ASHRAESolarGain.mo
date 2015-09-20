@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses;
 block ASHRAESolarGain
   "Calculate the solar heat gain of a solar collector per ASHRAE Standard 93"
   extends Modelica.Blocks.Icons.Block;

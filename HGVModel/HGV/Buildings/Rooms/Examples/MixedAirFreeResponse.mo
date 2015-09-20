@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples;
+within HGV.Buildings.Rooms.Examples;
 model MixedAirFreeResponse "Free response of room model"
   extends Modelica.Icons.Example;
   package MediumA = Buildings.Media.Air "Medium model";

@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.Boiler;
+within HGV.Buildings.Examples.Tutorial.Boiler;
 model System6
   "6th part of the system model, which adds weather data and changes to PI control"
   extends Modelica.Icons.Example;

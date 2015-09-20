@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model ClosedDoors "Model with three closed doors"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Specialized.Air.PerfectGas;

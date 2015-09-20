@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
 block RelativeAirMass "Relative air mass"
   extends Modelica.Blocks.Icons.Block;
 public

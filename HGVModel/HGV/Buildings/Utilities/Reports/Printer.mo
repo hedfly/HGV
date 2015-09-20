@@ -1,4 +1,4 @@
-within Buildings.Utilities.Reports;
+within HGV.Buildings.Utilities.Reports;
 model Printer "Model that prints values to a file"
   extends Modelica.Blocks.Interfaces.DiscreteBlock;
 

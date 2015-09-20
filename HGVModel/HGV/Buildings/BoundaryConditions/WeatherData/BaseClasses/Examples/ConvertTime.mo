@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model ConvertTime "Test model for converting time"
   extends Modelica.Icons.Example;
   Buildings.Utilities.Time.ModelTime modTim

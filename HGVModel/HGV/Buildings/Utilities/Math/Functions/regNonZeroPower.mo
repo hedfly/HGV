@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function regNonZeroPower
   "Power function, regularized near zero, but nonzero value for x=0"
 

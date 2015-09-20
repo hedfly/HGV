@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Functions.HeatFlux;
+within HGV.Buildings.HeatTransfer.Convection.Functions.HeatFlux;
 function constantCoefficient "Constant convective heat transfer coefficient"
   extends
     Buildings.HeatTransfer.Convection.Functions.HeatFlux.BaseClasses.PartialHeatFlux;
@@ -7,7 +7,7 @@ function constantCoefficient "Constant convective heat transfer coefficient"
 algorithm
   q_flow :=hCon*dT;
 
-annotation(
+annotation (
 Documentation(info=
 "<html>
 <p>

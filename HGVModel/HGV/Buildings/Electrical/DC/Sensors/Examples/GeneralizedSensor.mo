@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sensors.Examples;
+within HGV.Buildings.Electrical.DC.Sensors.Examples;
 model GeneralizedSensor "Example model for generalized sensor"
   extends Modelica.Icons.Example;
   Buildings.Electrical.DC.Sensors.GeneralizedSensor sen "Power sensor"

@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors;
+within HGV.Buildings.Fluid.SolarCollectors;
 package Types "Package with type definitions used in solar collector data records"
 
 

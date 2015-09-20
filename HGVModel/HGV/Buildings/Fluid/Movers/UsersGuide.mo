@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers;
+within HGV.Buildings.Fluid.Movers;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
   annotation (preferredView="info",

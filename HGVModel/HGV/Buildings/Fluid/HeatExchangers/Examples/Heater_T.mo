@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model Heater_T
   "Example model for the heater with prescribed outlet temperature"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
 model MassFlowRateMultiplier "Model that multiplies the mass flow rate"
   extends Modelica.Fluid.Interfaces.PartialTwoPort;
 

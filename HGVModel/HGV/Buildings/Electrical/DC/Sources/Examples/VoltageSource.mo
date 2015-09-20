@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources.Examples;
+within HGV.Buildings.Electrical.DC.Sources.Examples;
 model VoltageSource "Example for the variable voltage source model"
   extends Modelica.Icons.Example;
   Modelica.Electrical.Analog.Basic.Ground ground

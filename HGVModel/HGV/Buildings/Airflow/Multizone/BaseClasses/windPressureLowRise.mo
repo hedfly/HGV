@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.BaseClasses;
+within HGV.Buildings.Airflow.Multizone.BaseClasses;
 function windPressureLowRise "Wind pressure coefficient for low-rise buildings"
   input Real Cp0(min=0)
     "Wind pressure coefficient for normal wind incidence angle";

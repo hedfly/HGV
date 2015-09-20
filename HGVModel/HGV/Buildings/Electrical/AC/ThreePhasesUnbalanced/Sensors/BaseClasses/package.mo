@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
 package BaseClasses "Package that contains base classes"
 extends Modelica.Icons.BasesPackage;
 

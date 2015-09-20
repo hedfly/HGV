@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Data;
+within HGV.Buildings.Fluid.SolarCollectors.Data;
 package GlazedFlatPlate "Package with SRCC rating information for glazed flat-plate solar thermal collectors"
 extends Modelica.Icons.MaterialPropertiesPackage;
 

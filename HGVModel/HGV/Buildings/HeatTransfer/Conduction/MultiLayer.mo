@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction;
+within HGV.Buildings.HeatTransfer.Conduction;
 model MultiLayer
   "Model for heat conductance through a solid with multiple material layers"
   extends Buildings.HeatTransfer.Conduction.BaseClasses.PartialConductor(

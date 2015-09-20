@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block EquationOfTime "Equation of time"
   extends Modelica.Blocks.Icons.Block;
 public

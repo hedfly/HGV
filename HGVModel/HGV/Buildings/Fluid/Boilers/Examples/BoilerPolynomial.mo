@@ -1,4 +1,4 @@
-within Buildings.Fluid.Boilers.Examples;
+within HGV.Buildings.Fluid.Boilers.Examples;
 model BoilerPolynomial "Test model"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Water "Medium model";

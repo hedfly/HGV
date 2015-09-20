@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Sensors;
 model ProbeWye_N
   "Model of a probe that measures voltage magnitude and angle (Wye configuration) witn neutral cable connection"
   extends

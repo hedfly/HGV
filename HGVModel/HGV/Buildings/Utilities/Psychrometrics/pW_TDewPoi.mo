@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block pW_TDewPoi
   "Model to compute the water vapor pressure for a given dew point temperature of moist air"
   extends Modelica.Blocks.Icons.Block;

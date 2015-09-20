@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines.Examples;
+within HGV.Buildings.Electrical.DC.Lines.Examples;
 model DCLinesLinearized
   "Example model to test the possible combinations between line and load models"
   extends Buildings.Electrical.DC.Lines.Examples.DCLines(linearLoads = true);

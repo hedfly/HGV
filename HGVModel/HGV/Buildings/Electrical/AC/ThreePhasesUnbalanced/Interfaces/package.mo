@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced;
 package Interfaces "Package with interfaces for three-phase unbalanced AC models"
   extends Modelica.Icons.InterfacesPackage;
 

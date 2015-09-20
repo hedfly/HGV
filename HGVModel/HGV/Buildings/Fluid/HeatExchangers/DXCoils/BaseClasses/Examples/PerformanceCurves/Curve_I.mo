@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples.PerformanceCurves;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples.PerformanceCurves;
 record Curve_I "Curve_I"
   extends
     Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.PerformanceCurve(

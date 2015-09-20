@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 block RoomVAV "Controller for room VAV box"
   extends Modelica.Blocks.Icons.Block;
   parameter Real kPDamHea = 0.5

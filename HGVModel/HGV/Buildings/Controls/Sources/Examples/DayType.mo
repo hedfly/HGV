@@ -1,4 +1,4 @@
-within Buildings.Controls.Sources.Examples;
+within HGV.Buildings.Controls.Sources.Examples;
 model DayType "Example model for the source that outputs the type of the day"
   extends Modelica.Icons.Example;
   Buildings.Controls.Sources.DayType dayTypMon

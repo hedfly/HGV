@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model DryCoilCounterFlow
   "Counterflow coil with discretization along the flow paths and without humidity condensation"
   extends Fluid.Interfaces.PartialFourPortInterface(show_T=false);

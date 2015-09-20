@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Loads.Examples;
+within HGV.Buildings.Electrical.DC.Loads.Examples;
 model LinearizedLoad "Example model to check the linearized load model"
   extends Modelica.Icons.Example;
   Real error = (sen_nlin.P - sen_lin.P)*100/sen_nlin.P

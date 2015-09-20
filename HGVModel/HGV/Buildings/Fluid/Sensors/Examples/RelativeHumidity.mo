@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.Examples;
+within HGV.Buildings.Fluid.Sensors.Examples;
 model RelativeHumidity "Test model for relative humidity sensor"
   extends Modelica.Icons.Example;
 

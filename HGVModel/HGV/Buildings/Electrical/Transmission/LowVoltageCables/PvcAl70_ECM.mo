@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.LowVoltageCables;
+within HGV.Buildings.Electrical.Transmission.LowVoltageCables;
 record PvcAl70_ECM "Aluminum cable 70mm^2"
     extends Buildings.Electrical.Transmission.LowVoltageCables.Generic(
     material=Types.Material.Al,

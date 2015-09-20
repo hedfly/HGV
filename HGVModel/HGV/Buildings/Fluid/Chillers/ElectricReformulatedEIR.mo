@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers;
+within HGV.Buildings.Fluid.Chillers;
 model ElectricReformulatedEIR
   "Electric chiller based on the DOE-2.1 model, but with performance as a function of condenser leaving instead of entering temperature"
   extends Buildings.Fluid.Chillers.BaseClasses.PartialElectric(

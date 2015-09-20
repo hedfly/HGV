@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines;
 model TwoPortRL
   "Model of a resistive-inductive element with two electrical ports"
   extends Buildings.Electrical.Transmission.BaseClasses.PartialTwoPortRLC(

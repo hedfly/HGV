@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Data.Pumps.Wilo;
+within HGV.Buildings.Fluid.Movers.Data.Pumps.Wilo;
 record VeroLine80slash115dash2comma2slash2
   "Pump data for a Wilo Veroline IP-E 80/115-2,2/2 pump"
   extends SpeedControlled_Nrpm(

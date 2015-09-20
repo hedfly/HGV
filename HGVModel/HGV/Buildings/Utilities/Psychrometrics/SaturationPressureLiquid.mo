@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 block SaturationPressureLiquid
   "Saturation pressure as a function of temperature"
   extends Modelica.Blocks.Icons.Block;

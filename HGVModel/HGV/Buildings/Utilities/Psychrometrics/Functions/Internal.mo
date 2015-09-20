@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 package Internal "Solve f(x, data) for x with given f"
   extends Modelica.Media.Common.OneNonLinearEquation;
 

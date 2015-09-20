@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation.BaseClasses;
 partial block PartialSolarIrradiation
   "Partial model that is used to compute the direct and diffuse solar irradiation"
   extends Modelica.Blocks.Icons.Block;

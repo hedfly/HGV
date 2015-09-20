@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST.Data;
+within HGV.Buildings.Rooms.Validation.BESTEST.Data;
 record FloorCase900 = Buildings.HeatTransfer.Data.OpaqueConstructions.Generic (
     final nLay=2,
     absIR_a=0.9,

@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized.Water.Examples;
+within HGV.Buildings.Media.Specialized.Water.Examples;
 model TemperatureDependentDensityTestImplementation
   "Model that tests the medium implementation"
   extends Modelica.Icons.Example;

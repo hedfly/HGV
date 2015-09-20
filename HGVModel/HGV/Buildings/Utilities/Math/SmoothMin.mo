@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block SmoothMin
   "Once continuously differentiable approximation to the minimum function"
   extends Modelica.Blocks.Interfaces.SI2SO;

@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB.BaseClasses;
+within HGV.Buildings.Utilities.IO.BCVTB.BaseClasses;
 function closeClientSocket
   "Closes the socket for the inter process communication"
 

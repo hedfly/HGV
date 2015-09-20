@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Lines;
+within HGV.Buildings.Electrical.DC.Lines;
 package Examples "Package with example models"
 extends Modelica.Icons.ExamplesPackage;
 

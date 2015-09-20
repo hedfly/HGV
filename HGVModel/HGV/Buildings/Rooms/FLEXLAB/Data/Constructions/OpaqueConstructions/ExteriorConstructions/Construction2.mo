@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Data.Constructions.OpaqueConstructions.ExteriorConstructions;
+within HGV.Buildings.Rooms.FLEXLAB.Data.Constructions.OpaqueConstructions.ExteriorConstructions;
 record Construction2 =
   Buildings.HeatTransfer.Data.OpaqueConstructions.Generic(final material={
     Buildings.HeatTransfer.Data.Solids.InsulationBoard(x=0.08255),

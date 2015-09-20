@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers.Examples;
+within HGV.Buildings.Fluid.Chillers.Examples;
 model Carnot "Test model for chiller based on Carnot efficiency"
   extends Modelica.Icons.Example;
  package Medium1 = Buildings.Media.Water "Medium model";

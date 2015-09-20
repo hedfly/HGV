@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Controls.BaseClasses;
+within HGV.Buildings.Fluid.SolarCollectors.Controls.BaseClasses;
 package Examples "Package containing examples demonstrating the use of Controls.BaseClasses models"
 
 

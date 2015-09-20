@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function devAbsInteriorIrradiationInteriorShading
   "Hemiperical absorptance of a shading device for interior irradiation with interior shading"
   extends

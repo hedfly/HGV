@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sensors.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sensors.Examples;
 model GeneralizedSensor "Example model for generalized sensor"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.ThreePhasesBalanced.Sensors.GeneralizedSensor

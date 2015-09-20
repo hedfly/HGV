@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 connector Terminal "Generalized electric terminal"
   extends Buildings.Electrical.Interfaces.BaseTerminal;
 replaceable package PhaseSystem = PhaseSystems.PartialPhaseSystem

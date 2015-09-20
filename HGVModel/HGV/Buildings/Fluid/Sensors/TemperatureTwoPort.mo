@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model TemperatureTwoPort "Ideal two port temperature sensor"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialDynamicFlowSensor;
   Modelica.Blocks.Interfaces.RealOutput T(final quantity="ThermodynamicTemperature",

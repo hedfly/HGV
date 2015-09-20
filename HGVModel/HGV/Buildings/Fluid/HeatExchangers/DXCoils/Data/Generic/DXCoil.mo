@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic;
 record DXCoil
   "Performance record for a DX Cooling Coil with one or multiple stages"
   extends Modelica.Icons.Record;

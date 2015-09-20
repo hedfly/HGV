@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVCO2.BaseClasses;
+within HGV.Buildings.Examples.VAVCO2.BaseClasses;
 model Suite "Model of a suite consisting of five rooms of the MIT system model"
   replaceable package Medium =
       Modelica.Media.Interfaces.PartialMedium "Medium in the component";

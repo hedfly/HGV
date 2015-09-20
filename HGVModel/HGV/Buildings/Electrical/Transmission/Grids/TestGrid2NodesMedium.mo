@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.Grids;
+within HGV.Buildings.Electrical.Transmission.Grids;
 record TestGrid2NodesMedium
   "Simple model of a grid with 2 nodes and 1 link for medium voltage"
   extends Buildings.Electrical.Transmission.Grids.PartialGrid(

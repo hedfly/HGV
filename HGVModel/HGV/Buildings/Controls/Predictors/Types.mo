@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors;
+within HGV.Buildings.Controls.Predictors;
 package Types "Types for prediction models"
   type PredictionModel = enumeration(
       Average "Average load of previous days",

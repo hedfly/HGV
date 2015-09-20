@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Conversion;
+within HGV.Buildings.Electrical.AC.OnePhase.Conversion;
 model ACACConverter "AC AC converter single phase systems"
   extends Buildings.Electrical.Icons.RefAngleConversion;
   extends Buildings.Electrical.Interfaces.PartialConversion(

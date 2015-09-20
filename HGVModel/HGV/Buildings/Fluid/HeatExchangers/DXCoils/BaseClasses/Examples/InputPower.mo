@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model InputPower "Test model for InputPower"
 extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Ramp SHR(

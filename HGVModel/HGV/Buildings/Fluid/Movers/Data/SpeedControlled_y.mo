@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Data;
+within HGV.Buildings.Fluid.Movers.Data;
 record SpeedControlled_y
   "Generic data record for pumps and fans that take y as an input signal"
   extends FlowControlled;

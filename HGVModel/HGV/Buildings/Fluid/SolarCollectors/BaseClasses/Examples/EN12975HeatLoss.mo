@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.BaseClasses.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.BaseClasses.Examples;
 model EN12975HeatLoss "Example showing the use of EN12975HeatLoss"
   extends Modelica.Icons.Example;
   parameter Buildings.Fluid.SolarCollectors.Data.GenericSolarCollector per=

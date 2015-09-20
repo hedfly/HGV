@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model DryEffectivenessNTU
   "Model that demonstrates use of a heat exchanger without condensation that uses the epsilon-NTU relation"
   extends Modelica.Icons.Example;

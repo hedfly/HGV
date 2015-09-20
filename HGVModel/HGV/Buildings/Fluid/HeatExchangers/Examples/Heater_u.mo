@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model Heater_u "Example model for the heater with prescribed heat input"
   extends Modelica.Icons.Example;
   extends Buildings.Fluid.HeatExchangers.Examples.BaseClasses.Heater;

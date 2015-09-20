@@ -1,4 +1,4 @@
-within Buildings.Controls.SetPoints;
+within HGV.Buildings.Controls.SetPoints;
 block OccupancySchedule "Occupancy schedule with look-ahead"
   extends Modelica.Blocks.Icons.Block;
 

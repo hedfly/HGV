@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Examples;
+within HGV.Buildings.HeatTransfer.Windows.Examples;
 model SideFins "This example demonstrates the use of side fins for a window"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.WeatherData.ReaderTMY3 weaDat(

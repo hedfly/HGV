@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Examples;
+within HGV.Buildings.Fluid.Movers.Examples;
 model ClosedLoop_y "Flow machine with feedback control"
   extends Modelica.Icons.Example;
 

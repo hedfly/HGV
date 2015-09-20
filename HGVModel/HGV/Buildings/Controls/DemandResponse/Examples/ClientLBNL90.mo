@@ -1,4 +1,4 @@
-within Buildings.Controls.DemandResponse.Examples;
+within HGV.Buildings.Controls.DemandResponse.Examples;
 model ClientLBNL90
   "Demand response client with input data from building 90 at LBNL"
   extends Modelica.Icons.Example;

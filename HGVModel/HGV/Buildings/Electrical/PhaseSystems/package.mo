@@ -1,4 +1,4 @@
-within Buildings.Electrical;
+within HGV.Buildings.Electrical;
 package PhaseSystems "Phase systems used in power connectors"
   extends Modelica.Icons.Package;
   import SI = Modelica.SIunits;

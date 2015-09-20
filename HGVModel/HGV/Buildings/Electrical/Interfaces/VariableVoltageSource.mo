@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model VariableVoltageSource
   "Partial model of a generic variable voltage source."
   extends Buildings.Electrical.Interfaces.Source;

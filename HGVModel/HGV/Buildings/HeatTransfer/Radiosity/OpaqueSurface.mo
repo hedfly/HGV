@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 model OpaqueSurface "Model for an opaque surface"
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.RadiosityOneSurface;
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.ParametersOneSurface(

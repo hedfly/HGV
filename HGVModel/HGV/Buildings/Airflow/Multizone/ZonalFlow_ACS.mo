@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model ZonalFlow_ACS "Zonal flow with input air change per second"
   extends Buildings.Airflow.Multizone.BaseClasses.ZonalFlow;
 

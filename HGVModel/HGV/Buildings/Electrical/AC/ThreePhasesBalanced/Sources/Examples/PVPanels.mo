@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources.Examples;
 model PVPanels "This example illustrates how to use PV panel models"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.ThreePhasesBalanced.Loads.Inductive RL(

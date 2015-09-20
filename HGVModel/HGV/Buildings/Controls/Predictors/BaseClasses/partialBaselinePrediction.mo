@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.BaseClasses;
+within HGV.Buildings.Controls.Predictors.BaseClasses;
 partial function partialBaselinePrediction
   "Partial function for baseline load prediction"
     input Modelica.SIunits.Power P[:]

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model ConstantEffectiveness "Heat exchanger with constant effectiveness"
   extends Buildings.Fluid.HeatExchangers.BaseClasses.PartialEffectiveness(
     sensibleOnly1 = true,

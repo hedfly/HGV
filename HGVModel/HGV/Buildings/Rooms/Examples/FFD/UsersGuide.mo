@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples.FFD;
+within HGV.Buildings.Rooms.Examples.FFD;
 package UsersGuide
   extends Modelica.Icons.Information;
   annotation (preferredView="info",

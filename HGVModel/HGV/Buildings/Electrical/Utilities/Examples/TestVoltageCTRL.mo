@@ -1,4 +1,4 @@
-within Buildings.Electrical.Utilities.Examples;
+within HGV.Buildings.Electrical.Utilities.Examples;
 model TestVoltageCTRL
   "This test check the correctness of the voltage controller model"
   extends Modelica.Icons.Example;

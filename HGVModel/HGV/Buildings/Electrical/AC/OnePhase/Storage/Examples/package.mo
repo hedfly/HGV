@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Storage;
+within HGV.Buildings.Electrical.AC.OnePhase.Storage;
 package Examples "Package with example models"
   extends Modelica.Icons.ExamplesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record Overhang "Record for window overhang"
   extends Modelica.Icons.Record;
 

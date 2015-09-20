@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Examples;
 model DryCoilCounterFlowMassFlow
   "Model of a cooling coil that tests variable mass flow rates"
   extends Modelica.Icons.Example;

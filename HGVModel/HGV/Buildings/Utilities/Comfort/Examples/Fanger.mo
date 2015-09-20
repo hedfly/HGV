@@ -1,4 +1,4 @@
-within Buildings.Utilities.Comfort.Examples;
+within HGV.Buildings.Utilities.Comfort.Examples;
 model Fanger "Test of Comfort Model"
   extends Modelica.Icons.Example;
 

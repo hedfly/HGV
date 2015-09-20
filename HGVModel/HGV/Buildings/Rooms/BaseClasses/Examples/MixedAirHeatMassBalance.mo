@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 model MixedAirHeatMassBalance "Test model for air heat and mass balance"
   extends Modelica.Icons.Example;
   extends

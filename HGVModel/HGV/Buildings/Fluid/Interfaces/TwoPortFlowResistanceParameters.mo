@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 record TwoPortFlowResistanceParameters
   "Parameters for flow resistance for models with two ports"
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.Icons;
+within HGV.Buildings.Electrical.Icons;
 partial class GeneralizedSensor
   "Icon representing a generalized sensor that measures voltage, current and power"
   annotation (Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},

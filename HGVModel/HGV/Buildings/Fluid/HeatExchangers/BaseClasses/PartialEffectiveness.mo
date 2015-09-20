@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 partial model PartialEffectiveness
   "Partial model to implement heat exchangers based on effectiveness model"
   extends Fluid.Interfaces.StaticFourPortHeatMassExchanger(show_T=false);

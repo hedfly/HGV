@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sources;
+within HGV.Buildings.Electrical.AC.OnePhase.Sources;
 model Grid "Electrical grid"
 
   replaceable Buildings.Electrical.AC.OnePhase.Interfaces.Terminal_p terminal

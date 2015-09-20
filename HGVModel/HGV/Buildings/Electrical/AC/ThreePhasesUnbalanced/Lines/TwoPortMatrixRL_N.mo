@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 model TwoPortMatrixRL_N
   "Model of an RL line parameterized with impedance matrices and neutral line"
   extends Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces.TwoPort_N;

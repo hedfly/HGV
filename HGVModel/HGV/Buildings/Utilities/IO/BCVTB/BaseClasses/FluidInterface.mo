@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB.BaseClasses;
+within HGV.Buildings.Utilities.IO.BCVTB.BaseClasses;
 partial model FluidInterface
   "Partial class for fluid interface that can be coupled to BCVTB"
   extends Buildings.BaseClasses.BaseIcon;

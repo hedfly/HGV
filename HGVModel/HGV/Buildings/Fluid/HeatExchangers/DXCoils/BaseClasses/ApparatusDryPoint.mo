@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block ApparatusDryPoint "Calculates air properties at dry coil surface"
   extends
     Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.PartialSurfaceCondition;

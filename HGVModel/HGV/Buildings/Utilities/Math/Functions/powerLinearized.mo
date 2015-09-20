@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function powerLinearized
   "Power function that is linearized below a user-defined threshold"
 

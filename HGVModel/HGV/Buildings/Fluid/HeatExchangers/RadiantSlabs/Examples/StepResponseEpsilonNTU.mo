@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.Examples;
 model StepResponseEpsilonNTU
   "Model that tests the radiant slab with epsilon-NTU configuration"
   extends Modelica.Icons.Example;
@@ -49,15 +49,13 @@ model StepResponseEpsilonNTU
   HeatTransfer.Convection.Interior conAbo(
     A=A,
     conMod=Buildings.HeatTransfer.Types.InteriorConvection.Temperature,
-    til=Buildings.Types.Tilt.Floor)
-    "Convective heat transfer above the slab"
+    til=Buildings.Types.Tilt.Floor) "Convective heat transfer above the slab"
     annotation (Placement(transformation(extent={{0,60},{-20,80}})));
   parameter Modelica.SIunits.Area A=10 "Heat transfer area";
   HeatTransfer.Convection.Interior conBel(
     A=A,
     conMod=Buildings.HeatTransfer.Types.InteriorConvection.Temperature,
-    til=Buildings.Types.Tilt.Ceiling)
-    "Convective heat transfer below the slab"
+    til=Buildings.Types.Tilt.Ceiling) "Convective heat transfer below the slab"
     annotation (Placement(transformation(extent={{0,-60},{-20,-40}})));
   Modelica.Thermal.HeatTransfer.Components.BodyRadiation hRadAbo(Gr=A/(1/0.7 + 1
         /0.7 - 1)) "Radiative heat transfer above the slab"

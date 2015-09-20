@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.Examples;
 model Density_pTX "Model to test density_pTX"
   extends Modelica.Icons.Example;
 

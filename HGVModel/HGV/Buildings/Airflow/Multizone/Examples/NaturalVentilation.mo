@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model NaturalVentilation
   "Test model for flow reversal due to density difference"
   extends Modelica.Icons.Example;

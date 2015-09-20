@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model HeaterCooler_T
   "Ideal heater or cooler with a prescribed outlet temperature"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface;

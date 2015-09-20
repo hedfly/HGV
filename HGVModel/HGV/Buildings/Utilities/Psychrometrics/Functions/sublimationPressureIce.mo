@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 function sublimationPressureIce
   "Return sublimation pressure of water as a function of temperature T between 190 and 273.16 K"
   extends Modelica.Icons.Function;

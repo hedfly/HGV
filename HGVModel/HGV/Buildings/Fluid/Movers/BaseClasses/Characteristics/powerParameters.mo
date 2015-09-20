@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.Movers.BaseClasses.Characteristics;
 record powerParameters "Record for electrical power parameters"
   extends Modelica.Icons.Record;
   parameter Modelica.SIunits.VolumeFlowRate V_flow[:](each min=0)

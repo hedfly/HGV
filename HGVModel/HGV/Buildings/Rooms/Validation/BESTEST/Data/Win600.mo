@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST.Data;
+within HGV.Buildings.Rooms.Validation.BESTEST.Data;
 record Win600 =
     Buildings.HeatTransfer.Data.GlazingSystems.Generic (
     final glass={Buildings.Rooms.Validation.BESTEST.Data.Glass600(),

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block Bicubic "Bicubic function"
   extends Modelica.Blocks.Interfaces.SI2SO;
  input Real a[10] "Coefficients";

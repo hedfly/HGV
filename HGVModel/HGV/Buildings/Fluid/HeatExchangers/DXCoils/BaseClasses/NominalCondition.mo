@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 record NominalCondition
   "Calculates inlet and outlet fluid parameters at nominal condition"
   extends Modelica.Icons.Record;

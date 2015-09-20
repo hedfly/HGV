@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.FLEXLAB;
+within HGV.Buildings.Utilities.IO.FLEXLAB;
 model CalBayComm
   "Model calling a Python script to communicate with the CalBay adapter"
   extends Modelica.Icons.Example;

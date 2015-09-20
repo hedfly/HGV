@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 model WSEControl "Control unit for WSE"
   parameter Modelica.SIunits.TemperatureDifference dTOff = 1
     "Temperature difference to switch WSE off";

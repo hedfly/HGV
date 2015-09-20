@@ -1,4 +1,4 @@
-within Buildings.Fluid.Chillers;
+within HGV.Buildings.Fluid.Chillers;
 model Carnot
   "Chiller with performance curve adjusted based on Carnot efficiency"
  extends Interfaces.FourPortHeatMassExchanger(

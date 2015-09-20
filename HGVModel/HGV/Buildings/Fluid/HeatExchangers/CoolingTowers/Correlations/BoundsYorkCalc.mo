@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations;
 record BoundsYorkCalc
   "Coefficient data record for properties of York cooling tower model"
   extends

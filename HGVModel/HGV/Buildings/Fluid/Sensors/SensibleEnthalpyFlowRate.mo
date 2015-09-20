@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors;
+within HGV.Buildings.Fluid.Sensors;
 model SensibleEnthalpyFlowRate
   "Ideal enthalphy flow rate sensor that outputs the sensible enthalpy flow rate only"
   extends Buildings.Fluid.Sensors.BaseClasses.PartialDynamicFlowSensor(

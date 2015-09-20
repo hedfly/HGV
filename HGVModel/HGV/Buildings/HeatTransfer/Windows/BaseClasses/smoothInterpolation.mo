@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 function smoothInterpolation "Get interpolated data without triggering events"
   input Real y[:] "Data array";
   input Real x "x value";

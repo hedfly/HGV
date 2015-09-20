@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarIrradiation;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation;
 block DiffuseIsotropic
   "Diffuse solar irradiation on a tilted surface with an isotropic sky model"
   extends

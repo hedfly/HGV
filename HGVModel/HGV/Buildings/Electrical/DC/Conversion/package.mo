@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC;
+within HGV.Buildings.Electrical.DC;
 package Conversion "Package with models for DC/DC conversion"
   extends Modelica.Icons.Package;
 

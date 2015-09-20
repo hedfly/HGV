@@ -1,4 +1,4 @@
-within Buildings.Fluid.Actuators.Valves.Examples;
+within HGV.Buildings.Fluid.Actuators.Valves.Examples;
 model ValveParameterization
   "Model to test and illustrate different parameterization for valves"
   extends Modelica.Icons.Example;
@@ -47,8 +47,8 @@ model ValveParameterization
     Cv=0.84,
     filteredOpening=false) "Valve model, linear opening characteristics"
          annotation (Placement(transformation(extent={{-10,-50},{10,-30}})));
-  Buildings.Fluid.Sensors.MassFlowRate senM_flowOpPoi(redeclare package Medium =
-        Medium) annotation (Placement(transformation(extent={{20,30},{40,50}})));
+  Buildings.Fluid.Sensors.MassFlowRate senM_flowOpPoi(redeclare package Medium
+      = Medium) annotation (Placement(transformation(extent={{20,30},{40,50}})));
   Buildings.Fluid.Sensors.MassFlowRate senM_flowKv(redeclare package Medium =
         Medium) annotation (Placement(transformation(extent={{20,-10},{40,10}})));
   Buildings.Fluid.Sensors.MassFlowRate senM_flowCv(redeclare package Medium =

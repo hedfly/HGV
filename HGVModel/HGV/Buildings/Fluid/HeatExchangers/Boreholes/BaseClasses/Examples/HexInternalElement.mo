@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
 model HexInternalElement
   "Model that tests the basic element that is used to built borehole models"
   extends Modelica.Icons.Example;

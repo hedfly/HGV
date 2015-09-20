@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Storage.BaseClasses;
+within HGV.Buildings.Electrical.DC.Storage.BaseClasses;
 model Charge "Model to compute the battery charge"
   extends Modelica.Blocks.Icons.Block;
   parameter Real etaCha(min=0, max=1, unit="1") = 0.9

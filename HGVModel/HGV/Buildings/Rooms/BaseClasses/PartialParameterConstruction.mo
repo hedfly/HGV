@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 record PartialParameterConstruction "Partial record for constructions"
   extends Modelica.Icons.Record;
 

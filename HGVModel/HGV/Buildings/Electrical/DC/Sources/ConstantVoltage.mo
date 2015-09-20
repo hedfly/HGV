@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources;
+within HGV.Buildings.Electrical.DC.Sources;
 model ConstantVoltage "Model of a constant DC voltage source"
   extends Buildings.Electrical.Interfaces.Source(
     redeclare package PhaseSystem = PhaseSystems.TwoConductor,

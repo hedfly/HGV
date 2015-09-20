@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.Functions.BaseClasses;
 partial function partialWindowRadiation
   "Partial function for window radiation property"
   input Real traRef[3, N, N, HEM](each min=0, each max=0)

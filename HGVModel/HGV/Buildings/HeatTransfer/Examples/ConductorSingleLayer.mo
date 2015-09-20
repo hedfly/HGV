@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Examples;
+within HGV.Buildings.HeatTransfer.Examples;
 model ConductorSingleLayer "Test model for heat conductor"
   extends Modelica.Icons.Example;
   Buildings.HeatTransfer.Conduction.SingleLayer con(A=1, material=concrete200)

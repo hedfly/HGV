@@ -1,4 +1,4 @@
-within Buildings.Electrical.PhaseSystems;
+within HGV.Buildings.Electrical.PhaseSystems;
 package PartialPhaseSystem "Base package of all phase systems"
   extends Modelica.Icons.Package;
   constant String phaseSystemName = "UnspecifiedPhaseSystem"

@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case640 "Case 600, but with heating schedule"
   extends Case600(
     TSetHea(table=[      0, 273.15 + 10;

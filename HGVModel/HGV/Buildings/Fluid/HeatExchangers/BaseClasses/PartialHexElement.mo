@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model PartialHexElement "Element of a heat exchanger 2"
   extends Buildings.Fluid.Interfaces.FourPortHeatMassExchanger(
    vol1(final energyDynamics=energyDynamics,

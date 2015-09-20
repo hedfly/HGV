@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.LowVoltageCables;
+within HGV.Buildings.Electrical.Transmission.LowVoltageCables;
 record Generic "Data record for a generic low voltage cable"
   extends Modelica.Icons.MaterialProperty;
   extends Buildings.Electrical.Transmission.BaseClasses.BaseCable;

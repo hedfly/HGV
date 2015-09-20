@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 block to_W "Add unit [W] to data"
   extends Modelica.Blocks.Interfaces.BlockIcon;
 

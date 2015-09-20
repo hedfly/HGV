@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model DuctManifoldNoResistance "Duct manifold without resistance"
   extends PartialDuctManifold;
 

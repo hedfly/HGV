@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model ZonalFlow "Model with prescribed air exchange between two volumes"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air;

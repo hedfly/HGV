@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model Splice "Test model for splice"
   extends Modelica.Icons.Example;
   Buildings.Utilities.Math.Splice splice(deltax=0.2)

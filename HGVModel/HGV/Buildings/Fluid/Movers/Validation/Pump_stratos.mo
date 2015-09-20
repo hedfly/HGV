@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model Pump_stratos "Stratos pumps with speed as input"
   extends Modelica.Icons.Example;
  extends Buildings.Fluid.Movers.Validation.BaseClasses.FlowMachine_ZeroFlow(

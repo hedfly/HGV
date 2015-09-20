@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sensors.BaseClasses;
+within HGV.Buildings.Fluid.Sensors.BaseClasses;
 partial model PartialAbsoluteSensor
   "Partial component to model a sensor that measures a potential variable"
 

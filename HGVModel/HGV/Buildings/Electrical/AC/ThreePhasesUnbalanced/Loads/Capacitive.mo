@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
 model Capacitive
   "Model of a three-phase unbalanced capacitive load without neutral cable"
   extends BaseClasses.LoadCtrl(

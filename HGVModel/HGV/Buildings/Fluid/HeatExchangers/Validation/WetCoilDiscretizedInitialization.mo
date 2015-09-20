@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Validation;
+within HGV.Buildings.Fluid.HeatExchangers.Validation;
 model WetCoilDiscretizedInitialization
   "Model that demonstrates use of a finite volume model of a heat exchanger with condensation"
   extends

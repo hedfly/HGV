@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model PartialBaseTwoPort "Model of a generic two port component"
 
   replaceable Buildings.Electrical.Interfaces.BaseTerminal terminal_n

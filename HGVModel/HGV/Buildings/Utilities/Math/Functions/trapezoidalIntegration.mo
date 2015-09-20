@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function trapezoidalIntegration "Integration using the trapezoidal rule"
   input Integer N "Number of integrand points";
   input Real[:] f "Integrands";

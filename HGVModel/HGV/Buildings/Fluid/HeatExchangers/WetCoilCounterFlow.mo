@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 model WetCoilCounterFlow
   "Counterflow coil with discretization along the flow paths and humidity condensation"
   extends Buildings.Fluid.HeatExchangers.DryCoilCounterFlow(

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction;
+within HGV.Buildings.HeatTransfer.Conduction;
 model SingleLayer "Model for single layer heat conductance"
   extends Buildings.HeatTransfer.Conduction.BaseClasses.PartialConductor(
    final R=if (material.R == 0) then material.x/material.k/A else material.R/A);

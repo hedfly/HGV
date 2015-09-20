@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model CheckWindDirection "Test model for wind direction check"
   extends Modelica.Icons.Example;
   Buildings.Utilities.Time.ModelTime modTim

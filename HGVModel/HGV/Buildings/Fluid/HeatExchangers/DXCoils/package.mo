@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers;
+within HGV.Buildings.Fluid.HeatExchangers;
 package DXCoils "DX(Direct Expansion) cooling coil models"
   extends Modelica.Icons.VariantsPackage;
 

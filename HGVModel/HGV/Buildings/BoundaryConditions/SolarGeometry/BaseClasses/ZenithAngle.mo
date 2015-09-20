@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses;
 block ZenithAngle "Zenith angle"
   extends Modelica.Blocks.Icons.Block;
 public

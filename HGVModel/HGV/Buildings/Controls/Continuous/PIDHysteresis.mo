@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous;
+within HGV.Buildings.Controls.Continuous;
 model PIDHysteresis
   "PID controller with anti-windup, output limiter and output hysteresis"
   extends Modelica.Blocks.Interfaces.SVcontrol;

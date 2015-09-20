@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Examples;
 model SaturationPressure "Model to test the wet bulb temperature computation"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Storage;
+within HGV.Buildings.Electrical.AC.OnePhase.Storage;
 model Battery "Simple model of a battery"
  extends Buildings.Electrical.Interfaces.PartialAcDcParameters;
  replaceable package PhaseSystem =

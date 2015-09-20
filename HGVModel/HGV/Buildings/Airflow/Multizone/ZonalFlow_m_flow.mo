@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model ZonalFlow_m_flow "Zonal flow with input air change per second"
   extends Buildings.Airflow.Multizone.BaseClasses.ZonalFlow;
    Modelica.Blocks.Interfaces.RealInput mAB_flow "Mass flow rate from A to B"

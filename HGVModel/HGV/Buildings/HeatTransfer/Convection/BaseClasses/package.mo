@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection;
+within HGV.Buildings.HeatTransfer.Convection;
 package BaseClasses "Package with base classes for Buildings.HeatTransfer.Convection"
   extends Modelica.Icons.BasesPackage;
 

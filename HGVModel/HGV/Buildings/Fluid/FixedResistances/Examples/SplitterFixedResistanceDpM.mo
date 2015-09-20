@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances.Examples;
+within HGV.Buildings.Fluid.FixedResistances.Examples;
 model SplitterFixedResistanceDpM
   "Test model for the three way splitter/mixer model"
   extends Modelica.Icons.Example;

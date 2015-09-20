@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.Interfaces;
+within HGV.Buildings.Electrical.AC.Interfaces;
 connector PowerOutput
   "Connector with real power, reactive power and power factor"
   output Modelica.SIunits.Power real "Real power";

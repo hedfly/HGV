@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST.BaseClasses;
+within HGV.Buildings.Rooms.Validation.BESTEST.BaseClasses;
 model DaySchedule "Schedule that repeats every day"
   extends Modelica.Blocks.Sources.CombiTimeTable(
     final tableOnFile=false,

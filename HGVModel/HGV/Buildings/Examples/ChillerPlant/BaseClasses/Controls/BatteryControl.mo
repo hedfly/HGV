@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 model BatteryControl "Controller for battery"
  extends Modelica.Blocks.Interfaces.BlockIcon;
   Modelica.Blocks.Interfaces.RealInput SOC "State of charge" annotation (

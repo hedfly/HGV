@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission;
+within HGV.Buildings.Electrical.Transmission;
 package Types "Package that contains cables materials"
   extends Modelica.Icons.TypesPackage;
 

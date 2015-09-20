@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Loads;
 model Resistive "Model of a resistive load"
   extends Buildings.Electrical.AC.OnePhase.Loads.Resistive(
     redeclare Interfaces.Terminal_n terminal,

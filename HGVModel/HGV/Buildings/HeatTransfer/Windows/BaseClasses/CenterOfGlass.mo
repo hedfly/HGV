@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model CenterOfGlass "Model for center of glass of a window construction"
   extends Buildings.HeatTransfer.Radiosity.BaseClasses.RadiosityTwoSurfaces;
   parameter Modelica.SIunits.Area A "Heat transfer area";

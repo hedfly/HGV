@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Functions.HeatFlux.BaseClasses;
+within HGV.Buildings.HeatTransfer.Convection.Functions.HeatFlux.BaseClasses;
 partial function PartialHeatFlux "Partial function for convective heat flux"
   extends Modelica.Icons.Function;
 

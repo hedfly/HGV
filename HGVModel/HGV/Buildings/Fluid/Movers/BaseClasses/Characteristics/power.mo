@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.Movers.BaseClasses.Characteristics;
 function power "Flow vs. electrical power characteristics for fan or pump"
   extends Modelica.Icons.Function;
   input Buildings.Fluid.Movers.BaseClasses.Characteristics.powerParameters per

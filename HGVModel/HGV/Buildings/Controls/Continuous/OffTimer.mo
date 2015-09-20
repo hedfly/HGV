@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous;
+within HGV.Buildings.Controls.Continuous;
 model OffTimer "Records the time since the input changed to false"
   extends Modelica.Blocks.Interfaces.partialBooleanBlockIcon;
 

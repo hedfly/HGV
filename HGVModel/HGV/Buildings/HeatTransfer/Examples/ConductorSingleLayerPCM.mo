@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Examples;
+within HGV.Buildings.HeatTransfer.Examples;
 model ConductorSingleLayerPCM "Test model for heat conductor"
   extends Modelica.Icons.Example;
   Buildings.HeatTransfer.Sources.FixedTemperature TB(T=293.15)

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced;
 package Sources "Package with sources model for three-phase unbalanced AC systems"
   extends Modelica.Icons.SourcesPackage;
 

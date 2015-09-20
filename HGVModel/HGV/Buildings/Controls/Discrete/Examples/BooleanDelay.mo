@@ -1,4 +1,4 @@
-within Buildings.Controls.Discrete.Examples;
+within HGV.Buildings.Controls.Discrete.Examples;
 model BooleanDelay "Example model for boolean delay"
   extends Modelica.Icons.Example;
   Buildings.Controls.Discrete.BooleanDelay del(samplePeriod=0.1)

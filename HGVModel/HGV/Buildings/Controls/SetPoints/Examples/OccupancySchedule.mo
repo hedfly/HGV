@@ -1,4 +1,4 @@
-within Buildings.Controls.SetPoints.Examples;
+within HGV.Buildings.Controls.SetPoints.Examples;
 model OccupancySchedule "Test model for occupancy schedule with look-ahead"
   extends Modelica.Icons.Example;
   Buildings.Controls.SetPoints.OccupancySchedule occSchDay "Day schedule"

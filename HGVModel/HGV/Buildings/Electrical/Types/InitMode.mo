@@ -1,4 +1,4 @@
-within Buildings.Electrical.Types;
+within HGV.Buildings.Electrical.Types;
 type InitMode = enumeration(
     zero_current "Assume i=0 during homotopy initialization",
     linearized "Uses linear model during homotopy initialization")

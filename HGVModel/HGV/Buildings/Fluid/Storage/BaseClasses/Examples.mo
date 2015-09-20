@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage.BaseClasses;
+within HGV.Buildings.Fluid.Storage.BaseClasses;
 package Examples "Examples for BaseClasses models"
   extends Modelica.Icons.ExamplesPackage;
   model IndirectTankHeatExchanger

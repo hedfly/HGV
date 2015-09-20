@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Loads.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Loads.Examples;
 model ParallelLoads "Example that illustrates the use of the load models"
   extends Modelica.Icons.Example;
   Sources.FixedVoltage E(f=60, V=480) "Voltage source"

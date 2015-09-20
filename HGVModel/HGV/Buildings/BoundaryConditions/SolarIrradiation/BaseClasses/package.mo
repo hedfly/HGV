@@ -1,6 +1,7 @@
-within Buildings.BoundaryConditions.SolarIrradiation;
+within HGV.Buildings.BoundaryConditions.SolarIrradiation;
 package BaseClasses "Package with base classes for Buildings.BoundaryConditions.SolarIrradiation"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

@@ -1,6 +1,7 @@
-within Buildings.Utilities.Reports;
+within HGV.Buildings.Utilities.Reports;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

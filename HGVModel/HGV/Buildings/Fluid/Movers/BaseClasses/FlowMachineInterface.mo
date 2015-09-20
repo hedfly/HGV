@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses;
+within HGV.Buildings.Fluid.Movers.BaseClasses;
 partial model FlowMachineInterface
   "Partial model with performance curves for fans or pumps"
   extends Buildings.Fluid.Movers.BaseClasses.PowerInterface(

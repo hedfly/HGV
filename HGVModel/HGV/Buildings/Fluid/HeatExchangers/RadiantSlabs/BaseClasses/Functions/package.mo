@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
 package Functions "Functions for convective heat transfer"
 
 

@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 model RadiationTemperature "Test model for the radiation temperature"
   extends Modelica.Icons.Example;
   extends

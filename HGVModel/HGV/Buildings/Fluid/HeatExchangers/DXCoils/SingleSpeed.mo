@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils;
 model SingleSpeed "Single speed DX cooling coil"
   extends Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.PartialDXCoil(
     dxCoo(final variableSpeedCoil=false),

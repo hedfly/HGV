@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model EvaporationFlowReversal
   "Test model for evaporation with zero flow and flow reversal"
   extends Modelica.Icons.Example;

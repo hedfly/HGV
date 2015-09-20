@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Examples.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Examples.BaseClasses;
 partial model Heater "Base class for example model for the heater and cooler"
 
   package Medium = Buildings.Media.Air "Medium model";

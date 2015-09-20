@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.BaseClasses;
+within HGV.Buildings.Electrical.Transmission.BaseClasses;
 record BaseCable "Record that contains the properties of a generic cable"
   parameter Buildings.Electrical.Transmission.Types.Material material = Buildings.Electrical.Transmission.Types.Material.Al
     "Material of the cable";

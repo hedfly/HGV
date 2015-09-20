@@ -1,6 +1,7 @@
-within Buildings.Fluid.HeatExchangers.DXCoils;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils;
 package Validation "Collection of validation models"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

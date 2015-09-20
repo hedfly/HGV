@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Convection.Functions;
+within HGV.Buildings.HeatTransfer.Convection.Functions;
 package HeatFlux "Correlations for convective heat flux"
   annotation (Documentation(info="<html>
 <p>

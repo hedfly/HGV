@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB.Examples;
+within HGV.Buildings.Utilities.IO.BCVTB.Examples;
 model TwoRooms
   "Thermal model of two rooms that will be linked to the BCVTB which models the controls"
   extends Modelica.Icons.Example;

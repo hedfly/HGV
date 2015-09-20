@@ -1,4 +1,4 @@
-within Buildings.Fluid.Boilers.Examples;
+within HGV.Buildings.Fluid.Boilers.Examples;
 model BoilerPolynomialClosedLoop "Boiler with closed loop control"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Water "Medium model";

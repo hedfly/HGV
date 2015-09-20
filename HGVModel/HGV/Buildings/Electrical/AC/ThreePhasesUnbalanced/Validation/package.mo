@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced;
 package Validation "Package with validation examples and tests for the AC three-phase unbalanced models"
   extends Modelica.Icons.ExamplesPackage;
 

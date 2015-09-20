@@ -1,4 +1,4 @@
-within Buildings.Fluid.BaseClasses;
+within HGV.Buildings.Fluid.BaseClasses;
 block IndexMassFraction
   "Computes the index of a substance in the mass fraction vector Xi"
   replaceable package Medium =

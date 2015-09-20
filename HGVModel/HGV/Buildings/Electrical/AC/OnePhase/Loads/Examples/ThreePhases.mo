@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads.Examples;
 model ThreePhases
   "Examples that illustrates how to replicate a three-phase balanced system"
   extends Modelica.Icons.Example;

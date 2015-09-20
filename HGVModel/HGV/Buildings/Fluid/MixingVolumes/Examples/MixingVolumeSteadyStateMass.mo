@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes.Examples;
+within HGV.Buildings.Fluid.MixingVolumes.Examples;
 model MixingVolumeSteadyStateMass "Test model for steady state mass dynamics"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air;

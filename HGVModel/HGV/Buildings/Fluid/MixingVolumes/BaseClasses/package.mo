@@ -1,6 +1,7 @@
-within Buildings.Fluid.MixingVolumes;
+within HGV.Buildings.Fluid.MixingVolumes;
 package BaseClasses "Package with base classes for Buildings.Fluid.MixingVolumes"
   extends Modelica.Icons.BasesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

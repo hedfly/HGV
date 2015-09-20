@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 function density_pTX
   "Density of air as a function of pressure, temperature and species concentration"
   extends Modelica.Icons.Function;

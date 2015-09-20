@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Rooms.Examples;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms.Examples;
 model X3BWithRadiantFloor "Example model showing a use of X3B"
   extends Modelica.Icons.Example;
 

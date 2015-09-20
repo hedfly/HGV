@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData;
+within HGV.Buildings.BoundaryConditions.WeatherData;
 package BaseClasses "Package with base classes for Buildings.BoundaryConditions.WeatherData"
   extends Modelica.Icons.BasesPackage;
 

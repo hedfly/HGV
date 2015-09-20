@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 model InfraredRadiationExchange "Test model for infrared radiation exchange"
   extends Modelica.Icons.Example;
   extends

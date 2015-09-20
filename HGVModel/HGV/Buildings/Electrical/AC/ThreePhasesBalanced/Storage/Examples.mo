@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Storage;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Storage;
 package Examples "Package with example models"
   extends Modelica.Icons.ExamplesPackage;
   model AcBattery "This example shows how to use the AC battery model"

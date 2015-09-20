@@ -1,4 +1,4 @@
-within Buildings.Rooms.Examples;
+within HGV.Buildings.Rooms.Examples;
 package TestConditionalConstructions "Package that tests if constructions can be conditionally removed"
   extends Modelica.Icons.ExamplesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.MediumVoltageCables;
+within HGV.Buildings.Electrical.Transmission.MediumVoltageCables;
 record Annealed_Al_350 "Annealed Al cable - kcmil 350"
   extends Buildings.Electrical.Transmission.MediumVoltageCables.Generic(
     material=Types.Material.Al,

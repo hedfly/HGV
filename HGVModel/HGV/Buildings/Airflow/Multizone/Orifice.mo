@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model Orifice "Orifice"
   extends Buildings.Airflow.Multizone.BaseClasses.PowerLawResistance(
     m=0.5,

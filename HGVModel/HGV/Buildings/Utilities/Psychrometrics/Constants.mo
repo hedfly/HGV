@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics;
+within HGV.Buildings.Utilities.Psychrometrics;
 package Constants "Library of constants for psychometric functions"
   extends Modelica.Icons.Package;
 

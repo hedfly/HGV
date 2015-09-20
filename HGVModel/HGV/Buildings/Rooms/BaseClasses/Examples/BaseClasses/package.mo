@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses.Examples;
+within HGV.Buildings.Rooms.BaseClasses.Examples;
 package BaseClasses "Package with base classes for Buildings.Rooms.BaseClasses.Examples"
   extends Modelica.Icons.BasesPackage;
 

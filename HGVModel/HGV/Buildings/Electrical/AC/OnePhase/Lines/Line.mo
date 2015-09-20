@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines;
 model Line "Model of an electrical line"
   extends Buildings.Electrical.Transmission.BaseClasses.PartialLine(
     V_nominal(start = 110),

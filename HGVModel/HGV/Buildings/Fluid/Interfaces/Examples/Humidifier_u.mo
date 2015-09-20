@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces.Examples;
+within HGV.Buildings.Fluid.Interfaces.Examples;
 model Humidifier_u
   extends Modelica.Icons.Example;
 

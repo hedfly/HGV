@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 record PrescribedOutletStateParameters
   "Parameters for models with prescribed outlet state"
 

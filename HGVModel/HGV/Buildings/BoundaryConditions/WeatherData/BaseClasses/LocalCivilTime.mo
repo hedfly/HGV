@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block LocalCivilTime "Converts the clock time to local civil time."
   extends Modelica.Blocks.Icons.Block;
 public

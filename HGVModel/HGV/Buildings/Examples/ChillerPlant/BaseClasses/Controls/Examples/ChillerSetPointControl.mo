@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls.Examples;
 model ChillerSetPointControl
   "Test model for chiller setpoint control using TrimAndResponse and LinearPieceWiseTwo"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Data;
+within HGV.Buildings.HeatTransfer.Data;
 package GlazingSystems
   "Package with thermophysical properties for glazing systems"
     extends Modelica.Icons.MaterialPropertiesPackage;

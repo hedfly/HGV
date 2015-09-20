@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 model CoilHeader "Header for a heat exchanger register"
   extends Buildings.BaseClasses.BaseIcon;
 

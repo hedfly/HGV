@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function getAngle "Generate incident angles"
   input Integer NDIR "Number of incident angles";
   output Modelica.SIunits.Angle psi[NDIR] "Array of incident angles";

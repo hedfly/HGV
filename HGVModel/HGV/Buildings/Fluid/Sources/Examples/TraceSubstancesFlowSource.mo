@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources.Examples;
+within HGV.Buildings.Fluid.Sources.Examples;
 model TraceSubstancesFlowSource
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Air(extraPropertiesNames={"CO2"});

@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 function getLatitudeTMY3 "Gets the latitude from a TMY3 weather data file"
  input String filNam "Name of weather data file"
  annotation (Dialog(

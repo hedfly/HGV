@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Data.Pumps.Wilo;
+within HGV.Buildings.Fluid.Movers.Data.Pumps.Wilo;
 record Stratos32slash1to12 "Pump data for a Wilo Stratos 32/1-12 pump"
   extends SpeedControlled_Nrpm(
     N_nominal=3580,

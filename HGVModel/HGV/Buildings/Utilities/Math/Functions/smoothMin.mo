@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function smoothMin
   "Once continuously differentiable approximation to the minimum function"
   input Real x1 "First argument";

@@ -1,4 +1,4 @@
-within Buildings.Media.Specialized.Air.Examples;
+within HGV.Buildings.Media.Specialized.Air.Examples;
 model PerfectGasDerivativeCheck
   extends Modelica.Icons.Example;
 

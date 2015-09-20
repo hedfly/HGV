@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 model WetCoil "Calculates wet coil condition "
   extends
     Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.PartialCoilCondition;

@@ -1,6 +1,7 @@
-within Buildings.Rooms.FLEXLAB.Data;
+within HGV.Buildings.Rooms.FLEXLAB.Data;
 package Constructions "Constructions commonly found in FLEXLAB test cells"
 extends Modelica.Icons.MaterialPropertiesPackage;
+
 
   annotation(Documentation(info="<html>
   <p>

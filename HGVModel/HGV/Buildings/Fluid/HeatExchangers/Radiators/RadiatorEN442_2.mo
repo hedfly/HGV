@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Radiators;
+within HGV.Buildings.Fluid.HeatExchangers.Radiators;
 model RadiatorEN442_2 "Dynamic radiator for space heating"
    extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(
    showDesignFlowDirection = false,

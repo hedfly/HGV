@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Rooms.X3A;
+within HGV.Buildings.Rooms.FLEXLAB.Rooms.X3A;
 model ClosetFullBed
   "Model of the closet connected to test cell X3A intended to be connected to X3B.Closet"
   extends Buildings.Rooms.MixedAir(

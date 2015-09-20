@@ -1,4 +1,4 @@
-within Buildings.Controls.Predictors.BaseClasses;
+within HGV.Buildings.Controls.Predictors.BaseClasses;
 package Examples "Collection of models that illustrate model use and test models"
   extends Modelica.Icons.ExamplesPackage;
 

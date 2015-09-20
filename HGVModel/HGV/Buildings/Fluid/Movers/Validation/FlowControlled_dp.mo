@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model FlowControlled_dp "Fan with zero mass flow rate and head as input"
   extends Modelica.Icons.Example;
  extends Buildings.Fluid.Movers.Validation.BaseClasses.FlowMachine_ZeroFlow(

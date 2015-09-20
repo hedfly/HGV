@@ -1,4 +1,4 @@
-within Buildings.Electrical;
+within HGV.Buildings.Electrical;
 package DC "Package for analog direct current (DC) electrical circuits"
   extends Modelica.Icons.Package;
 

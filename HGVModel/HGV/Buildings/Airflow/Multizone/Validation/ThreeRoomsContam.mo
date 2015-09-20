@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Validation;
+within HGV.Buildings.Airflow.Multizone.Validation;
 model ThreeRoomsContam
   "Model with three rooms for the validation of the multizone air exchange models"
   extends Modelica.Icons.Example;

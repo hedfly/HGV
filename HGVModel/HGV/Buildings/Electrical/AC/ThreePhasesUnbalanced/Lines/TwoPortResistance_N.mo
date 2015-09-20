@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines;
 model TwoPortResistance_N
   "Model of a resistance with two electrical ports and neutral cable"
   extends Modelica.Electrical.Analog.Interfaces.ConditionalHeatPort;

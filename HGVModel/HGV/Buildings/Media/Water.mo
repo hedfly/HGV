@@ -1,4 +1,4 @@
-within Buildings.Media;
+within HGV.Buildings.Media;
 package Water "Package with model for liquid water with constant density"
    extends Modelica.Media.Water.ConstantPropertyLiquidWater(
      final cv_const=cp_const,
@@ -83,7 +83,7 @@ function enthalpyOfLiquid "Return the specific enthalpy of liquid"
   output Modelica.SIunits.SpecificEnthalpy h "Specific enthalpy";
 algorithm
   h := cp_const*(T-reference_T);
-annotation(
+annotation (
   smoothOrder=5,
   Inline=true,
 Documentation(info="<html>

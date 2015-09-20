@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model PartialWindTurbine
   "Partial model of a wind turbine with power output based on table as a function of wind speed"
   extends Buildings.Electrical.Interfaces.PartialWindTurbineBase;

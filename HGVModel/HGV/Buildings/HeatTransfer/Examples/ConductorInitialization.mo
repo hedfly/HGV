@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Examples;
+within HGV.Buildings.HeatTransfer.Examples;
 model ConductorInitialization "Test model for heat conductor initialization"
   extends Modelica.Icons.Example;
   Buildings.HeatTransfer.Sources.FixedTemperature TB(T=303.15)

@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.Examples;
 model Concentrating "Example showing the use of Concentrating"
   extends Modelica.Icons.Example;
   replaceable package Medium = Buildings.Media.Water "Medium in the system";

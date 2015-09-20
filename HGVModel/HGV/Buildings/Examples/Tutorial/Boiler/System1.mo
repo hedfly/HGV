@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.Boiler;
+within HGV.Buildings.Examples.Tutorial.Boiler;
 model System1
   "1st part of the system model, consisting of the room with heat transfer"
   extends Modelica.Icons.Example;

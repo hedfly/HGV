@@ -1,4 +1,4 @@
-within Buildings.Examples.Tutorial.Boiler;
+within HGV.Buildings.Examples.Tutorial.Boiler;
 model System5
   "5th part of the system model, which adds closed-loop control for the valves"
   extends Modelica.Icons.Example;

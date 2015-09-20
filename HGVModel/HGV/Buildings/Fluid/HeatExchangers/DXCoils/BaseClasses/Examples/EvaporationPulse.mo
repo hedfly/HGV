@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.Examples;
 model EvaporationPulse "Test model for evaporation with pulse signal"
   extends Modelica.Icons.Example;
   package Medium =Buildings.Media.Air;

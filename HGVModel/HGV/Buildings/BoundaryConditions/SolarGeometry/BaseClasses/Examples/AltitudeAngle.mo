@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
 model AltitudeAngle "Test model for altitude angle"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.BaseClasses.ZenithAngle zen(lat=

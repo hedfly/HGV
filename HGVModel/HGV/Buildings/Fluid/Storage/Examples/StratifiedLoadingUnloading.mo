@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage.Examples;
+within HGV.Buildings.Fluid.Storage.Examples;
 model StratifiedLoadingUnloading "Test model for stratified tank"
   extends Modelica.Icons.Example;
 

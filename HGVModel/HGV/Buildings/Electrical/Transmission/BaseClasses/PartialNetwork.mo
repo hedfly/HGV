@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.BaseClasses;
+within HGV.Buildings.Electrical.Transmission.BaseClasses;
 partial model PartialNetwork "Partial model that represent an electric network"
   parameter Modelica.SIunits.Voltage V_nominal(min=0, start = 110)
     "Nominal voltage of the lines in the network";

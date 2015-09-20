@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances;
+within HGV.Buildings.Fluid.FixedResistances;
 model FixedResistanceDpM
   "Fixed flow resistance with dp and m_flow as parameter"
   extends Buildings.Fluid.BaseClasses.PartialResistance(

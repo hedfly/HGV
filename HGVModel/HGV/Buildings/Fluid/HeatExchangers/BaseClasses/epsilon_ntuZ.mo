@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function epsilon_ntuZ
   "Computes heat exchanger effectiveness for given number of transfer units and heat exchanger flow regime"
   import f = Buildings.Fluid.Types.HeatExchangerFlowRegime;

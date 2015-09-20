@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 record RadiationData "Radiation data of a window"
   extends Modelica.Icons.Record;
   extends Buildings.HeatTransfer.Windows.BaseClasses.RadiationBaseData;

@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation.BESTEST;
+within HGV.Buildings.Rooms.Validation.BESTEST;
 model Case900FF "Case 600FF, but with high thermal mass"
   extends Case600FF(
     matExtWal = extWalCase900,

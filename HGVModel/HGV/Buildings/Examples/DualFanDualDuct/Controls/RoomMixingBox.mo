@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct.Controls;
+within HGV.Buildings.Examples.DualFanDualDuct.Controls;
 block RoomMixingBox "Controller for room mixing box"
   extends Modelica.Blocks.Icons.Block;
   parameter Modelica.SIunits.MassFlowRate m_flow_min "Minimum mass flow rate";

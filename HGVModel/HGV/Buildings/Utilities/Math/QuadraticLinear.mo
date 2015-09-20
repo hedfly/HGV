@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block QuadraticLinear
   "Function that is quadratic in first argument and linear in second argument"
   extends Modelica.Blocks.Interfaces.SI2SO;

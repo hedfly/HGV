@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs;
 model ParallelCircuitsSlab
   "Model of multiple parallel circuits of a radiant slab"
   extends Modelica.Fluid.Interfaces.PartialTwoPort(

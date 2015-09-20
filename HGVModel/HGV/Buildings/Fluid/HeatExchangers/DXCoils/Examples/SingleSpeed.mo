@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.Examples;
 model SingleSpeed "Test model for single speed DX coil"
   package Medium = Buildings.Media.Air;
   extends Modelica.Icons.Example;

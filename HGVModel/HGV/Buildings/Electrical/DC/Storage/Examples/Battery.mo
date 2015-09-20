@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Storage.Examples;
+within HGV.Buildings.Electrical.DC.Storage.Examples;
 model Battery "Test model for battery"
   extends Modelica.Icons.Example;
   Buildings.Electrical.DC.Storage.Battery     bat(EMax=40e3*3600, V_nominal=12)

@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.BaseClasses.Examples;
 model WallSolarAzimuth "Test model for wall solar azimuth angle"
 extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.IncidenceAngle incAng(

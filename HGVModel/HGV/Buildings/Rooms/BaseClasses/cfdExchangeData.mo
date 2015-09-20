@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 function cfdExchangeData "Exchange data between CFD and Modelica"
   input Integer flag "Communication flag to CFD";
   input Modelica.SIunits.Time t "Current Modelica simulation time to CFD";

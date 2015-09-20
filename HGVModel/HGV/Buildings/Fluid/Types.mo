@@ -1,4 +1,4 @@
-within Buildings.Fluid;
+within HGV.Buildings.Fluid;
 package Types "Package with type definitions"
   extends Modelica.Icons.TypesPackage;
 

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Validation.IEEETests;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Validation.IEEETests;
 package Test4NodesFeeder "This package contains models for the IEEE 4 nodes test feeder"
 extends Modelica.Icons.ExamplesPackage;
 

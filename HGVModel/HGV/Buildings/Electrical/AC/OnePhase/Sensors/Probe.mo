@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Sensors;
+within HGV.Buildings.Electrical.AC.OnePhase.Sensors;
 model Probe "Model of a probe that measures RMS voltage and angle"
   extends Icons.GeneralizedProbe;
   parameter Modelica.SIunits.Voltage V_nominal(min=0, start = 110)

@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO.BCVTB.Examples;
+within HGV.Buildings.Utilities.IO.BCVTB.Examples;
 model MoistAir
   "Model with interfaces for media with moist air that will be linked to the BCVTB which models the response of the room"
   extends Modelica.Icons.Example;

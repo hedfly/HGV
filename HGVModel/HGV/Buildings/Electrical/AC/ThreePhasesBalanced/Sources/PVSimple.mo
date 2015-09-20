@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
 model PVSimple "Model of a simple PV panel"
   extends Buildings.Electrical.AC.OnePhase.Sources.PVSimple(
     redeclare Interfaces.Terminal_p terminal,

@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model BooleanReplicator "Test model for boolean replicator"
 
   extends Modelica.Icons.Example;

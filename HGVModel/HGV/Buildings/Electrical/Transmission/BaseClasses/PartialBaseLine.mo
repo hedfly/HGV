@@ -1,4 +1,4 @@
-within Buildings.Electrical.Transmission.BaseClasses;
+within HGV.Buildings.Electrical.Transmission.BaseClasses;
 partial model PartialBaseLine "Partial cable line dispersion model"
   parameter Modelica.SIunits.Length l(min=0) "Length of the line";
   parameter Modelica.SIunits.Power P_nominal(min=0) "Nominal power of the line";

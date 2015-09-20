@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function smoothExponential
   "Once continuously differentiable approximation to exp(-|x|) in interval |x| < delta"
 

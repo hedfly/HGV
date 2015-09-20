@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses;
 block ConvertRelativeHumidity
   "Convert the relative humidity from percentage to real"
   extends Modelica.Blocks.Icons.Block;

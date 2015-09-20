@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses.Examples;
 model ConvectionResistance
   "Model that tests a basic segment that is used to build a borehole"
   extends Modelica.Icons.Example;

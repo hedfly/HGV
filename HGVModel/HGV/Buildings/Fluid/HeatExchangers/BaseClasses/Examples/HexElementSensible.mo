@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model HexElementSensible
   "Model that tests the basic element that is used to built heat exchanger models"
   extends Modelica.Icons.Example;

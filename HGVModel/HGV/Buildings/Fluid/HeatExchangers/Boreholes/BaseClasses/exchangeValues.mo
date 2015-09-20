@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.Boreholes.BaseClasses;
 function exchangeValues
   "Store the value u at the element n in the external object, and return the value of the element i"
   input ExtendableArray table "External object";

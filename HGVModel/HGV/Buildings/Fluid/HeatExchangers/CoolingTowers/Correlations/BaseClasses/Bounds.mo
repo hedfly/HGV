@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations.BaseClasses;
 record Bounds "Coefficient data record for properties of cooling tower model"
   extends Modelica.Icons.Record;
   Modelica.SIunits.Temperature TAirInWB_min

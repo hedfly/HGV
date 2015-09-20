@@ -1,4 +1,4 @@
-within Buildings.Controls.DemandResponse.BaseClasses;
+within HGV.Buildings.Controls.DemandResponse.BaseClasses;
 block ShedOperation "Computes the consumption with the shed taken into account"
   extends Modelica.StateGraph.Step;
   Modelica.Blocks.Interfaces.RealInput PCon(unit="W")

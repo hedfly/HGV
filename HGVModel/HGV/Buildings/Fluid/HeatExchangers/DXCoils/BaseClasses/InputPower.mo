@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 block InputPower "Electrical power consumed by the unit"
   extends Modelica.Blocks.Icons.Block;
    Modelica.Blocks.Interfaces.RealInput Q_flow(

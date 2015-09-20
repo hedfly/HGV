@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 function convectionVerticalCavity "Free convection in vertical cavity"
   input Buildings.HeatTransfer.Data.Gases.Generic gas
     "Thermophysical properties of gas fill"

@@ -1,4 +1,4 @@
-within Buildings.Rooms.Validation;
+within HGV.Buildings.Rooms.Validation;
 model MixedAirInitialization
   "Validation model for the correct initialization of the mixed air model"
   extends Modelica.Icons.Example;

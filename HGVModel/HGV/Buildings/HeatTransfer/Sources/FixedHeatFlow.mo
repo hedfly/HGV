@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Sources;
+within HGV.Buildings.HeatTransfer.Sources;
 model FixedHeatFlow "Fixed heat flow boundary condition"
   parameter Modelica.SIunits.HeatFlowRate Q_flow "Fixed heat flow rate at port";
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_b port annotation (Placement(transformation(extent={{90,

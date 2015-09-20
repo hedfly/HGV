@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Conversion;
 model ACACTransformerStepUpYD
   "AC AC transformer simplified equivalent circuit (YD step up)"
   extends

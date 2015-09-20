@@ -1,4 +1,4 @@
-within Buildings.Examples.VAVReheat.Controls;
+within HGV.Buildings.Examples.VAVReheat.Controls;
 block FanVFD "Controller for fan revolution"
   extends Modelica.Blocks.Interfaces.SISO;
   import Buildings.Examples.VAVReheat.Controls.OperationModes;

@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
+within HGV.Buildings.Electrical.AC.ThreePhasesBalanced.Sources;
 model WindTurbine "Model of a simple wind turbine generator"
   extends Buildings.Electrical.AC.OnePhase.Sources.WindTurbine(
     redeclare Interfaces.Terminal_p terminal,

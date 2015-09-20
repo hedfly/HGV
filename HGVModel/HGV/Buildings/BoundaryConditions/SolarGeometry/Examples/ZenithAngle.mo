@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.SolarGeometry.Examples;
+within HGV.Buildings.BoundaryConditions.SolarGeometry.Examples;
 model ZenithAngle "Test model for zenith angle"
   extends Modelica.Icons.Example;
   Buildings.BoundaryConditions.SolarGeometry.ZenithAngle zen(lat=0.2)

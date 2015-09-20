@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions;
+within HGV.Buildings.Utilities.Math.Functions;
 function smoothMax
   "Once continuously differentiable approximation to the maximum function"
   input Real x1 "First argument";

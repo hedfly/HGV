@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses.Examples;
 model EpsilonNTUZ "Test model for the functions epsilon_ntuZ and ntu_epsilonZ"
   extends Modelica.Icons.Example;
   import f = Buildings.Fluid.Types.HeatExchangerFlowRegime;

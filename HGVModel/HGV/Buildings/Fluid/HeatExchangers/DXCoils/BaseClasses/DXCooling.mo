@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 model DXCooling "DX cooling coil operation "
   extends
     Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.PartialCoilInterface;

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 model ExteriorConvectionCoefficient
   "Model for the heat transfer coefficient at the outside of the window"
   extends Modelica.Blocks.Icons.Block;

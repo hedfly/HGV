@@ -1,4 +1,4 @@
-within Buildings.Fluid.Sources;
+within HGV.Buildings.Fluid.Sources;
 model FixedBoundary "Boundary source component"
   extends Modelica.Fluid.Sources.BaseClasses.PartialSource;
   parameter Boolean use_p=true "select p or d"

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.Movers.BaseClasses.Characteristics;
 function flowApproximationAtOrigin
   "Approximation for fan or pump pressure raise at origin"
   extends Modelica.Icons.Function;

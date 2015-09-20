@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model Average "Test model for average function"
   extends Modelica.Icons.Example;
   Buildings.Utilities.Math.Average average(nin=2)

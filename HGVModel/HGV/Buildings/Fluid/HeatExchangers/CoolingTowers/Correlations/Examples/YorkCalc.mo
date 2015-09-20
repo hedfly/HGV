@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Correlations.Examples;
 model YorkCalc "Example for yorkCalc correlation"
   extends Modelica.Icons.Example;
 
@@ -24,5 +24,6 @@ equation
                                                                     FRAir=x);
 
   annotation(experiment(StopTime=1.0),
-__Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Fluid/HeatExchangers/CoolingTowers/Correlations/Examples/YorkCalc.mos" "Simulate and plot"));
+__Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Fluid/HeatExchangers/CoolingTowers/Correlations/Examples/YorkCalc.mos"
+        "Simulate and plot"));
 end YorkCalc;

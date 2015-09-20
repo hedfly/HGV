@@ -1,4 +1,4 @@
-within Buildings.Utilities.Reports.Examples;
+within HGV.Buildings.Utilities.Reports.Examples;
 model Printer "Test model for printer"
   extends Modelica.Icons.Example;
   Buildings.Utilities.Reports.Printer pri1(

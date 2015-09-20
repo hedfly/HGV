@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Examples;
+within HGV.Buildings.Fluid.Movers.Examples;
 model PumpsSeries "Two flow machines in series"
   extends Modelica.Icons.Example;
   package Medium = Buildings.Media.Water;

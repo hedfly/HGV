@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Loads;
 model Inductive_N
   "Model of a three-phase unbalanced inductive load with neutral cable"
   extends BaseClasses.LoadCtrl_N(

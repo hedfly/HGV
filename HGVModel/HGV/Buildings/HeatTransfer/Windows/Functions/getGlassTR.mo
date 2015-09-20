@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.Functions;
+within HGV.Buildings.HeatTransfer.Windows.Functions;
 function getGlassTR "Transmittance and reflectance of glass"
   extends
     Buildings.HeatTransfer.Windows.Functions.BaseClasses.partialGlassRadiation;

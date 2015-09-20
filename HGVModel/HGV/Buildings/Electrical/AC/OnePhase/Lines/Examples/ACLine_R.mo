@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Lines.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Lines.Examples;
 model ACLine_R "Test model for a single phase resistive line"
   extends Modelica.Icons.Example;
   Sources.FixedVoltage E(definiteReference=true,

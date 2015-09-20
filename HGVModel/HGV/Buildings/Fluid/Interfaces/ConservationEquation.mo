@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 model ConservationEquation "Lumped volume with mass and energy balance"
 
   extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations;

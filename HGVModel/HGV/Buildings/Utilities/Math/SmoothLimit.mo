@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block SmoothLimit
   "Once continuously differentiable approximation to the limit function"
  extends Modelica.Blocks.Interfaces.SISO;

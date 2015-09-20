@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Interfaces;
 model Connection3to4_n "Adapter between Terminal4 and Terminal3 N"
 
   Terminal4_n terminal4 "Connector with neutral" annotation (Placement(transformation(extent={{-110,-10},

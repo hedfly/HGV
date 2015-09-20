@@ -1,4 +1,4 @@
-within Buildings.Electrical.DC.Sources.Examples;
+within HGV.Buildings.Electrical.DC.Sources.Examples;
 model PVSimpleOriented
   "Example for the PVSimpleOriented model with constant load"
   extends Modelica.Icons.Example;

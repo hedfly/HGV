@@ -1,6 +1,7 @@
-within Buildings.Rooms.Validation;
+within HGV.Buildings.Rooms.Validation;
 package TestConditionalConstructions "Package that tests rooms with few constructions only"
   extends Modelica.Icons.ExamplesPackage;
+
 
 annotation (preferredView="info", Documentation(info="<html>
 <p>

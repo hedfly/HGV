@@ -1,4 +1,4 @@
-within Buildings.Electrical.Interfaces;
+within HGV.Buildings.Electrical.Interfaces;
 model Load "Partial model for a generic load"
   replaceable package PhaseSystem =
       Buildings.Electrical.PhaseSystems.PartialPhaseSystem constrainedby

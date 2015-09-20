@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone;
+within HGV.Buildings.Airflow.Multizone;
 model EffectiveAirLeakageArea "Effective air leakage area"
   extends Buildings.Airflow.Multizone.Orifice(
     m=0.65,

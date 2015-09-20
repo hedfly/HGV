@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Interfaces;
+within HGV.Buildings.HeatTransfer.Interfaces;
 connector RadiosityOutflow = output Real(min=0, final unit="W", nominal=419)
   "Connector for outflowing radiosity"
   annotation(defaultComponentName = "JOut", Icon(graphics={Polygon(

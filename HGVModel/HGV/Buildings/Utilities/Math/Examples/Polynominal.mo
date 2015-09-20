@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model Polynominal "Test model for ploynominal function "
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Ramp x1(duration=1)

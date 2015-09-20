@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Conduction.BaseClasses;
+within HGV.Buildings.HeatTransfer.Conduction.BaseClasses;
 function temperature_u
   "Computes the temperature of a phase change material for a given specific internal energy"
 

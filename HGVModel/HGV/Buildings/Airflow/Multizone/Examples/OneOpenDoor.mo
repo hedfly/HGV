@@ -1,4 +1,4 @@
-within Buildings.Airflow.Multizone.Examples;
+within HGV.Buildings.Airflow.Multizone.Examples;
 model OneOpenDoor "Model with one open and one closed door"
   extends Modelica.Icons.Example;
 

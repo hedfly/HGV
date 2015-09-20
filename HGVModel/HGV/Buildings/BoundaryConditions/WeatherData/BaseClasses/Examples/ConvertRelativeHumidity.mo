@@ -1,4 +1,4 @@
-within Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
+within HGV.Buildings.BoundaryConditions.WeatherData.BaseClasses.Examples;
 model ConvertRelativeHumidity
   "Test model for converting relative humidity and checking its validity"
   extends Modelica.Icons.Example;

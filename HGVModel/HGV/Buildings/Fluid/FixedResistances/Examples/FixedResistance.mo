@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances.Examples;
+within HGV.Buildings.Fluid.FixedResistances.Examples;
 model FixedResistance "Test model for the fixed resistance model"
   extends Modelica.Icons.Example;
 

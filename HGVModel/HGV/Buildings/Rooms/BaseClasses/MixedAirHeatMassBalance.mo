@@ -1,4 +1,4 @@
-within Buildings.Rooms.BaseClasses;
+within HGV.Buildings.Rooms.BaseClasses;
 model MixedAirHeatMassBalance
   "Heat and mass balance of the air, assuming completely mixed air"
   extends Buildings.Rooms.BaseClasses.PartialAirHeatMassBalance(nPorts=1);

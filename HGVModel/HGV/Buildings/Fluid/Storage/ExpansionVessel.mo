@@ -1,4 +1,4 @@
-within Buildings.Fluid.Storage;
+within HGV.Buildings.Fluid.Storage;
 model ExpansionVessel "Expansion vessel with fixed pressure"
  extends Buildings.Fluid.Interfaces.LumpedVolumeDeclarations(
    final energyDynamics=Modelica.Fluid.Types.Dynamics.FixedInitial,

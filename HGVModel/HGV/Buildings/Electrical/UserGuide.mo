@@ -1,4 +1,4 @@
-within Buildings.Electrical;
+within HGV.Buildings.Electrical;
 package UserGuide "Electrical package user's guide"
   extends Modelica.Icons.Information;
   annotation (preferredView="info",

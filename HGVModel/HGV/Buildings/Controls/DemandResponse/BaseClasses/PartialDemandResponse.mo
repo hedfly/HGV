@@ -1,4 +1,4 @@
-within Buildings.Controls.DemandResponse.BaseClasses;
+within HGV.Buildings.Controls.DemandResponse.BaseClasses;
 partial block PartialDemandResponse
   "Partial block that declares common data for demand response models"
   extends Modelica.StateGraph.Step;

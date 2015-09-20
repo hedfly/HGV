@@ -1,4 +1,4 @@
-within Buildings.Rooms.Constructions.Examples;
+within HGV.Buildings.Rooms.Constructions.Examples;
 model ExteriorWallTwoWindows
   "Test model for an exterior wall with two windows, one having a shade, the other not"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Utilities.IO;
+within HGV.Buildings.Utilities.IO;
 package FLEXLAB "Package of example models for communication with FLEXLAB using the CalBay interface"
   extends Modelica.Icons.ExamplesPackage;
 

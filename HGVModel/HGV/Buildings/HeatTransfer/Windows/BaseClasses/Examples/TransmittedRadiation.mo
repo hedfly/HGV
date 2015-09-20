@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses.Examples;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses.Examples;
 model TransmittedRadiation
   "Test model for transmitted radiation through window"
   extends Modelica.Icons.Example;

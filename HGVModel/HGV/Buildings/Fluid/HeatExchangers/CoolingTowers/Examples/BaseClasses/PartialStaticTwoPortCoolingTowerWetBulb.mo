@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Examples.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Examples.BaseClasses;
 model PartialStaticTwoPortCoolingTowerWetBulb
   "Partial test model for cooling tower with wet bulb temperature as potential for heat transfer"
   extends PartialStaticTwoPortCoolingTower;

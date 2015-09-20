@@ -1,4 +1,4 @@
-within Buildings.Rooms;
+within HGV.Buildings.Rooms;
 model CFD
   "Model of a room in which the air is computed using Computational Fluid Dynamics (CFD)"
   extends Buildings.Rooms.BaseClasses.RoomHeatMassBalance(

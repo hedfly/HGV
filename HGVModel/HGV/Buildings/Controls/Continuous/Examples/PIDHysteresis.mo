@@ -1,4 +1,4 @@
-within Buildings.Controls.Continuous.Examples;
+within HGV.Buildings.Controls.Continuous.Examples;
 model PIDHysteresis "Example model for PID controller with hysteresis"
   extends Modelica.Icons.Example;
 

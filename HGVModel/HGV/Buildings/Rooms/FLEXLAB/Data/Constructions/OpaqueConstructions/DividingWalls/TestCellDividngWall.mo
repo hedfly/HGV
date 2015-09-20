@@ -1,4 +1,4 @@
-within Buildings.Rooms.FLEXLAB.Data.Constructions.OpaqueConstructions.DividingWalls;
+within HGV.Buildings.Rooms.FLEXLAB.Data.Constructions.OpaqueConstructions.DividingWalls;
 record TestCellDividngWall =
   Buildings.HeatTransfer.Data.OpaqueConstructions.Generic(final material={
     Buildings.HeatTransfer.Data.Solids.GypsumBoard(x=0.01588),
@@ -9,7 +9,7 @@ record TestCellDividngWall =
     Buildings.HeatTransfer.Data.Solids.InsulationBoard(x=0.1016),
     Buildings.HeatTransfer.Data.Solids.GypsumBoard(x=0.1588)},
     nLay = 7) "Wall separating test cells within a test bed"
-    annotation(
+    annotation (
 defaultComponentPrefixes="parameter",
 defaultComponentName="datOpaCon",
 Documentation(info="<html>

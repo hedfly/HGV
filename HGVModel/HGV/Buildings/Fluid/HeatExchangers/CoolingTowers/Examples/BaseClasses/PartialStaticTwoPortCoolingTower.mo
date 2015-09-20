@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.CoolingTowers.Examples.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.CoolingTowers.Examples.BaseClasses;
 partial model PartialStaticTwoPortCoolingTower
   "Base class for test models of cooling towers"
 

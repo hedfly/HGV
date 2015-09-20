@@ -1,4 +1,4 @@
-within Buildings.Fluid.MixingVolumes;
+within HGV.Buildings.Fluid.MixingVolumes;
 model MixingVolumeMoistAir
   "Mixing volume with heat port for latent heat exchange, to be used with media that contain water"
   extends BaseClasses.PartialMixingVolume(

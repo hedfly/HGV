@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions;
+within HGV.Buildings.Utilities.Psychrometrics.Functions;
 function TDewPoi_pW
   "Function to compute the water vapor partial pressure for a given dew point temperature of moist air"
   extends Modelica.Icons.Function;

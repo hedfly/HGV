@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 partial model PartialDuctManifold
   "Partial manifold for heat exchanger duct connection"
   extends PartialDuctPipeManifold;
@@ -11,7 +11,7 @@ partial model PartialDuctManifold
              max=if allowFlowReversal then +Modelica.Constants.inf else 0))
     "Fluid connector b for medium (positive design flow direction is from port_a to port_b)"
     annotation (Placement(transformation(extent={{110,-10},{90,10}})));
-annotation(                    Documentation(info="<html>
+annotation (                   Documentation(info="<html>
 <p>
 Partial duct manifold for a heat exchanger.
 </p>

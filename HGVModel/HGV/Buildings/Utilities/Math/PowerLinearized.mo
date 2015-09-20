@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math;
+within HGV.Buildings.Utilities.Math;
 block PowerLinearized
   "Power function that is linearized below a user-defined threshold"
   extends Modelica.Blocks.Interfaces.SISO;

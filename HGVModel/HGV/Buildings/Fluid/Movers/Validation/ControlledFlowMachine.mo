@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.Validation;
+within HGV.Buildings.Fluid.Movers.Validation;
 model ControlledFlowMachine "Fans with different control signals as input"
   extends Modelica.Icons.Example;
   extends Buildings.Fluid.Movers.Validation.BaseClasses.ControlledFlowMachine(

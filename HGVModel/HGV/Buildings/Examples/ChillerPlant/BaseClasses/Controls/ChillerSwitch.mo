@@ -1,4 +1,4 @@
-within Buildings.Examples.ChillerPlant.BaseClasses.Controls;
+within HGV.Buildings.Examples.ChillerPlant.BaseClasses.Controls;
 block ChillerSwitch "Control unit for enabling/disabling chiller"
   extends Modelica.Blocks.Icons.Block;
   Modelica.Blocks.Interfaces.RealInput chiCHWST(

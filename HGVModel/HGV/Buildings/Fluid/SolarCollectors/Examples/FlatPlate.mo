@@ -1,4 +1,4 @@
-within Buildings.Fluid.SolarCollectors.Examples;
+within HGV.Buildings.Fluid.SolarCollectors.Examples;
 model FlatPlate "Test model for FlatPlate"
   extends Modelica.Icons.Example;
   replaceable package Medium = Modelica.Media.Incompressible.Examples.Glycol47

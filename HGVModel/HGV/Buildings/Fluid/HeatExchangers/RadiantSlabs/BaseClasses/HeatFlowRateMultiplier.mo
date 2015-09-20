@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.RadiantSlabs.BaseClasses;
 model HeatFlowRateMultiplier "Multiplies the heat flow rate"
 
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a port_a

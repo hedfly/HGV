@@ -1,4 +1,4 @@
-within Buildings.Fluid.FixedResistances.Examples;
+within HGV.Buildings.Fluid.FixedResistances.Examples;
 model Pipe "Test of a pipe with multiple segments"
   extends Modelica.Icons.Example;
 

@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 model PrescribedOutletState
   "Component that assigns the outlet fluid property at port_a based on an input signal"
   extends Buildings.Fluid.Interfaces.PartialTwoPortTransport(

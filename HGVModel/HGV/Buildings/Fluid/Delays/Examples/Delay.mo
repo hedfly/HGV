@@ -1,4 +1,4 @@
-within Buildings.Fluid.Delays.Examples;
+within HGV.Buildings.Fluid.Delays.Examples;
 model Delay
   extends Modelica.Icons.Example;
 // We set X_default to a small enough value to avoid saturation at the medium temperature

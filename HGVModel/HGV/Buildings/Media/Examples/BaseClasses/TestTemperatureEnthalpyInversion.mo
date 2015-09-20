@@ -1,4 +1,4 @@
-within Buildings.Media.Examples.BaseClasses;
+within HGV.Buildings.Media.Examples.BaseClasses;
 partial model TestTemperatureEnthalpyInversion
   "Model to check computation of h(T) and its inverse"
    replaceable package Medium =

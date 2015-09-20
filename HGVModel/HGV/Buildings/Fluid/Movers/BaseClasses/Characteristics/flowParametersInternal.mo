@@ -1,4 +1,4 @@
-within Buildings.Fluid.Movers.BaseClasses.Characteristics;
+within HGV.Buildings.Fluid.Movers.BaseClasses.Characteristics;
 record flowParametersInternal "Record for flow parameters with prescribed size"
   extends Modelica.Icons.Record;
   parameter Integer n "Number of elements in each array"

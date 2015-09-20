@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
+within HGV.Buildings.Electrical.AC.ThreePhasesUnbalanced.Lines.Examples;
 model ACLineMatrix_RLC_N
   "Test model for a three-phase unbalanced RLC line with neutral cable specified by Z and B matrices"
   extends Modelica.Icons.Example;

@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.BaseClasses;
 function lmtd "Log-mean temperature difference"
   input Modelica.SIunits.Temperature T_a1 "Temperature at port a1";
   input Modelica.SIunits.Temperature T_b1 "Temperature at port b1";

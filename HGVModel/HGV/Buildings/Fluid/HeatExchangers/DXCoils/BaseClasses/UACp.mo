@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
+within HGV.Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses;
 model UACp "Calculates UA/Cp of the coil"
   extends Buildings.Fluid.HeatExchangers.DXCoils.BaseClasses.NominalCondition;
   extends Modelica.Blocks.Icons.Block;

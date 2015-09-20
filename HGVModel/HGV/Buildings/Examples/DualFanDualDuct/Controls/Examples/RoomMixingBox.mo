@@ -1,4 +1,4 @@
-within Buildings.Examples.DualFanDualDuct.Controls.Examples;
+within HGV.Buildings.Examples.DualFanDualDuct.Controls.Examples;
 model RoomMixingBox "Test model for room mixing box"
 extends Modelica.Icons.Example;
   Buildings.Examples.DualFanDualDuct.Controls.RoomMixingBox conMix(m_flow_min=1)

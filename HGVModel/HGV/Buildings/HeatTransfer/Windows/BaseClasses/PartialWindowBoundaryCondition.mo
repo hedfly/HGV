@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Windows.BaseClasses;
+within HGV.Buildings.HeatTransfer.Windows.BaseClasses;
 partial model PartialWindowBoundaryCondition
   "Partial model for heat convection or radiation between a possibly shaded window that can be outside or inside the room"
   parameter Modelica.SIunits.Area A "Heat transfer area of frame and window";

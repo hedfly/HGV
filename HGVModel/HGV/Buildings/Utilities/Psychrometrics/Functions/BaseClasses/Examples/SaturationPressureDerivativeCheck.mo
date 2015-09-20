@@ -1,4 +1,4 @@
-within Buildings.Utilities.Psychrometrics.Functions.BaseClasses.Examples;
+within HGV.Buildings.Utilities.Psychrometrics.Functions.BaseClasses.Examples;
 model SaturationPressureDerivativeCheck
   "Model to test correct implementation of derivative"
   extends Modelica.Icons.Example;
@@ -16,7 +16,7 @@ equation
     pSat=Buildings.Utilities.Psychrometrics.Functions.saturationPressure(T);
     der(pSat)=der(pSatDer);
     assert(abs(pSat-pSatDer) < 1E-2, "Model has an error");
-   annotation(                       __Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Utilities/Psychrometrics/Functions/BaseClasses/Examples/SaturationPressureDerivativeCheck.mos"
+   annotation (                      __Dymola_Commands(file="modelica://Buildings/Resources/Scripts/Dymola/Utilities/Psychrometrics/Functions/BaseClasses/Examples/SaturationPressureDerivativeCheck.mos"
         "Simulate and plot"),
       experiment(
         StartTime=0,

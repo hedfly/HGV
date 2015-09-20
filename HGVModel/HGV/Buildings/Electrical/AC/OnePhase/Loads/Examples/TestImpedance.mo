@@ -1,4 +1,4 @@
-within Buildings.Electrical.AC.OnePhase.Loads.Examples;
+within HGV.Buildings.Electrical.AC.OnePhase.Loads.Examples;
 model TestImpedance "Example that illustrates the use of the impedances"
   extends Modelica.Icons.Example;
   Buildings.Electrical.AC.OnePhase.Sources.FixedVoltage V(f=60, V=120)

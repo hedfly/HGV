@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Functions.Examples;
+within HGV.Buildings.Utilities.Math.Functions.Examples;
 model IsMonotonic
   "Tests the correct implementation of the function isMonotonic"
   extends Modelica.Icons.Example;

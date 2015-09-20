@@ -1,4 +1,4 @@
-within Buildings.Controls.Discrete;
+within HGV.Buildings.Controls.Discrete;
 block BooleanDelay "Zero order hold for boolean variable"
   extends Modelica.Blocks.Interfaces.BooleanSISO;
   extends Modelica.Blocks.Interfaces.DiscreteBlock;

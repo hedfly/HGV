@@ -1,4 +1,4 @@
-within Buildings.Fluid.Interfaces;
+within HGV.Buildings.Fluid.Interfaces;
 partial model PartialTwoPort "Partial component with two ports"
   import Modelica.Constants;
 

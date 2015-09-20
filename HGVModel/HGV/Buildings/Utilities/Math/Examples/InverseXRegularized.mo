@@ -1,4 +1,4 @@
-within Buildings.Utilities.Math.Examples;
+within HGV.Buildings.Utilities.Math.Examples;
 model InverseXRegularized "Test model for inverseXRegularized function "
   extends Modelica.Icons.Example;
   Modelica.Blocks.Sources.Ramp x1(duration=1,

@@ -1,4 +1,4 @@
-within Buildings.HeatTransfer.Radiosity;
+within HGV.Buildings.HeatTransfer.Radiosity;
 block Constant "Generate constant radiosity signal"
   parameter Real k(min=0, start=0)
     "Radiosity that leaves this component (k &ge; 0)";

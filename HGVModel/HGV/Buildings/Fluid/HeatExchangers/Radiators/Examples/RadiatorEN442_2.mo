@@ -1,4 +1,4 @@
-within Buildings.Fluid.HeatExchangers.Radiators.Examples;
+within HGV.Buildings.Fluid.HeatExchangers.Radiators.Examples;
 model RadiatorEN442_2 "Test model for radiator"
   extends Modelica.Icons.Example;
  package Medium = Buildings.Media.Water "Medium model";
