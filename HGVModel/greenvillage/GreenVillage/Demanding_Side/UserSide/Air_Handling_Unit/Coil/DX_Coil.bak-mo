@@ -1,0 +1,90 @@
+within GreenVillage.Demanding_Side.UserSide.Air_Handling_Unit.Coil;
+model DX_Coil
+   replaceable package Medium_Air =
+      Modelica.Media.Interfaces.PartialMedium;
+   parameter Real MinRatio "The minimum speed ratio";
+   parameter Modelica.SIunits.Pressure dp_nominal
+    "The pressure drop of the air";
+   parameter Modelica.SIunits.MassFlowRate mAir_flow_nominal
+    "The nominal mass flow rate of the air";
+  PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.VariableSpeed heaCoi(
+    redeclare package Medium = Medium_Air,
+    minSpeRat=MinRatio,
+    dp_nominal=dp_nominal,
+    datCoi=datCoi)
+    annotation (Placement(transformation(extent={{-12,10},{8,-10}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_Air(redeclare package Medium = Medium_Air)
+    "Fluid connector a2 (positive design flow direction is from port_a2 to port_b2)"
+    annotation (Placement(transformation(extent={{-110,30},{-90,50}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_Air(redeclare package Medium = Medium_Air)
+    "Fluid connector b2 (positive design flow direction is from port_a2 to port_b2)"
+    annotation (Placement(transformation(extent={{92,30},{112,50}})));
+
+  Modelica.Blocks.Interfaces.RealInput SpeedRatio
+    "Actuator position (0: closed, 1: open)"                                               annotation (Placement(transformation(extent={{-118,-70},{-98,-50}})));
+  PNNL_building_system.Buildings.Fluid.Sensors.TemperatureTwoPort TSen(
+      redeclare package Medium = Medium_Air, m_flow_nominal=mAir_flow_nominal)
+    "Temperature of condenser water leaving the cooling tower" annotation (
+      Placement(transformation(extent={{-12,12},{12,-12}}, origin={70,40})));
+  Modelica.Blocks.Interfaces.RealOutput TAirLeaCoil
+    "Temperature of the passing fluid"                                                 annotation (Placement(transformation(extent={{100,-10},{120,10}})));
+  Modelica.Blocks.Interfaces.RealInput TCon                                          annotation (Placement(transformation(extent={{-120,-10},{-100,10}})));
+  Modelica.Blocks.Interfaces.RealOutput P
+    "Electrical power consumed by the unit"                                       annotation (Placement(transformation(extent={{100,-70},{120,-50}})));
+  parameter
+    PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.DXCoil
+    datCoi "Performance data"
+    annotation (Placement(transformation(extent={{-96,80},{-84,92}})));
+equation
+  connect(TSen.port_b, port_b_Air) annotation (Line(
+      points={{82,40},{88,40},{102,40}},
+      color={0,127,255},
+      thickness=0.5));
+  connect(TSen.T, TAirLeaCoil) annotation (Line(
+      points={{70,26.8},{70,26.8},{70,0},{110,0}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(port_a_Air, heaCoi.port_a) annotation (Line(
+      points={{-100,40},{-40,40},{-40,0},{-12,0}},
+      color={0,127,255},
+      thickness=0.5));
+  connect(heaCoi.port_b, TSen.port_a) annotation (Line(
+      points={{8,0},{24,0},{40,0},{40,40},{58,40}},
+      color={0,127,255},
+      thickness=0.5));
+  connect(SpeedRatio, heaCoi.speRat) annotation (Line(
+      points={{-108,-60},{-108,-60},{-60,-60},{-60,-8},{-13,-8}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(heaCoi.TConIn, TCon) annotation (Line(
+      points={{-13,-3},{-60,-3},{-60,0},{-110,0}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(heaCoi.P, P) annotation (Line(
+      points={{9,-9},{60,-9},{60,-60},{110,-60}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  annotation (Icon(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},
+            {100,100}}), graphics={
+        Rectangle(
+          extent={{-40,60},{40,-60}},
+          lineColor={28,108,200},
+          lineThickness=1),
+        Line(
+          points={{-40,60},{40,-60}},
+          color={28,108,200},
+          thickness=1),
+        Text(
+          extent={{-14,68},{36,10}},
+          lineColor={28,108,200},
+          lineThickness=1,
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid,
+          textString="DX"),      Text(
+          extent={{-151,135},{149,95}},
+          lineColor={0,0,255},
+          fillPattern=FillPattern.HorizontalCylinder,
+          fillColor={0,127,255},
+          textString="%name")}),            Diagram(coordinateSystem(
+          preserveAspectRatio=false, extent={{-100,-100},{100,100}})));
+end DX_Coil;

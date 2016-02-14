@@ -1,0 +1,99 @@
+within GreenVillage.Demanding_Side.UserSide.Air_Handling_Unit.Coil.Example;
+model Heating_Coil_with_Control
+  import PNNL_building_system.Air_Side_System;
+    extends Modelica.Icons.Example;
+  package MediumWat = PNNL_building_system.Buildings.Media.Water;
+  package MediumAir = PNNL_building_system.Buildings.Media.Air;
+
+  Air_Side_System.Air_Handling_Unit.Coil.Heating_Coil_2Way heating_Coil(
+    redeclare package Medium_Air = MediumAir,
+    redeclare package Medium_Water = MediumWat,
+    dpAir_nominal(displayUnit="Pa") = 100,
+    dpWater_nominal(displayUnit="Pa") = 1000,
+    mWater_flow_nominal=0.1,
+    mAir_flow_nominal=0.1*4.2*2,
+    TAir_a_nominal=293.15,
+    TAir_b_nominal=303.15,
+    TWater_a_nominal=333.15,
+    TWater_b_nominal=313.15)
+    annotation (Placement(transformation(extent={{-26,-26},{26,30}})));
+  PNNL_building_system.Buildings.Fluid.Sources.Boundary_pT sinkAir(nPorts=1,
+      redeclare package Medium = MediumAir)
+    annotation (Placement(transformation(extent={{80,30},{60,50}})));
+  PNNL_building_system.Buildings.Fluid.Sources.MassFlowSource_T souAir(
+    nPorts=1,
+    redeclare package Medium = MediumAir,
+    X={0,1},
+    m_flow=0.1*4.2*2,
+    use_T_in=true) "Source for water flow rate"
+    annotation (Placement(transformation(extent={{-80,30},{-60,50}})));
+  PNNL_building_system.Buildings.Fluid.Sources.Boundary_pT sinkWat(
+    nPorts=1,
+    use_T_in=false,
+    redeclare package Medium = MediumWat,
+    p(displayUnit="Pa") = 1000)
+    annotation (Placement(transformation(extent={{-82,-70},{-62,-50}})));
+  PNNL_building_system.Buildings.Fluid.Sources.Boundary_pT souWat(
+    nPorts=1,
+    use_T_in=false,
+    redeclare package Medium = MediumWat,
+    p(displayUnit="Pa") = 2000,
+    T=273.15 + 60)
+    annotation (Placement(transformation(extent={{80,-70},{60,-50}})));
+  Modelica.Blocks.Sources.Constant TSet(k=273.15 + 30)
+    annotation (Placement(transformation(extent={{-140,-16},{-120,4}})));
+  Modelica.Blocks.Sources.Ramp TAir(
+    startTime=300,
+    duration=2000,
+    height=-10,
+    offset=273.15 + 30)
+    annotation (Placement(transformation(extent={{-140,60},{-120,80}})));
+  Air_Side_System.Air_Handling_Unit.Coil.Controller.Heating_coil_control heating_coil_control(
+    Pos_min=0,
+    ti=60,
+    k=1)                                                                                      annotation (Placement(transformation(extent={{-76,-6},
+            {-60,10}})));
+  Modelica.Blocks.Sources.Step On(height=1, startTime=1250)
+    annotation (Placement(transformation(extent={{-140,20},{-120,40}})));
+equation
+
+  connect(souAir.ports[1],heating_Coil. port_a_Air) annotation (Line(points={{-60,40},{-60,40},{-40,40},{-40,13.2},{-26,13.2}}, color={0,127,255},
+      thickness=0.5));
+  connect(heating_Coil.port_b_Air, sinkAir.ports[1]) annotation (Line(points={{26.52,13.2},{40,13.2},{40,40},{60,40}}, color={0,127,255},
+      thickness=0.5));
+  connect(souWat.ports[1],heating_Coil. port_a_Water) annotation (Line(
+      points={{60,-60},{40,-60},{40,-26},{5.2,-26}},
+      color={0,127,255},
+      thickness=1));
+  connect(sinkWat.ports[1],heating_Coil. port_b_Water) annotation (Line(
+      points={{-62,-60},{-40,-60},{-40,-26},{-5.2,-26}},
+      color={0,127,255},
+      thickness=1));
+  connect(TAir.y, souAir.T_in) annotation (Line(
+      points={{-119,70},{-94,70},{-94,44},{-82,44}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(heating_Coil.TAirLeaCoil, heating_coil_control.u_m)
+    annotation (Line(
+      points={{28.6,2},{28.6,2},{52,2},{52,-20},{-90,-20},{-90,-2.8},{-77.6,-2.8}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(TSet.y, heating_coil_control.u_s) annotation (Line(
+      points={{-119,-6},{-100,-6},{-100,2},{-77.6,2}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(heating_coil_control.y,heating_Coil. yVal) annotation (Line(
+      points={{-59.2,2},{-59.2,2},{-28.6,2}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(On.y, heating_coil_control.On) annotation (Line(
+      points={{-119,30},{-92,30},{-92,6.8},{-77.6,6.8}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  annotation (Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-140,
+            -100},{140,100}}), graphics),
+    experiment(StopTime=2500),
+    __Dymola_Commands(file="modelica://PNNL_building_system/Resources/Scripts/Air_side_system/Air_Handling_Unit/Coil/Examples/Heating_Coil/Heating_Coil_with_Control.mos"
+        "Simulate and plot"),
+    __Dymola_experimentSetupOutput);
+end Heating_Coil_with_Control;

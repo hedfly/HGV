@@ -1,0 +1,91 @@
+within GreenVillage.Demanding_Side.Controller;
+block LimPID_ON
+  "P, PI, PD, and PID controller with limited output, anti-windup compensation and setpoint weighting"
+  extends Modelica.Blocks.Continuous.LimPID(
+    addP(k1=wp, k2=-1),
+    addD(k1=wd, k2=-1),
+    addI(k1=1, k2=-1),
+    yMin=0,
+    yMax=1);
+
+public
+  Modelica.Blocks.Interfaces.RealInput On "Connector of setpoint input signal"
+    annotation (Placement(transformation(extent={{-140,60},{-100,100}},
+          rotation=0)));
+public
+  Modelica.Blocks.Interfaces.RealInput CoolOn
+    "Connector of setpoint input signal"                                           annotation (Placement(transformation(extent={{-140,-100},{-100,-60}}, rotation=0)));
+  Modelica.Blocks.Sources.RealExpression realExpression annotation (Placement(transformation(extent={{-50,70},{-70,90}})));
+  annotation (
+defaultComponentName="conPID",
+Documentation(info="<html>
+<p>
+This model is identical to
+<a href=\"modelica://Modelica.Blocks.Continuous.LimPID\">
+Modelica.Blocks.Continuous.LimPID</a> except
+that it can be configured to have a reverse action.
+</p>
+<p>
+If the parameter <code>reverseAction=false</code> (the default),
+then <code>u_m &lt; u_s</code> increases the controller output,
+otherwise the controller output is decreased.
+Thus,
+</p>
+<ul>
+<li>
+for a heating coil with a two-way valve, set <code>reverseAction = false</code>,
+</li>
+<li>
+for a cooling coils with a two-way valve, set <code>reverseAction = true</code>.
+</li>
+</ul>
+</html>",
+revisions="<html>
+<ul>
+<li>
+February 24, 2010, by Michael Wetter:<br/>
+First implementation.
+</li>
+</ul>
+</html>"), Icon(graphics={
+        Rectangle(
+          extent={{-6,-20},{66,-66}},
+          lineColor={255,255,255},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Text(
+          visible=(controllerType == Modelica.Blocks.Types.SimpleController.P),
+          extent={{-32,-22},{68,-62}},
+          lineColor={0,0,0},
+          textString="P",
+          fillPattern=FillPattern.Solid,
+          fillColor={175,175,175}),
+        Text(
+          visible=(controllerType == Modelica.Blocks.Types.SimpleController.PI),
+          extent={{-28,-22},{72,-62}},
+          lineColor={0,0,0},
+          textString="PI",
+          fillPattern=FillPattern.Solid,
+          fillColor={175,175,175}),
+        Text(
+          visible=(controllerType == Modelica.Blocks.Types.SimpleController.PD),
+          extent={{-16,-22},{88,-62}},
+          lineColor={0,0,0},
+          fillPattern=FillPattern.Solid,
+          fillColor={175,175,175},
+          textString="P D"),
+        Text(
+          visible=(controllerType == Modelica.Blocks.Types.SimpleController.PID),
+          extent={{-14,-22},{86,-62}},
+          lineColor={0,0,0},
+          textString="PID",
+          fillPattern=FillPattern.Solid,
+          fillColor={175,175,175})}),
+    Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{100,100}}),
+                        graphics));
+equation
+  when On<1 then
+    reinit(I.y,0);
+  end when;
+
+end LimPID_ON;

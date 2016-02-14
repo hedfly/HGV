@@ -1,0 +1,287 @@
+within GreenVillage.Demanding_Side.UserSide.Air_Handling_Unit.MixingBox;
+model MixingBox_with_preheat
+   replaceable package Medium_Air =
+      Modelica.Media.Interfaces.PartialMedium;
+   replaceable package Medium_Water =
+      Modelica.Media.Interfaces.PartialMedium;
+  parameter Modelica.SIunits.MassFlowRate mOut_flow_nominal
+    "Mass flow rate of the outside air damper";
+  parameter Modelica.SIunits.Pressure dpOut_nominal(min=0, displayUnit="Pa")
+    "Pressure drop of the outside air air damper (fully open)";
+  parameter Modelica.SIunits.MassFlowRate mRec_flow_nominal
+    "Mass flow rate of the recirculation air damper";
+  parameter Modelica.SIunits.Pressure dpRec_nominal(min=0, displayUnit="Pa")
+    "Pressure drop of the recirculation air damper";
+  parameter Modelica.SIunits.MassFlowRate mExh_flow_nominal
+    "Mass flow rate of the exhaust air damper";
+  parameter Modelica.SIunits.Pressure dpExh_nominal(min=0, displayUnit="Pa")
+    "Pressure drop of the exhaust air damper";
+  parameter Modelica.SIunits.MassFlowRate mCoilWater_flow_nominal
+    "Mass flow rate of the heating water";
+  parameter Modelica.SIunits.Pressure dpCoilAir_nominal
+    "Pressure drop of air in the heating water coil";
+  parameter Modelica.SIunits.Pressure dpCoilWater_nominal
+    "Pressure drop of water in the heating water coil";
+  parameter Modelica.SIunits.Temperature TCoilAir_a_nominal
+    "The temperature of the air entering the heating water coil";
+  parameter Modelica.SIunits.Temperature TCoilAir_b_nominal
+    "The temperature of the air leaving the heating water coil";
+  parameter Modelica.SIunits.Temperature TCoilWater_a_nominal
+    "The temperature of the water entering the heating water coil";
+  parameter Modelica.SIunits.Temperature TCoilWater_b_nominal
+    "The temperature of the water leaving the heating water coil";
+  parameter Real ti "ti for PI controller";
+  parameter Real k "k for PI controller";
+  parameter Real Pos_min "Min heating water valve position";
+
+  Buildings.Fluid.Actuators.Dampers.MixingBox eco(
+    redeclare package Medium = Medium_Air,
+    use_v_nominal=false,
+    dp_nominalIncludesDamper=true,
+    mOut_flow_nominal=mOut_flow_nominal,
+    dpOut_nominal=dpOut_nominal,
+    mRec_flow_nominal=mRec_flow_nominal,
+    dpRec_nominal=dpRec_nominal,
+    mExh_flow_nominal=mExh_flow_nominal,
+    dpExh_nominal=dpExh_nominal)
+    annotation (Placement(transformation(extent={{-4,-8},{16,12}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_Ret(redeclare package Medium =
+        Medium_Air)
+    "Fluid connector a (positive design flow direction is from port_a to port_b)"
+    annotation (Placement(transformation(extent={{90,-50},{110,-30}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_Exh(redeclare package Medium =
+        Medium_Air)
+    "Fluid connector b (positive design flow direction is from port_a to port_b)"
+    annotation (Placement(transformation(extent={{-110,-50},{-90,-30}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_Sup(redeclare package Medium =
+        Medium_Air)
+    "Fluid connector b (positive design flow direction is from port_a to port_b)"
+    annotation (Placement(transformation(extent={{90,30},{110,50}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_Fre(redeclare package Medium =
+        Medium_Air)
+    "Fluid connector a (positive design flow direction is from port_a to port_b)"
+    annotation (Placement(transformation(extent={{-110,30},{-90,50}})));
+  Modelica.Blocks.Interfaces.RealInput y
+    "Actuator position (0: closed, 1: open)"
+    annotation (Placement(transformation(extent={{-140,60},{-100,100}})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senTem(
+      redeclare package Medium = Medium_Air, m_flow_nominal=mOut_flow_nominal +
+        mRec_flow_nominal)
+    annotation (Placement(transformation(extent={{20,-2},{40,18}})));
+  Buildings.Fluid.Sensors.VolumeFlowRate senSup(redeclare package Medium =
+                       Medium_Air, m_flow_nominal=mOut_flow_nominal +
+        mRec_flow_nominal)
+    annotation (Placement(transformation(extent={{60,50},{80,30}})));
+  Modelica.Blocks.Interfaces.RealOutput V_flow
+    "Volume flow rate from port_a to port_b"
+    annotation (Placement(transformation(extent={{100,-70},{120,-50}})));
+  Modelica.Blocks.Interfaces.RealOutput T_max
+    "Temperature of the passing fluid"
+    annotation (Placement(transformation(extent={{100,70},{120,90}})));
+  Coil.Heating_Coil_2Way heating_Coil_2Way(redeclare package Medium_Air =
+        Medium_Air, redeclare package Medium_Water = Medium_Water,
+    mAir_flow_nominal=mOut_flow_nominal,
+    mWater_flow_nominal=mCoilWater_flow_nominal,
+    dpWater_nominal=dpCoilWater_nominal,
+    TAir_a_nominal=TCoilAir_a_nominal,
+    TAir_b_nominal=TCoilAir_b_nominal,
+    TWater_a_nominal=TCoilWater_a_nominal,
+    TWater_b_nominal=TCoilWater_b_nominal,
+    dpAir_nominal=dpCoilAir_nominal)
+    annotation (Placement(transformation(extent={{-80,26},{-60,46}})));
+  Modelica.Fluid.Interfaces.FluidPort_b port_b_Water(redeclare package Medium
+      = Medium_Water)
+    "Fluid connector b1 (positive design flow direction is from port_a1 to port_b1)"
+    annotation (Placement(transformation(extent={{-102,-110},{-82,-90}})));
+  Modelica.Fluid.Interfaces.FluidPort_a port_a_Water(redeclare package Medium
+      = Medium_Water)
+    "Fluid connector a1 (positive design flow direction is from port_a1 to port_b1)"
+    annotation (Placement(transformation(extent={{-68,-110},{-48,-90}})));
+  Buildings.Fluid.Sensors.TemperatureTwoPort senFATem(
+      redeclare package Medium = Medium_Air, m_flow_nominal=mOut_flow_nominal)
+    annotation (Placement(transformation(extent={{-52,32},{-36,48}})));
+  Coil.Controller.Heating_coil_control heating_coil_control(
+    ti=ti,
+    k=k,
+    Pos_min=Pos_min)
+    annotation (Placement(transformation(extent={{-62,52},{-78,68}})));
+  Modelica.Blocks.Sources.Constant TSet(k=TCoilAir_b_nominal)
+    annotation (Placement(transformation(extent={{-6,50},{-26,70}})));
+  Modelica.Blocks.Sources.Constant PreHeaOn(k=1)
+    annotation (Placement(transformation(extent={{-28,84},{-40,96}})));
+equation
+  connect(eco.port_Ret, port_Ret) annotation (Line(
+      points={{16,-4},{16,-4},{20,-4},{20,-40},{100,-40}},
+      color={0,127,255},
+      thickness=1));
+  connect(eco.port_Exh, port_Exh) annotation (Line(
+      points={{-4,-4},{-60,-4},{-60,-40},{-100,-40}},
+      color={0,127,255},
+      thickness=1));
+  connect(eco.y, y) annotation (Line(
+      points={{6,14},{6,14},{6,80},{-120,80}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(eco.port_Sup, senTem.port_a) annotation (Line(
+      points={{16,8},{16,8},{20,8}},
+      color={0,127,255},
+      thickness=1));
+  connect(senTem.port_b, senSup.port_a) annotation (Line(
+      points={{40,8},{60,8},{60,40}},
+      color={0,127,255},
+      thickness=1));
+  connect(senSup.port_b, port_Sup) annotation (Line(
+      points={{80,40},{100,40}},
+      color={0,127,255},
+      thickness=1));
+  connect(senSup.V_flow, V_flow) annotation (Line(
+      points={{70,29},{70,-60},{110,-60}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(senTem.T, T_max) annotation (Line(
+      points={{30,19},{30,80},{110,80}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(heating_Coil_2Way.port_a_Air, port_Fre) annotation (Line(
+      points={{-80,40},{-100,40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(heating_Coil_2Way.port_b_Water, port_b_Water) annotation (Line(
+      points={{-72,26},{-72,-100},{-92,-100}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(heating_Coil_2Way.port_a_Water, port_a_Water) annotation (Line(
+      points={{-68,26},{-66,26},{-66,-100},{-58,-100}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senFATem.port_a, heating_Coil_2Way.port_b_Air) annotation (Line(
+      points={{-52,40},{-59.8,40}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  connect(senFATem.T, heating_coil_control.u_m) annotation (Line(
+      points={{-44,48.8},{-44,55.2},{-60.4,55.2}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(heating_coil_control.y, heating_Coil_2Way.yVal) annotation (Line(
+      points={{-78.8,60},{-90,60},{-90,36},{-81,36}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(TSet.y, heating_coil_control.u_s) annotation (Line(
+      points={{-27,60},{-60.4,60}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(PreHeaOn.y, heating_coil_control.On) annotation (Line(
+      points={{-40.6,90},{-50,90},{-50,64.8},{-60.4,64.8}},
+      color={0,0,127},
+      smooth=Smooth.None,
+      pattern=LinePattern.Dash));
+  connect(senFATem.port_b, eco.port_Out) annotation (Line(
+      points={{-36,40},{-20,40},{-20,8},{-4,8}},
+      color={0,127,255},
+      smooth=Smooth.None,
+      thickness=1));
+  annotation (Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
+            -100},{100,100}}), graphics),
+                                Icon(coordinateSystem(preserveAspectRatio=false,
+          extent={{-100,-100},{100,100}}), graphics={
+        Rectangle(
+          extent={{100,98},{-100,-102}},
+          lineColor={28,108,200},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Line(
+          points={{-12,14},{4,14}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-12,14},{4,-4}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-12,-4},{4,-4}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{4,14},{-12,-4}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-4,14},{-4,40}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-4,-4},{-4,-40}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-8,0},{8,0}},
+          color={28,108,200},
+          thickness=1,
+          origin={-60,40},
+          rotation=90),
+        Line(
+          points={{-8,0},{8,0}},
+          color={28,108,200},
+          thickness=1,
+          origin={-40,40},
+          rotation=90),
+        Line(
+          points={{-60,48},{-40,32}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-60,32},{-40,48}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-8,0},{8,0}},
+          color={28,108,200},
+          thickness=1,
+          origin={-60,-40},
+          rotation=90),
+        Line(
+          points={{-8,0},{8,0}},
+          color={28,108,200},
+          thickness=1,
+          origin={-40,-40},
+          rotation=90),
+        Line(
+          points={{-60,-32},{-40,-48}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-60,-48},{-40,-32}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-92,40},{-60,40}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-40,40},{92,40}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-40,-40},{92,-40}},
+          color={28,108,200},
+          thickness=1),
+        Line(
+          points={{-92,-40},{-60,-40}},
+          color={28,108,200},
+          thickness=1),
+        Line(points={{78,-30},{30,-30},{40,-24}}, color={28,108,200}),
+        Line(points={{-76,56},{-28,56},{-38,62}}, color={28,108,200}),
+                                 Text(
+          extent={{-155,147},{145,107}},
+          lineColor={0,0,255},
+          fillPattern=FillPattern.HorizontalCylinder,
+          fillColor={0,127,255},
+          textString="%name")}));
+end MixingBox_with_preheat;

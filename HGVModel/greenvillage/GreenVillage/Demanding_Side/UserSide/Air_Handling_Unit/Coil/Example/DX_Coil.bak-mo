@@ -1,0 +1,95 @@
+within GreenVillage.Demanding_Side.UserSide.Air_Handling_Unit.Coil.Example;
+model DX_Coil
+  import PNNL_building_system.Air_Side_System;
+    extends Modelica.Icons.Example;
+  package MediumWat = PNNL_building_system.Buildings.Media.Water;
+  package MediumAir = PNNL_building_system.Buildings.Media.Air;
+
+  PNNL_building_system.Buildings.Fluid.Sources.Boundary_pT sinkAir(redeclare
+      package Medium = MediumAir, nPorts=1)
+    annotation (Placement(transformation(extent={{80,30},{60,50}})));
+  PNNL_building_system.Buildings.Fluid.Sources.MassFlowSource_T souAir(
+    redeclare package Medium = MediumAir,
+    T=273.15 + 30,
+    m_flow=1.8,
+    nPorts=1) "Source for water flow rate"
+    annotation (Placement(transformation(extent={{-82,30},{-62,50}})));
+  Modelica.Blocks.Sources.Constant SpeedRatio(k=1)
+    annotation (Placement(transformation(extent={{-80,-50},{-60,-30}})));
+  PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.DXCoil
+    datCoi(nSta=4, sta={
+        PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.Stage(
+        spe=900/60,
+        nomVal=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.NominalValues(
+          Q_flow_nominal=-12000,
+          COP_nominal=3,
+          SHR_nominal=0.8,
+          m_flow_nominal=0.9),
+        perCur=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Examples.PerformanceCurves.Curve_I()),
+        PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.Stage(
+        spe=1200/60,
+        nomVal=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.NominalValues(
+          Q_flow_nominal=-18000,
+          COP_nominal=3,
+          SHR_nominal=0.8,
+          m_flow_nominal=1.2),
+        perCur=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Examples.PerformanceCurves.Curve_I()),
+        PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.Stage(
+        spe=1800/60,
+        nomVal=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.NominalValues(
+          Q_flow_nominal=-21000,
+          COP_nominal=3,
+          SHR_nominal=0.8,
+          m_flow_nominal=1.5),
+        perCur=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Examples.PerformanceCurves.Curve_II()),
+        PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.Stage(
+        spe=2400/60,
+        nomVal=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Data.Generic.BaseClasses.NominalValues(
+          Q_flow_nominal=-30000,
+          COP_nominal=3,
+          SHR_nominal=0.8,
+          m_flow_nominal=1.8),
+        perCur=
+          PNNL_building_system.Buildings.Fluid.HeatExchangers.DXCoils.Examples.PerformanceCurves.Curve_III())})
+    "Coil data" annotation (Placement(transformation(extent={{60,72},{80,92}})));
+  Modelica.Blocks.Sources.Constant TCon(k=273.15 + 20)
+    annotation (Placement(transformation(extent={{-80,-10},{-60,10}})));
+  Air_Side_System.Air_Handling_Unit.Coil.DX_Coil dX_Coil(
+    redeclare package Medium_Air = MediumAir,
+    dp_nominal(displayUnit="Pa") = 1000,
+    datCoi=datCoi,
+    mAir_flow_nominal=1.8,
+    MinRatio=datCoi.minSpeRat)
+    annotation (Placement(transformation(extent={{-22,-34},{24,30}})));
+equation
+
+  connect(souAir.ports[1], dX_Coil.port_a_Air) annotation (Line(
+      points={{-62,40},{-40,40},{-40,10.8},{-22,10.8}},
+      color={0,127,255},
+      thickness=0.5));
+  connect(dX_Coil.port_b_Air, sinkAir.ports[1]) annotation (Line(
+      points={{24.46,10.8},{50,10.8},{50,40},{60,40}},
+      color={0,127,255},
+      thickness=0.5));
+  connect(TCon.y, dX_Coil.TCon) annotation (Line(
+      points={{-59,0},{-40,0},{-40,-2},{-24.3,-2}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  connect(SpeedRatio.y, dX_Coil.SpeedRatio) annotation (Line(
+      points={{-59,-40},{-40,-40},{-40,-21.2},{-23.84,-21.2}},
+      color={0,0,127},
+      pattern=LinePattern.Dash));
+  annotation (Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
+            -100},{100,100}})),
+    experiment(StopTime=1000),
+    __Dymola_Commands(file="modelica://PNNL_building_system/Resources/Scripts/Air_side_system/Air_Handling_Unit/Coil/Examples/DX_Coil/DX_Coil.mos"
+        "Simulate and plot"),
+    __Dymola_experimentSetupOutput);
+end DX_Coil;
