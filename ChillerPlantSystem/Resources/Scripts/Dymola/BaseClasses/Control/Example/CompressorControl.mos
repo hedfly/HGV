@@ -1,7 +1,0 @@
-simulateModel("ChillerPlantSystem.BaseClasses.Control.Example.CompressorControl", stopTime=86400, method="Radau", resultFile="CompressorControl")
-createPlot(id=1, position={1, -1, 721, 552}, y={"On.y"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="CompressorControl.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-createPlot(id=1, position={1, -1, 721, 107}, y={"T.y", "TSet.y"}, range={0.0, 90000.0, 270.0, 290.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}, {255,0,0}});
-createPlot(id=1, position={1, -1, 721, 106}, y={"comCon.comSta.y"}, range={0.0, 90000.0, -2.0, 4.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=3, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-createPlot(id=1, position={1, -1, 721, 107}, y={"comCon.y[1]"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=4, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-createPlot(id=1, position={1, -1, 721, 106}, y={"comCon.y[2]"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=5, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-

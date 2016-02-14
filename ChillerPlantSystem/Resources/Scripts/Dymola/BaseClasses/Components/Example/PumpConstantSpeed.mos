@@ -1,3 +1,0 @@
-simulateModel("ChillerPlantSystem.BaseClasses.Components.Example.PumpConstantSpeed", stopTime=100, method="Radau", resultFile="PumpConstantSpeed");
-createPlot(id=1, position={-6, -94, 970, 680}, y={"On.y"}, range={0.0, 100.0, -0.1, 1.1}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="PumpConstantSpeed.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-createPlot(id=1, position={-6, -94, 970, 337}, y={"senMasFlo.m_flow"}, range={0.0, 100.0, -2.0, 12.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});

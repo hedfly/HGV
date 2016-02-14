@@ -1,6 +1,0 @@
-simulateModel("ChillerPlantSystem.BaseClasses.Control.Example.BypassControl", stopTime=129600, method="dassl", resultFile="BypassControl");
-createPlot(id=1, position={35, 41, 794, 512}, y=fill("", 0), range={0.0, 130000.0, 13.0, 18.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="BypassControl.mat", leftTitleType=1, bottomTitleType=1);
-plotExpression(apply(BypassControl[end].T.y-273.15), false, "BypassControl[end].T.y-273.15", 1);
-plotExpression(apply(BypassControl[end].bypCon.TSet-273.15), false, "BypassControl[end].bypCon.TSet-273.15", 1);
-createPlot(id=1, position={35, 41, 794, 253}, y={"bypCon.y"}, range={0.0, 130000.0, -0.2, 1.2000000000000002}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-

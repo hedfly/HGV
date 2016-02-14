@@ -1,5 +1,0 @@
-simulateModel("ChillerPlantSystem.BaseClasses.Control.Example.dPControl", stopTime=86400, method="Radau", resultFile="dPControl");
-createPlot(id=1, position={35, 30, 875, 455}, y={"dPCon.Spe"}, range={0.0, 90000.0, -0.5, 1.5}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="dPControl.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-createPlot(id=1, position={35, 30, 875, 149}, y={"dPCon.conPID.u_s", "dPCon.conPID.u_m"}, range={0.0, 90000.0, -1000.0, 3000.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}, {255,0,0}});
-createPlot(id=1, position={35, 30, 875, 148}, y={"y.y"}, range={0.0, 90000.0, -1.0, 2.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=3, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-

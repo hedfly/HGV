@@ -1,7 +1,0 @@
-compareVars :=
-  {
-    "den.T",
-    "den.X_w",
-    "den.p",
-    "den.d"
-  };

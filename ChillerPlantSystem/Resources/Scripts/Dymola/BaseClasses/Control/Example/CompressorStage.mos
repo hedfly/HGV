@@ -1,5 +1,0 @@
-simulateModel("ChillerPlantSystem.BaseClasses.Control.Example.CompressorStage", stopTime=86400, method="Radau", resultFile="CompressorStage");
-createPlot(id=1, position={-4, -7, 924, 579}, y={"comSta.y"}, range={0.0, 90000.0, -0.5, 2.5}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, filename="CompressorStage.mat", leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-createPlot(id=1, position={-4, -7, 924, 287}, y={"comSta.dT"}, range={0.0, 90000.0, -10.0, 10.0}, autoscale=true, autoerase=true, autoreplot=true, description=false, grid=true, color=true, online=false, subPlot=2, leftTitleType=1, bottomTitleType=1, colors={{0,0,255}});
-plotExpression(apply(CompressorStage[end].T.y-CompressorStage[end].TSet.y),false, "T.y - TSet.y", 1);
-plotExpression(apply( -CompressorStage[end].comSta.dT),false, "- comSta.dT", 1);

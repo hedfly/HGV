@@ -1,5 +1,0 @@
-compareVars :=
-  {
-    "pSat",
-    "pSatDer"
-  };
